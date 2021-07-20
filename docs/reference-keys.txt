@@ -1,0 +1,16 @@
+medicion-actividad
+ramas-de-actividad-económica
+fig:ciiu
+ramas-características-del-turismo
+fig:ciiu2
+consideraciones-sobre-el-alcance
+dificultades-derivadas-del-nivel-de-desagregación-de-las-ramas
+medición-de-la-oferta-de-las-industrias-turísticas
+recomendaciones-generales-sobre-la-medición
+fig:activcst
+fig:cst
+el-caso-particular-de-las-agencias-de-viaje-y-los-operadores-turísticos
+indicadores-macroeconómicos-por-el-lado-de-la-oferta-turística
+valor-bruto-de-producción-de-las-industrias-turísticas-vbpit
+valor-agregado-bruto-de-las-industrias-turísticas-vabit
+antecedentes-en-argentina
