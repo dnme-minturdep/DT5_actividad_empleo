@@ -1,0 +1,27 @@
+# **La medición de la actividad económica en turismo** {#medicion-actividad}
+
+Este capítulo aborda la temática de la medición del impacto económico del turismo en una región, distinguiendo entre las diferentes perspectivas posibles y resumiendo las principales recomendaciones internacionales y comentando el antecedente de la medición en Argentina y en otros países del mundo.
+El turismo es un fenómeno social y cultural, pero también económico. Dos circunstancias han incentivado profundamente el interés por el cálculo de la contribución económica del turismo:
+
+- La profunda interrelación que genera entre varias actividades económicas, como el transporte, el alojamiento, la alimentación, los servicios culturales, entre otros, hacen del turismo una actividad transversal a la economía, capaz de motorizar varios sectores muy diversos  al mismo tiempo.
+
+- Su creciente relevancia en las economías tanto en regiones subnacionales, como ser una provincia, como en naciones enteras.
+
+Ambos eventos hicieron que el turismo cobrara relevancia dentro del mapa sectorial y político, por lo que una correcta medición de su contribución económica brinda elementos para la mejor toma de decisiones que contribuyan al bienestar económico de las sociedades.
+La medición del impacto económico del turismo puede realizarse desde la perspectiva de la demanda[^medicion-actividad-1], la perspectiva de la oferta o bien desde la conciliación entre ambas perspectivas, lo que se ha definido como Cuenta Satélite de Turismo.
+La perspectiva de la demanda consiste en medir todos los gastos en bienes y servicios que realiza un visitante en el contexto de su viaje, sin importar si el sector económico que provee dichos bienes o servicios es característico del turismo o no (para mayor definición de este concepto ver la sección siguiente sobre ramas características del turismo).
+
+[^medicion-actividad-1]: Se puede consultar el capítulo 2 del CST:RMC 2008, para más detalle sobre la metodología de esta perspectiva.
+
+En cuanto a la perspectiva de la oferta[^medicion-actividad-2], la misma consiste en la medición de la producción realizada por todas aquellas industrias consideradas como características del turismo. Es importante notar, en este punto, que el foco de esta perspectiva está puesto en la producción total de algunas industrias de la economía, sin tener en cuenta quiénes efectivamente consumen sus productos (ya sean bienes o servicios). Es decir, la producción de estas industrias podría ser consumida por visitantes durante un viaje turístico o bien por personas que no están realizando un viaje.
+
+[^medicion-actividad-2]: Se puede consultar el capítulo 3 del CST:RMC 2008, para más detalle sobre la metodología de esta perspectiva.
+
+Finalmente, se puede realizar una conciliación entre la demanda de los visitantes y la oferta de las industrias turísticas (y del total de la economía). El centro de esta perspectiva se encuentra en poder calcular el valor agregado que se generó en una economía en particular para atender directamente a la demanda de bienes y servicios realizada por los visitantes y compararlo con el valor agregado del total. La herramienta estadística apropiada para la realización de este tipo de medición es una Cuenta Satélite de Turismo. Ésta reúne diferentes fuentes de información sobre oferta de la economía y demanda turística y las concilia a fin de obtener la proporción del valor agregado generado por la demanda turística sobre el valor agregado total de la economía. Las recomendaciones metodológicas para la realización de una Cuenta Satélite de Turismo han sido extensamente desarrolladas por la Organización Mundial del Turismo (OMT). La serie de recomendaciones más actualizada puede encontrarse en el documento publicado por la OMT titulado “Cuenta satélite de turismo: Recomendaciones sobre el marco conceptual, 2008” (CST:RMC 2008).
+El presente documento se enfocará en el desarrollo más profundo de la perspectiva de la oferta, para poder proveer una herramienta concreta para estimar la contribución del turismo en cada economía local. 
+Si bien una cuenta satélite de turismo resulta una medición más precisa del impacto económico del turismo, ya que involucra una estimación de la oferta consumida directamente por visitantes, requiere de un marco conceptual más desarrollado que provea no solo de información desagregada sobre la producción de las industrias sino también de información detallada sobre la canasta de consumo de los visitantes durante sus viajes en la región, y que, ambos conjuntos de información, sean consistentes entre sí. 
+
+AGREGAR CST:RMC 2008 A BIBLIOGRAFÍA
+
+## Ramas de Actividad Económica
+
