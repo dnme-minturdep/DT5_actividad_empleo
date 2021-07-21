@@ -18,5 +18,5 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: 
-  cover_image: portada1.jpg
+  cover_image: portada5.jpg
 
