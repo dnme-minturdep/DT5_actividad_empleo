@@ -14,3 +14,11 @@ indicadores-macroeconómicos-por-el-lado-de-la-oferta-turística
 valor-bruto-de-producción-de-las-industrias-turísticas-vbpit
 valor-agregado-bruto-de-las-industrias-turísticas-vabit
 antecedentes-en-argentina
+fig:empleooit
+medicion-empleo
+definiciones-generales-sobre-medición-del-empleo
+recomendaciones-internacionales-sobre-el-empleo-en-industrias-turísticas
+empleo-en-las-ramas-de-actividad-económica
+dificultades-generales-para-la-estimación-del-empleo-en-la-industria-turística
+antecedentes-internacionales-de-la-medición-del-empleo-en-turismo
+antecedentes-de-la-medición-del-empleo-en-turismo-en-argentina

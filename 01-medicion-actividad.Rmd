@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 # **La medición de la actividad económica en turismo** {#medicion-actividad}
 
 Este capítulo aborda la temática de la medición del impacto económico del turismo en una región, distinguiendo entre las diferentes perspectivas posibles y resumiendo las principales recomendaciones internacionales y comentando el antecedente de la medición en Argentina y en otros países del mundo.
