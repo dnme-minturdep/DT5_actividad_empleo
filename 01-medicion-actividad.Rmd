@@ -12,7 +12,7 @@ Ambos eventos hicieron que el turismo cobrara relevancia dentro del mapa sectori
 La medición del impacto económico del turismo puede realizarse desde la perspectiva de la demanda[^1], la perspectiva de la oferta o bien desde la conciliación entre ambas perspectivas, lo que se ha definido como Cuenta Satélite de Turismo.
 La perspectiva de la demanda consiste en medir todos los gastos en bienes y servicios que realiza un visitante en el contexto de su viaje, sin importar si el sector económico que provee dichos bienes o servicios es característico del turismo o no (para mayor definición de este concepto ver la sección siguiente sobre ramas características del turismo).
 
-[^1]: Se puede consultar el capítulo 2 del [CST:RMC 2008](https://www.e-unwto.org/doi/book/10.18111/9789213612392), para más detalle sobre la metodología de esta perspectiva.
+[^1]: Se puede consultar el capítulo 2 de @cstrmc2008
 
 En cuanto a la perspectiva de la oferta[^2], la misma consiste en la medición de la producción realizada por todas aquellas industrias consideradas como características del turismo.
 Es importante notar, en este punto, que el foco de esta perspectiva está puesto en la producción total de algunas industrias de la economía, sin tener en cuenta quiénes efectivamente consumen sus productos (ya sean bienes o servicios).
