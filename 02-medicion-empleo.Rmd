@@ -10,7 +10,11 @@ En tanto que la oferta de trabajo es efectuada por las personas a partir de ofre
 
 La figura \@ref(fig:empleooit) representa una perspectiva esquemática del mercado de trabajo con sus componentes (elementos estructurales) y relaciones. Muestra que las “personas” representan el lado de la oferta en el mercado de trabajo, mientras que los “puestos” el lado de la demanda. Los casilleros cuadrados en las primeras dos filas incluyen a los empleadores y a los hogares, además de los puestos y las personas. Los “puestos” y las “personas” se vinculan a través de los empleos. 
 
+::: {.note}
+
 > Para mayor información consulte el documento de la @oit2014.
+
+:::
 
 En la tercera fila aparecen más casilleros que muestran las subcategorías de puestos y personas ocupadas. El sistema de contabilidad del trabajo requiere que se establezcan estimaciones para todos sus componentes y las relaciones de éstos. 
 
