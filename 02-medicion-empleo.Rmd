@@ -1,17 +1,20 @@
 # **La medición del empleo en turismo** {#medicion-empleo}
 
 Este capítulo propone un recorrido por los principales conceptos sobre la economía laboral, las metodologías de medición del empleo en el sector turístico (según las recomendaciones de la OMT) y su aplicación tanto en Argentina como en el resto del mundo. 
+
 El  mercado laboral es definido como el mercado en donde confluyen la demanda y la oferta de trabajo. Los componentes del mercado son expresados en cantidades (puestos de trabajo y personas ocupadas) y precios (salarios) que generalmente se asocian al bienestar de la economía.
+
 La demanda en el mercado de trabajo es efectuada por las empresas para poder desempeñar su actividad económica. La cantidad de trabajadores a emplear dependerá de la cantidad de puestos de trabajo que se requiera ocupar para la actividad en cuestión. 
+
 En tanto que la oferta de trabajo es efectuada por las personas a partir de ofrecer sus servicios a las empresas, o trabajar en forma independiente, a cambio de una retribución.
 
 La figura \@ref(fig:empleooit) representa una perspectiva esquemática del mercado de trabajo con sus componentes (elementos estructurales) y relaciones. Muestra que las “personas” representan el lado de la oferta en el mercado de trabajo, mientras que los “puestos” el lado de la demanda. Los casilleros cuadrados en las primeras dos filas incluyen a los empleadores y a los hogares, además de los puestos y las personas. Los “puestos” y las “personas” se vinculan a través de los empleos. 
 
-Para mayor información consulte el documento de la @oit2014.
+> Para mayor información consulte el documento de la @oit2014.
 
 En la tercera fila aparecen más casilleros que muestran las subcategorías de puestos y personas ocupadas. El sistema de contabilidad del trabajo requiere que se establezcan estimaciones para todos sus componentes y las relaciones de éstos. 
 
-Como se explicará en las secciones siguientes, el empleo en turismo no puede ser observado en forma directa, al menos aquel que se refiere al empleo estrictamente relacionado con los bienes y servicios adquiridos por los visitantes, sin importar si la industria que los produjo es turística o no, por lo tanto, este documento analiza el enfoque de oferta (ó ramas características del turismo[^5])
+Como se explicará en las secciones siguientes, el empleo en turismo no puede ser observado en forma directa, al menos aquel que se refiere al empleo estrictamente relacionado con los bienes y servicios adquiridos por los visitantes, sin importar si la industria que los produjo es turística o no, por lo tanto, este documento analiza el enfoque de oferta (o ramas características del turismo[^5])
 
 [^5]: Se utilizarán indistintamente los términos “Industria” o “Rama”
 
@@ -36,6 +39,7 @@ Por otro lado, los trabajadores con un empleo asalariado son clasificados dentro
 Cabe aclarar que todas las categorías mencionadas anteriormente pueden identificarse tanto en el marco de la economía formal como de la economía informal. El término ***"economía informal”***[^8] hace referencia *“al conjunto de actividades económicas desarrolladas por los trabajadores y las unidades económicas que, tanto en la legislación como en la práctica, están insuficientemente contempladas por sistemas formales o no lo están en absoluto. Las actividades de esas personas o empresas pueden no estar alcanzadas por la ley, es decir, se desempeñan al margen de ella; o bien no están contempladas en la práctica, es decir que, si bien estas personas operan dentro del ámbito de la ley, ésta no se aplica o no se cumple”* (OIT – Conferencia Internacional de Trabajo, 2014). 
 
 Además, existen grandes diferencias entre los trabajadores de la economía informal en cuanto a ingresos (nivel, regularidad, estacionalidad), situación en el empleo (asalariados, empleadores, trabajadores por cuenta propia, trabajadores ocasionales, trabajadores domésticos), sector (comercio, agricultura, industria), tipo de empresas y tamaño de las mismas, ubicación geográfica (medio urbano o rural), protección social (contribuciones  a la seguridad social), y protección del empleo (tipo y duración del contrato, derecho a vacaciones anuales).
+
 Por lo tanto, en un sistema económico los trabajadores pueden desempeñarse bajo una modalidad de Empleo Formal o Empleo Informal. La distinción entre uno u otro está dada por el cumplimiento de la legislación laboral en relación con las personas involucradas en la unidad productiva o en su propio emprendimiento económico cumpliendo con alguna de las normas que regulan sus actividades económicas y las obligaciones previsionales.
 
 
@@ -48,14 +52,13 @@ Por lo tanto, las principales definiciones a tener en cuenta son (OIT, 2004)REFE
 -   **Persona ocupada[^10]:** es un individuo físico que realiza ciertas tareas laborales,  pudiendo ocupar uno o más puestos de trabajo;
 -   **Puesto ocupado:** corresponde a una persona empleada para realizar un conjunto de tareas en una empresa o negocio;
 -   **Empleador o Patrón:** es aquel que, trabajando por su cuenta o con uno o más socios, ha contratado a una o a varias personas para que trabajen en su empresa como “asalariados” a lo largo de un período continuo que incluye el período de referencia. Los titulares pueden tomar las decisiones operacionales que afectan a la empresa, o bien delegarlas, pero mantienen la responsabilidad por el bienestar de la empresa;
-
 -   **Trabajador por cuenta propia:** es aquel trabajador que, trabajando por su cuenta o con uno o más socios, no ha contratado a ningún “asalariado” de manera continua durante el período de referencia. Cabe notar que durante el período de referencia los miembros de este grupo pueden haber contratado “asalariados”, siempre y cuando lo hagan de manera esporádica;
 - **Asalariado:** es aquel trabajador que tiene un empleo en relación de dependencia y que posee, por lo tanto, un contrato de trabajo implícito o explícito (oral o escrito) con el mismo empleador de manera continua. Los empleados asalariados son los trabajadores que reciben una remuneración básica, la cual no depende directamente de los ingresos de la unidad para la que trabaja. Además, la organización empleadora es responsable por el pago de las cargas fiscales y de las contribuciones de la seguridad social del empleado (a partir de las exigencias de la legislación nacional de trabajo).
 
 
-**AGREGAR ALGUNOS CONCEPTOS DE:**
-**EMPLEO VERDE **
-**EMPLEO DECENTE**
+> **AGREGAR ALGUNOS CONCEPTOS DE:**
+> **EMPLEO VERDE **
+> **EMPLEO DECENTE**
 
 
 
@@ -65,15 +68,20 @@ Por lo tanto, las principales definiciones a tener en cuenta son (OIT, 2004)REFE
 ## Recomendaciones Internacionales sobre el empleo en industrias turísticas
 
 Las Recomendaciones Internacionales sobre Estadísticas de Turismo ([RIET 2008](https://unstats.un.org/unsd/publication/seriesm/seriesm_83rev1s.pdf)) describen dos formas de medir el empleo relacionado con el turismo. Por un lado, se denomina Empleo Turístico *"al empleo estrictamente relacionado con los bienes y servicios (característicos del turismo, el turismo conexo y otros) adquiridos por los visitantes y producidos por cualquiera de las industrias del turismo y otras industrias"*,  mientras que el Empleo en las Industrias Turísticas se refiere al empleo en las actividades características del turismo.
-Las RIET 2008 sugieren un marco metodológico para medir el nivel y características del empleo generado por la industria del turismo *desde una perspectiva de la oferta*, a través de la selección de empresas o industrias características del  turismo. Es decir, se tiene en cuenta el empleo generado en una selección de ramas de actividad económica características del Turismo.
-Además, menciona las particularidades del sector a la hora de estimar el empleo turístico, haciendo referencia a que las actividades características del turismo suelen requerir abundante mano de obra, que, si bien puede asociarse a la producción total de un establecimiento,  no puede asignarse a una producción particular *sin la utilización de hipótesis y de procedimientos de modelización*. 
+
+Las RIET 2008 sugieren un marco metodológico para medir el nivel y características del empleo generado por la industria del turismo *desde una perspectiva de la oferta*, a través de la selección de empresas o industrias características del turismo. Es decir, se tiene en cuenta el empleo generado en una selección de ramas de actividad económica características del Turismo.
+
+Además, menciona las particularidades del sector a la hora de estimar el empleo turístico, haciendo referencia a que las actividades características del turismo suelen requerir abundante mano de obra, que, si bien puede asociarse a la producción total de un establecimiento, no puede asignarse a una producción particular *sin la utilización de hipótesis y de procedimientos de modelización*. 
+
 Por este motivo, no se puede observar directamente el empleo en turismo, haciendo referencia al empleo estrictamente relacionado con los bienes y servicios (característicos del turismo, conexos al turismo y de otro tipo) adquiridos por los visitantes y producidos por las industrias turísticas u otras industrias. 
-Dado que el objetivo de este trabajo es explorar las estadísticas del empleo en el sector turístico, el enfoque será puesto en el empleo en las industrias turísticas, es decir, el empleo en el sector, con independencia de que los productos y/o servicios fueran adquiridos por los turistas o no. Del mismo modo, no serán contempladas aquellas ramas de actividad que producen bienes o servicios que los visitantes eventualmente pueden consumir, pero que no constituyen industrias típicas del sector.
+
+Dado que el objetivo de este trabajo es explorar las estadísticas del empleo en el sector turístico, el enfoque será puesto en el empleo en las industrias turísticas, es decir, el empleo en el sector, con independencia de que los productos y/o servicios fueran adquiridos por los turistas o no. Del mismo modo, no serán contempladas aquellas ramas de actividad que producen bienes o servicios que los visitantes eventualmente pueden consumir, pero que no constituyen industrias características del sector.
 
 ## Empleo en las ramas de actividad económica
 
-Las estimaciones del empleo en el sector se verían resueltas con facilidad si pudieran ser calculadas en base al volumen de los bienes y servicios consumidos únicamente por los turistas. Sin embargo, la asociación de un nivel de empleo a un volumen de bienes y servicios es muy difícil de lograr y de justificar teóricamente. Por esta razón, para identificar el empleo en las industrias turísticas se debe recurrir a la selección de las ramas características, lo cual, además, permite identificar la composición del empleo turístico por categoría ocupacional. 
-Con este objetivo, se utilizará la [CIIU Rev. 4](https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf) y la correspondiente delimitación de ramas características del turismo, tal como se explicita en la sección 1.1.1 del presente documento.
+Las estimaciones del empleo en el sector turístico se verían resueltas con facilidad si pudieran ser calculadas en base al volumen de los bienes y servicios consumidos únicamente por los turistas. Sin embargo, la asociación de un nivel de empleo a un volumen de bienes y servicios es muy difícil de lograr y de justificar teóricamente. Por esta razón, para identificar el empleo en las industrias turísticas se debe recurrir a la selección de las ramas características, lo cual, además, permite identificar la composición del empleo turístico por categoría ocupacional. 
+
+Con este objetivo, se utilizará la [CIIU Rev. 4](https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf) y la correspondiente delimitación de ramas características del turismo, tal como se explicita en la sección \@ref(ramas-características-del-turismo) del presente documento.
 
 ## Dificultades generales para la estimación del empleo en la industria turística
 
@@ -91,8 +99,10 @@ Desde los postulados planteados, el análisis de las fuentes que brindan informa
 
 ## Antecedentes de la medición del empleo en turismo en Argentina
 
-En Argentina, el Ministerio de Turismo y Deportes de la Nación con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC realizó una estimación del volumen de empleo en las ramas de actividad características del turismo con base en el año 2004 y la serie para los años 2016-2019, consistentes con la estimación del nivel de  actividad de la industria del turismo. 
+En Argentina, el Ministerio de Turismo y Deportes de la Nación con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC realizó una estimación del volumen de empleo en las ramas de actividad características del turismo con base en el año 2004 y la serie para los años 2016-2019, consistentes con la estimación del nivel de  actividad de la industria del turismo.
+
 La DNCN proveyó, a pedido del Ministerio de Turismo y Deportes, información de los puestos de trabajo de las actividades económicas a un nivel de desagregación de 3 dígitos de la CIIU Rev. 3, y para los asalariados privados registrados a 5 dígitos. De esta manera, fue posible la estimación de la contribución del empleo del turismo desde la perspectiva de la oferta. 
+
 Para los resultados de las estimaciones realizadas se logró apertura para las ramas agrupadas en las siguientes categorías:
 
 -   **Agencias de viaje:** *agencias de viaje.*
@@ -119,10 +129,15 @@ Los resultados se presentan en la tabla siguiente:
 <!-- # ``` -->
 
 Existen también otros trabajos realizados en años anteriores que  tratan la estimación del empleo en el sector turístico. Uno de ellos es *“El empleo en ramas características del turismo en Argentina”* [@mintur2007], donde se propone un estudio “desde el punto de vista de la oferta, es decir estudiando el empleo en las ramas características del turismo” utilizando la Encuesta Permanente de Hogares (EPH) como fuente de información. Para la definición de las RCT toma como referencia la lista propuesta por la OMT, a fin de mantener la comparabilidad internacional.
+
 Partiendo de dicha clasificación, se estima el volumen de empleo en las RCT en Argentina, dedicando un apartado a describir las características sociodemográficas del empleo en el sector. Sin embargo, cabe señalar que la EPH sólo cubre algo más del 60% de la población nacional, puesto que se releva en los 31 grandes aglomerados del país. Por otro lado, la desagregación de la información por rama de actividad no permite discriminar, en muchos casos, componentes turísticos y no turísticos dentro de un mismo código de actividad  (por ejemplo, "Transporte terrestre de pasajeros" incluye tanto el urbano como el interurbano, cuando es este último el único que debería considerarse como turístico).
+
 Para analizar la estacionalidad del sector, utiliza la Encuesta de Ocupación Hotelera (EOH) para estimar las variaciones estacionales de los puestos de trabajo en una rama específica, los hoteles. Cabe indicar que en este caso los resultados obtenidos se refieren a puestos de trabajo, en lugar de personas ocupadas (como corresponde a las estimaciones sobre la EOH).
+
 Por otro lado, la *Cámara Argentina de Turismo utilizó* un procedimiento de cálculo desde una perspectiva de la Demanda para estimar el empleo, como lo explica en su *“Informe económico anual sobre la actividad de viajes y turismo (2008)”*. Utiliza el Método de Coeficientes Fijos (ratios) para estimar el nivel de empleo por rama y categoría, donde se aproxima a la cantidad de empleo generada por la actividad económica de turismo y viajes bajo el supuesto de construcción de coeficientes fijos. 
+
 En este sentido, los coeficientes recorren transversalmente las actividades económicas de cuentas nacionales vinculadas de forma directa e indirecta con el sector turismo para estimar su participación en el Producto Interno Bruto (PIB). En particular, a partir de estimaciones de la demanda que realizan los turistas de productos ofrecidos por los distintos sectores económicos se determinan los coeficientes de participación del turismo sobre el valor agregado bruto de cada una de estas actividades. Esto implica que, por ejemplo, al sector hotelero, en el cual el sector turismo tiene una importancia significativa, se le aplique un coeficiente de 100% y, por el contrario, a la industria manufacturera, que produce tanto para visitantes como no visitantes, se le asigne un coeficiente sustancialmente menor.
+
 Cada uno de estos coeficientes mide el porcentaje del valor agregado de cada actividad económica que pertenece al turismo. No obstante, lo interesante de este ejercicio, es cuestionable su validez empírica por la dificultad de obtener sus coeficientes con cierta confiabilidad a partir de la información disponible al momento de su elaboración.
 
 
