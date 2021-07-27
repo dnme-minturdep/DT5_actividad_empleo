@@ -97,16 +97,18 @@ Asimismo, en el concepto de puestos de trabajo no se incluye al personal de agen
 
 En razón de las características del CNE, como relevamiento dirigido a locales, se pueden identificar los siguientes puntos críticos: 
 
-* **a.** el subregistro del número de locales productivos como resultado de la no visibilidad de unidades que no llegan a ser identificadas por los censistas, 
-* **b.** el carácter no exhaustivo de la cobertura territorial del relevamiento, 
-* **c.** la subdeclaración de los niveles de producción y de ocupación por parte de los locales efectivamente censados, y 
-* **d.** el hecho que el último CNE fue realizado hace una década, en el año 2004 (tomando como periodo de referencia el año 2003).
+-   **a.** el subregistro del número de locales productivos como resultado de la no visibilidad de unidades que no llegan a ser identificadas por los censistas, 
+-   **b.** el carácter no exhaustivo de la cobertura territorial del relevamiento, 
+-   **c.** la subdeclaración de los niveles de producción y de ocupación por parte de los locales efectivamente censados, y 
+-   **d.** el hecho que el último CNE fue realizado hace una década, en el año 2004 (tomando como periodo de referencia el año 2003).
 
 Debe tenerse en cuenta que los Censos Económicos no incluyen información sobre el sector agropecuario que cuenta con un operativo especial y que en particular el Censo del 2004 no contó con los datos relevados por el operativo censal correspondientes al Sector Construcción (Letra F del ClaNaE CNE04) y a la Rama de Actividad Transporte Automotor de Carga (Rama 60210 del ClaNaE CNE04).
 
 En lo referido a la cobertura del operativo, se debe aclarar que las localidades con menos de 1.000 habitantes no fueron relevadas[^fuentes-informacion-1].
 
 [^fuentes-informacion-1]: Este límite es variable, ya que algunas provincias resolvieron el relevamiento completo de las áreas pobladas.
+
+::: {.note}
 
 **Censo Nacional Económico 2020/2021**
 
@@ -120,6 +122,8 @@ Algunos puntos para destacar del nuevo operativo, que lo diferencian del anterio
 - Encuestas estructurales digitales por muestreo para obtener información de producción e insumos desagregados por actividad y producto, canales y márgenes de transporte y comercio, entre otros.
 
 Visite la página oficial del Censo Nacional Económico [aquí](https://censoeconomico.indec.gob.ar/)
+
+:::
 
 ### Encuesta Permanente de Hogares (EPH)
 
@@ -334,11 +338,11 @@ Cabe señalar que junto con la información podrán encontrarse los documentos m
 [**EPH y EPH total urbano**](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos-1) Las bases de datos se brindan en formato TXT a partir de 2016 y en SPSS, Stata y DBF para los años previos.
 Recordar que para la EPH existe una base trimestral, mientras que para la EPH total urbano -o EAHU para 2010-2014- sólo una base anual, que corresponde al tercer trimestre de cada año.
 
-[CNPVH](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41). Para los censos de 2001 y 2010 se puede utilizar (en línea) el programa REDATAM, que permite procesar la información de manera sencilla. 
+[**CNPVH**](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41). Para los censos de 2001 y 2010 se puede utilizar (en línea) el programa REDATAM, que permite procesar la información de manera sencilla. 
 
-[CNE](https://sitioanterior.indec.gob.ar/cne2005_index.asp) Tablas (formato Excel) para el total país y para cada provincia por sector de actividad económica.
+[**CNE**](https://sitioanterior.indec.gob.ar/cne2005_index.asp) Tablas (formato Excel) para el total país y para cada provincia por sector de actividad económica.
 
-[SIPA-MYEySS](https://www.trabajo.gob.ar/estadisticas/oede/estadisticasregionales.asp) se presenta una conjunto de tablas con información provincial en formato Excel para descargar, entre las que figura la serie trimestral de empleo registrado por rama de actividad a cuatro dígitos.
+[**SIPA-MTYEySS**](https://www.trabajo.gob.ar/estadisticas/oede/estadisticasregionales.asp) se presenta una conjunto de tablas con información provincial en formato Excel para descargar, entre las que figura la serie trimestral de empleo registrado por rama de actividad a cuatro dígitos.
 
 ## Ejemplos de utilización de las fuentes
 

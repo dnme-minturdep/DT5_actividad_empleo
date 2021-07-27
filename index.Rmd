@@ -14,7 +14,7 @@ description: "Medición de la contribución económica del turismo"
 
 # Presentación {.unnumbered}
 
-El presente documento, **Medición de la contribución económica del turismo: actividad y empleo**, se enmarca en el proyecto de Armonización de las Estadísticas de Turismo en las Provincias de la [Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes](http://datos.yvera.gob.ar/). El objetivo general de este proyecto es contribuir con propuestas metodológicas para los sistemas de estadísticas de turismo provinciales que orienten a producir indicadores provinciales básicos y comparables.
+El presente documento, **Medición de la contribución económica del turismo: actividad y empleo**, se enmarca en el proyecto de Armonización de las Estadísticas de Turismo en las Provincias de la [Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes](https://www.yvera.tur.ar/estadistica/). El objetivo general de este proyecto es contribuir con propuestas metodológicas para los sistemas de estadísticas de turismo provinciales que orienten a producir indicadores provinciales básicos y comparables.
 
 Además de este, se encuentra disponible una serie de documentos técnicos que abordan otras problemáticas vinculadas a la producción de estadística de turismo:
 

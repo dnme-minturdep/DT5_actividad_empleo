@@ -36,7 +36,7 @@ knitr::include_graphics('imagenes/figura1.1.jpg')
 
 La CIIU abarca generalmente todas las actividades productivas, es decir, las actividades económicas comprendidas dentro de la frontera de producción del Sistema de Cuentas Nacionales (SCN). Esas actividades económicas se subdividen en una estructura jerárquica integrada por cuatro niveles de categorías mutuamente excluyentes. Las categorías del nivel superior de la clasificación se denominan secciones, identificadas por un código alfabético que tienen por objeto facilitar el análisis económico. Dichas secciones se subdividen en las actividades productivas de grandes grupos, como "Agricultura, ganadería, silvicultura y pesca" (sección A), "Industrias manufactureras" (sección C) o "Información y comunicaciones" (sección J). La clasificación se estructura a partir de esas secciones en categorías cada vez más detalladas, identificadas por un código numérico, que es de dos dígitos para las divisiones, de tres dígitos para los grupos, y de cuatro dígitos para las clases (el nivel más desagregado). Cada establecimiento de la economía se clasificará en una rama de actividad específica según cuál sea su actividad principal, es decir, aquella que genere el mayor valor agregado.
 
-### Ramas Características del Turismo
+### Ramas Características del Turismo {#ramas-caracteristicas}
 
 Como se mencionó anteriormente la CIIU está construida sobre un marco conceptual basado en la oferta en el cual se agrupan las unidades de producción en ramas detalladas, priorizando similitudes de su actividad económica, teniendo en cuenta los insumos, los procesos y la tecnología de producción, las características de los productos y los usos a los que se destinan.
 

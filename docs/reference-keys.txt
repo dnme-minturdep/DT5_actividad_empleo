@@ -14,9 +14,10 @@ fig:empleofuentes8
 fig:empleofuentes9
 fig:empleofuentes10
 fig:empleofuentes11
+fig:empleoeph
 medicion-actividad
 ramas-de-actividad-económica
-ramas-características-del-turismo
+ramas-caracteristicas
 alcance
 nivel-de-desagregacion-de-las-ramas
 medicion-de-la-oferta
@@ -51,4 +52,3 @@ sector-transporte
 secto-otros-servicios-turísticos
 acceso-a-la-información-presentada
 ejemplos-de-utilización-de-las-fuentes
-fig:empleoeph

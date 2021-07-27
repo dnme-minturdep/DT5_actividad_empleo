@@ -85,7 +85,7 @@ Dado que el objetivo de este trabajo es explorar las estadísticas del empleo en
 
 Las estimaciones del empleo en el sector turístico se verían resueltas con facilidad si pudieran ser calculadas en base al volumen de los bienes y servicios consumidos únicamente por los turistas. Sin embargo, la asociación de un nivel de empleo a un volumen de bienes y servicios es muy difícil de lograr y de justificar teóricamente. Por esta razón, para identificar el empleo en las industrias turísticas se debe recurrir a la selección de las ramas características, lo cual, además, permite identificar la composición del empleo turístico por categoría ocupacional. 
 
-Con este objetivo, se utilizará la [CIIU Rev. 4](https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf) y la correspondiente delimitación de ramas características del turismo, tal como se explicita en la sección \@ref(ramas-características-del-turismo) del presente documento.
+Con este objetivo, se utilizará la [CIIU Rev. 4](https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf) y la correspondiente delimitación de ramas características del turismo, tal como se explicita en la sección \@ref(ramas-caracteristicas) del presente documento.
 
 ## Dificultades generales para la estimación del empleo en la industria turística
 
