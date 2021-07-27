@@ -44,11 +44,13 @@ Para avanzar es importante definir algunos conceptos en cuanto a la clasificaci�
 
 Es posible identificar tres agrupaciones por el lado de la oferta que pueden clasificarse como características del turismo: industrias, actividades y productos. La vinculación entre estas tres es la siguiente: Las industrias características del turismo son aquellas cuya actividad principal es característica del turismo. Las actividades características del turismo son aquellas que producen principalmente productos característicos del turismo.
 
-Según el párrafo 5.10 de las Recomendaciones Internacionales para estadísticas de turismo [@riet2008]: *"Los productos característicos del turismo son aquellos que cumplen uno o ambos de los siguientes criterios:*
+Según el párrafo 5.10 de las Recomendaciones Internacionales para estadísticas de turismo:
 
-*a. El gasto turístico en el producto debería representar una parte importante del gasto total turístico (condición de la proporción que corresponde al gasto/demanda)*
-
-*b. El gasto turístico en el producto debería representar una parte importante de la oferta del producto en la economía (condición de la proporción que corresponde a la oferta). Este criterio supone que la oferta de un producto característico del turismo se reduciría considerablemente si no hubiera visitantes".*
+> *"Los productos característicos del turismo son aquellos que cumplen uno o ambos de los siguientes criterios:*
+>
+> *a. El gasto turístico en el producto debería representar una parte importante del gasto total turístico (condición de la proporción que corresponde al gasto/demanda)*
+>
+> *b. El gasto turístico en el producto debería representar una parte importante de la oferta del producto en la economía (condición de la proporción que corresponde a la oferta). Este criterio supone que la oferta de un producto característico del turismo se reduciría considerablemente si no hubiera visitantes.*"[@riet2008]
 
 En adelante, el foco estará puesto en las industrias características del turismo ya que son la base del análisis de la contribución económica del turismo desde la perspectiva de la oferta. En conclusión, el manual de @cstrmc2008 propone la consideración de 10 ramas (industrias) turísticas para la comparación internacional. Adicionalmente, se incorporan 2 líneas de industrias que pueden ser adicionadas por cada región si lo creyera pertinente, según el conocimiento de cómo se desarrolla el turismo dentro de sus límites geográficos. A continuación se presentan estas ramas con el detalle de cada código CIIU (Rev.4) asociado:
 
@@ -100,7 +102,11 @@ En tercer lugar, será importante considerar a la informalidad, dependiendo el c
 
 Los operadores turísticos combinan dos o más servicios turísticos (transporte, alojamiento, excursiones, etc) y los comercializan a los visitantes de manera directa o a través de agencias de viaje. Las agencias de viaje tratan directamente con los clientes minoristas y proveen el servicio de organización de viajes.
 
-En el caso de este tipo de establecimientos, es importante asegurar que la información recopilada permite discriminar los cobros de las agencias y operadores en sus dos partes fundamentales: 1) el valor de los servicios vendidos (que fueron adquiridos por las agencias u operadores directamente a los prestadores de cada servicio turístico en particular) y 2) el margen de comercialización (el pago neto que reciben agencias y operadores por el servicio de organización prestado).
+En el caso de este tipo de establecimientos, es importante asegurar que la información recopilada permite discriminar los cobros de las agencias y operadores en sus dos partes fundamentales:
+
+1.  el valor de los servicios vendidos (que fueron adquiridos por las agencias u operadores directamente a los prestadores de cada servicio turístico en particular) y
+
+2.  el margen de comercialización (el pago neto que reciben agencias y operadores por el servicio de organización prestado).
 
 Con el fin de obtener información acerca de los márgenes de comercialización incluidos en los servicios de organización prestados, podrían realizarse encuestas particulares a este tipo de establecimiento que indaguen directamente sobre sus estructuras de costos y los márgenes de ganancia que adicionan al momento de la venta.
 
@@ -110,11 +116,11 @@ Con el objetivo de caracterizar a la oferta turística de una región, se recomi
 
 ### Valor Bruto de Producción {#valor-bruto-de-produccion}
 
-Según las cuentas nacionales, el Valor Bruto de Producción (VBP) es el valor total de los bienes y servicios producidos en un territorio económico durante un determinado período de tiempo por los agentes económicos residentes o unidades económicas (establecimientos).
+En base al Sistema de Cuentas Nacionales [@scn2008] y con el objetivo de caracterizar a la oferta turística de una región se recomienda el cálculo de dos indicadores agregados: el Valor Bruto de Producción de las Industrias Turísticas (VBPIT) y el Valor Agregado Bruto de las Industrias Turísticas (VABIT). 
 
 Por lo tanto, el **VBP de las industrias turísticas (VBPIT)** será el valor de todos los bienes y servicios producidos por las RCT en un territorio y en un período dados.
 
-La valuación del VBPIT se realiza a precios básicos. Los precios básicos son los precios antes de sumar los impuestos sobre los productos y de restar las subvenciones sobre los productos (SCN 2008). Es decir, en esta valuación no están incluidos impuestos como IIBB, IVA, impuestos específicos, a los créditos y débitos bancarios, entre otros.
+La valuación del VBPIT se realiza a precios básicos. Los precios básicos son los precios antes de sumar los impuestos sobre los productos y de restar las subvenciones sobre los productos. Es decir, en esta valuación no están incluidos impuestos como IIBB, IVA, impuestos específicos, a los créditos y débitos bancarios, entre otros.
 
 Se recomienda la generación de este indicador para un período de tiempo de un año, ya que permite neutralizar la estacionalidad propia de la actividad turística y reduce el costo de la obtención de información para un período de tiempo menor.
 
