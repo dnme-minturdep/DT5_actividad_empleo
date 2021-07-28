@@ -12,7 +12,7 @@ La figura \@ref(fig:empleooit) representa una perspectiva esquemática del merca
 
 ::: {.note}
 
-> Para mayor información consulte el documento de la @oit2014.
+> Para mayor información consulte el documento de la @oitconferencia14.
 
 :::
 

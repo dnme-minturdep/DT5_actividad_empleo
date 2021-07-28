@@ -4,13 +4,14 @@
 %
 \documentclass[
   openany]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -41,7 +42,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -87,11 +88,29 @@
 \makeatother
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
-\ifLuaTeX
+\ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\usepackage[]{natbib}
-\bibliographystyle{plainnat}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \title{Documento Técnico N°5: Medición de la contribución económica del turismo}
 \usepackage{etoolbox}
@@ -102,7 +121,7 @@
 \makeatother
 \subtitle{El turismo desde la perspectiva de la oferta: actividad y empleo}
 \author{Dirección Nacional de Mercados y Estadísticas - Subsecretaría de Desarrollo Estratégico}
-\date{27 de julio de 2021}
+\date{28 de julio de 2021}
 
 \begin{document}
 \maketitle
@@ -140,11 +159,11 @@ Además de este, se encuentra disponible una serie de documentos técnicos que a
 \subsection*{Documento Técnico Nº5 - Resumen}\label{documento-tuxe9cnico-nuxba5---resumen}}
 \addcontentsline{toc}{subsection}{Documento Técnico Nº5 - Resumen}
 
-El objetivo general es describir las metodologías disponibles para elaborar indicadores de la actividad del turismo desde la perspectiva de oferta. En particular se analiza los desafíos de la medición de la contribución económica del turismo a la actividad y el empleo desde las distintas ópticas territoriales. En virtud de estos objetivos, este documento se estructura en tres capítulos.
+El objetivo general es describir las metodologías disponibles para elaborar indicadores de la actividad del turismo desde la perspectiva de oferta. En particular se analizan los desafíos de la medición de la contribución económica del turismo a la actividad y el empleo desde las distintas ópticas territoriales. En virtud de estos objetivos, este documento se estructura en tres capítulos.
 
-En el \textbf{Capítulo} \ref{medicion-actividad} se desarrolla una metodología, según las recomendaciones internacionales, para la medición de la contribución económica del turismo en un territorio. En sus diferentes secciones, presenta la definición y el alcance de las actividades económicas involucradas en el turismo a partir del enfoque de las Ramas Características, recomendaciones generales para la medición, indicadores macroeconómicos básicos que darán cuenta de la contribución desde la perspectiva de la oferta y antecedentes nacional e internacional del uso de esta perspectiva para la medición de la contribución económica del turismo en sus respectivos territorios de interés.
+En el \textbf{Capítulo} \ref{medicion-actividad} se desarrolla una metodología, según las recomendaciones internacionales, para la medición de la contribución económica del turismo en un territorio. En sus diferentes secciones, presenta la definición y el alcance de las actividades económicas involucradas en el turismo a partir del enfoque de las Ramas Características, recomendaciones generales para la medición, indicadores macroeconómicos básicos que darán cuenta de la contribución desde la perspectiva de la oferta y antecedentes en el país del uso de esta perspectiva para la medición de la contribución económica del turismo en sus respectivos territorios de interés.
 
-En el \textbf{Capítulo} \ref{medicion-empleo} se desarrollan las problemáticas básicas al momento de medir el empleo en el sector turístico como parte del sistema económico. En sus diferentes secciones, presenta una síntesis sobre las definiciones básicas y las recomendaciones internacionales para la medición del empleo y los antecedentes internacionales y nacionales de medición del empleo en el sector turístico.
+En el \textbf{Capítulo} \ref{medicion-empleo} se desarrollan las problemáticas básicas al momento de medir el empleo en el sector turístico como parte del sistema económico. En sus diferentes secciones, presenta una síntesis sobre las definiciones básicas y las recomendaciones internacionales para la medición del empleo y los antecedentes nacionales de medición del empleo en el sector turístico.
 
 El \textbf{Capítulo} \ref{fuentes-informacion} presenta las fuentes de información disponibles para la medición de la actividad y el empleo en ramas características del turismo a nivel provincial. Se describen los tipos de fuentes, sus principales características, ventajas y limitaciones. El capítulo se concentra en aquellas fuentes disponibles al público general, mostrando ejemplos de uso a partir de información reciente.
 
@@ -166,20 +185,20 @@ Ambos eventos hicieron que el turismo cobrara relevancia dentro del mapa sectori
 
 La medición del impacto económico del turismo puede realizarse desde la perspectiva de la demanda, la perspectiva de la oferta o bien desde la conciliación entre ambas perspectivas, lo que se ha definido como Cuenta Satélite de Turismo.
 
-La perspectiva de la demanda\footnote{Se puede consultar el capítulo 2 de \citet{cstrmc2008}, para más detalle sobre la metodología de esta perspectiva.} consiste en medir todos los gastos en bienes y servicios que realiza un visitante en el contexto de su viaje, sin importar si el sector económico que provee dichos bienes o servicios es característico del turismo o no (para mayor definición de este concepto ver la sección siguiente sobre ramas características del turismo).
+La perspectiva de la demanda\footnote{Se puede consultar el capítulo 2 de \protect\hyperlink{ref-cstrmc2008}{Oranización Mundial de Tutrimo y Organización de Cooperación y Desarrollo Económico} (\protect\hyperlink{ref-cstrmc2008}{2008}), para más detalle sobre la metodología de esta perspectiva.} consiste en medir todos los gastos en bienes y servicios que realiza un visitante en el contexto de su viaje, sin importar si el sector económico que provee dichos bienes o servicios es característico del turismo o no (para mayor definición de este concepto ver la sección siguiente sobre ramas características del turismo).
 
-En cuanto a la perspectiva de la oferta\footnote{Se puede consultar el capítulo 3 de \citet{cstrmc2008} para más detalle sobre la metodología de esta perspectiva.}, la misma consiste en la medición de la producción realizada por todas aquellas industrias consideradas como características del turismo. Es importante notar, en este punto, que el foco de esta perspectiva está puesto en la producción total de algunas industrias de la economía, sin tener en cuenta quiénes efectivamente consumen sus productos (ya sean bienes o servicios). Es decir, la producción de estas industrias podría ser consumida por visitantes durante un viaje turístico o bien por personas que no están realizando un viaje.
+En cuanto a la perspectiva de la oferta\footnote{Se puede consultar el capítulo 3 de \protect\hyperlink{ref-cstrmc2008}{Oranización Mundial de Tutrimo y Organización de Cooperación y Desarrollo Económico} (\protect\hyperlink{ref-cstrmc2008}{2008}) para más detalle sobre la metodología de esta perspectiva.}, la misma consiste en la medición de la producción realizada por todas aquellas industrias consideradas como características del turismo. Es importante notar, en este punto, que el foco de esta perspectiva está puesto en la producción total de algunas industrias de la economía, sin tener en cuenta quiénes efectivamente consumen sus productos (ya sean bienes o servicios). Es decir, la producción de estas industrias podría ser consumida por visitantes durante un viaje turístico o bien por personas que no están realizando un viaje.
 
 Finalmente, se puede realizar una conciliación entre la demanda de los visitantes y la oferta de las industrias turísticas (y del total de la economía). El centro de esta perspectiva se encuentra en poder calcular el valor agregado que se generó en una economía en particular para atender directamente a la demanda de bienes y servicios realizada por los visitantes y compararlo con el valor agregado del total de dicha economía. La herramienta estadística apropiada para la realización de este tipo de medición es una Cuenta Satélite de Turismo. Ésta reúne diferentes fuentes de información sobre oferta de la economía y demanda turística y las concilia a fin de obtener la proporción del valor agregado generado por la demanda turística sobre el valor agregado total de la economía.
 
-Las recomendaciones metodológicas para la realización de una Cuenta Satélite de Turismo han sido extensamente desarrolladas por la Organización Mundial del Turismo (OMT). La serie de recomendaciones más actualizada puede encontrarse en el documento publicado por la OMT titulado ``Cuenta satélite de turismo: Recomendaciones sobre el marco conceptual, 2008'' \citep{cstrmc2008}.
+Las recomendaciones metodológicas para la realización de una Cuenta Satélite de Turismo han sido extensamente desarrolladas por la Organización Mundial del Turismo (OMT). La serie de recomendaciones más actualizada puede encontrarse en el documento publicado por la OMT titulado ``Cuenta satélite de turismo: Recomendaciones sobre el marco conceptual, 2008'' (\protect\hyperlink{ref-cstrmc2008}{Oranización Mundial de Tutrimo y Organización de Cooperación y Desarrollo Económico, 2008}).
 
 El presente documento se enfocará en el desarrollo más profundo de la perspectiva de la oferta, para poder proveer una herramienta concreta para estimar la contribución del turismo en cada economía local. Si bien una cuenta satélite de turismo resulta una medición más precisa del impacto económico del turismo, ya que involucra una estimación de la oferta consumida directamente por visitantes, requiere de un marco conceptual más desarrollado que provea no solo de información desagregada sobre la producción de las industrias sino también de información detallada sobre la canasta de consumo de los visitantes durante sus viajes en la región, y que, ambos conjuntos de información, sean consistentes entre sí.
 
 \hypertarget{ramas-de-actividad-econuxf3mica}{%
 \section{Ramas de Actividad Económica}\label{ramas-de-actividad-econuxf3mica}}
 
-La evaluación de un sector económico complejo como el turismo plantea el desafío de definir correctamente las actividades involucradas en el mismo y detectar toda la oferta existente. Con el fin de realizar esta definición, se utilizará la Clasificación Industrial Internacional Uniforme (CIIU), cuya última versión disponible corresponde a la revisión 4 \citep{ciiurev4}, que constituye una estructura de clasificación coherente y consistente de las actividades económicas, basada en un conjunto de conceptos, definiciones, principios y normas de clasificación, de reconocimiento internacional. La estructura de la CIIU es un formato estándar que permite organizar la información detallada sobre la situación de una economía de acuerdo con principios y percepciones económicas. Tomando como base la CIIU rev. 4, la figura \ref{fig:ciiu} presenta las 21 categorías individuales de la clasifiación En la misma, se resaltan las ramas que, total o parcialmente, son características de la industria del turismo:
+La evaluación de un sector económico complejo como el turismo plantea el desafío de definir correctamente las actividades involucradas en el mismo y detectar toda la oferta existente. Con el fin de realizar esta definición, se utilizará la Clasificación Industrial Internacional Uniforme (CIIU), cuya última versión disponible corresponde a la revisión 4 (\protect\hyperlink{ref-ciiurev4}{Organización de las Naciones Unidas, 2009}), que constituye una estructura de clasificación coherente y consistente de las actividades económicas, basada en un conjunto de conceptos, definiciones, principios y normas de clasificación, de reconocimiento internacional. La estructura de la CIIU es un formato estándar que permite organizar la información detallada sobre la situación de una economía de acuerdo con principios y percepciones económicas. Tomando como base la CIIU rev. 4, la figura \ref{fig:ciiu} presenta las 21 categorías individuales de la clasifiación En la misma, se resaltan las ramas que, total o parcialmente, son características de la industria del turismo:
 
 \begin{figure}
 
@@ -201,13 +220,17 @@ Para avanzar es importante definir algunos conceptos en cuanto a la clasificaci�
 
 Es posible identificar tres agrupaciones por el lado de la oferta que pueden clasificarse como características del turismo: industrias, actividades y productos. La vinculación entre estas tres es la siguiente: Las industrias características del turismo son aquellas cuya actividad principal es característica del turismo. Las actividades características del turismo son aquellas que producen principalmente productos característicos del turismo.
 
-Según el párrafo 5.10 de las Recomendaciones Internacionales para estadísticas de turismo \citep{riet2008}: \emph{"Los productos característicos del turismo son aquellos que cumplen uno o ambos de los siguientes criterios:}
+Según el párrafo 5.10 de las Recomendaciones Internacionales para estadísticas de turismo:
+
+\begin{quote}
+\emph{"Los productos característicos del turismo son aquellos que cumplen uno o ambos de los siguientes criterios:}
 
 \emph{a. El gasto turístico en el producto debería representar una parte importante del gasto total turístico (condición de la proporción que corresponde al gasto/demanda)}
 
-\emph{b. El gasto turístico en el producto debería representar una parte importante de la oferta del producto en la economía (condición de la proporción que corresponde a la oferta). Este criterio supone que la oferta de un producto característico del turismo se reduciría considerablemente si no hubiera visitantes".}
+\emph{b. El gasto turístico en el producto debería representar una parte importante de la oferta del producto en la economía (condición de la proporción que corresponde a la oferta). Este criterio supone que la oferta de un producto característico del turismo se reduciría considerablemente si no hubiera visitantes.}"(\protect\hyperlink{ref-riet2008}{Organización Mundial del Turismo, 2010})
+\end{quote}
 
-En adelante, el foco estará puesto en las industrias características del turismo ya que son la base del análisis de la contribución económica del turismo desde la perspectiva de la oferta. En conclusión, el manual de \citet{cstrmc2008} propone la consideración de 10 ramas (industrias) turísticas para la comparación internacional. Adicionalmente, se incorporan 2 líneas de industrias que pueden ser adicionadas por cada región si lo creyera pertinente, según el conocimiento de cómo se desarrolla el turismo dentro de sus límites geográficos. A continuación se presentan estas ramas con el detalle de cada código CIIU (Rev.4) asociado:
+En adelante, el foco estará puesto en las industrias características del turismo ya que son la base del análisis de la contribución económica del turismo desde la perspectiva de la oferta. En conclusión, el manual de \protect\hyperlink{ref-cstrmc2008}{Oranización Mundial de Tutrimo y Organización de Cooperación y Desarrollo Económico} (\protect\hyperlink{ref-cstrmc2008}{2008}) propone la consideración de 10 ramas (industrias) turísticas para la comparación internacional. Adicionalmente, se incorporan 2 líneas de industrias que pueden ser adicionadas por cada región si lo creyera pertinente, según el conocimiento de cómo se desarrolla el turismo dentro de sus límites geográficos. A continuación se presentan estas ramas con el detalle de cada código CIIU (Rev.4) asociado:
 
 \begin{figure}
 
@@ -265,7 +288,15 @@ En tercer lugar, será importante considerar a la informalidad, dependiendo el c
 
 Los operadores turísticos combinan dos o más servicios turísticos (transporte, alojamiento, excursiones, etc) y los comercializan a los visitantes de manera directa o a través de agencias de viaje. Las agencias de viaje tratan directamente con los clientes minoristas y proveen el servicio de organización de viajes.
 
-En el caso de este tipo de establecimientos, es importante asegurar que la información recopilada permite discriminar los cobros de las agencias y operadores en sus dos partes fundamentales: 1) el valor de los servicios vendidos (que fueron adquiridos por las agencias u operadores directamente a los prestadores de cada servicio turístico en particular) y 2) el margen de comercialización (el pago neto que reciben agencias y operadores por el servicio de organización prestado).
+En el caso de este tipo de establecimientos, es importante asegurar que la información recopilada permite discriminar los cobros de las agencias y operadores en sus dos partes fundamentales:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  el valor de los servicios vendidos (que fueron adquiridos por las agencias u operadores directamente a los prestadores de cada servicio turístico en particular) y
+\item
+  el margen de comercialización (el pago neto que reciben agencias y operadores por el servicio de organización prestado).
+\end{enumerate}
 
 Con el fin de obtener información acerca de los márgenes de comercialización incluidos en los servicios de organización prestados, podrían realizarse encuestas particulares a este tipo de establecimiento que indaguen directamente sobre sus estructuras de costos y los márgenes de ganancia que adicionan al momento de la venta.
 
@@ -277,11 +308,11 @@ Con el objetivo de caracterizar a la oferta turística de una región, se recomi
 \hypertarget{valor-bruto-de-produccion}{%
 \subsection{Valor Bruto de Producción}\label{valor-bruto-de-produccion}}
 
-Según las cuentas nacionales, el Valor Bruto de Producción (VBP) es el valor total de los bienes y servicios producidos en un territorio económico durante un determinado período de tiempo por los agentes económicos residentes o unidades económicas (establecimientos).
+En base al Sistema de Cuentas Nacionales (\protect\hyperlink{ref-scn2008}{Fondo Monteario Internacional y Banco Mundial, 2016}) y con el objetivo de caracterizar a la oferta turística de una región se recomienda el cálculo de dos indicadores agregados: el Valor Bruto de Producción de las Industrias Turísticas (VBPIT) y el Valor Agregado Bruto de las Industrias Turísticas (VABIT).
 
 Por lo tanto, el \textbf{VBP de las industrias turísticas (VBPIT)} será el valor de todos los bienes y servicios producidos por las RCT en un territorio y en un período dados.
 
-La valuación del VBPIT se realiza a precios básicos. Los precios básicos son los precios antes de sumar los impuestos sobre los productos y de restar las subvenciones sobre los productos (SCN 2008). Es decir, en esta valuación no están incluidos impuestos como IIBB, IVA, impuestos específicos, a los créditos y débitos bancarios, entre otros.
+La valuación del VBPIT se realiza a precios básicos. Los precios básicos son los precios antes de sumar los impuestos sobre los productos y de restar las subvenciones sobre los productos. Es decir, en esta valuación no están incluidos impuestos como IIBB, IVA, impuestos específicos, a los créditos y débitos bancarios, entre otros.
 
 Se recomienda la generación de este indicador para un período de tiempo de un año, ya que permite neutralizar la estacionalidad propia de la actividad turística y reduce el costo de la obtención de información para un período de tiempo menor.
 
@@ -309,13 +340,13 @@ La DNCN proveyó, a pedido del Ministerio de Turismo y Deportes, información de
 
 Dada la posibilidad de incluir bienes y/o servicios característicos específicos de cada país, para la CST-A se determinó que se considerarían como característicos del turismo a los servicios de expendio minorista de combustibles para automotores (estaciones de servicio). Por ende, su actividad relacionada, venta al por menor de combustible para automotores, también se consideró como característica de turismo.
 
-Las recomendaciones de \citet{riet2008} mencionan que \emph{``El combustible para los vehículos de motor (o para embarcaciones en los países insulares) podría representar asimismo un gasto importante en bienes en los países''}. A su vez, se verificó que el gasto en combustibles representó un 10\% del gasto turístico interno que se calculó para la CST-A en el año 2004 para los turistas y un 30\% para los excursionistas.
+Las recomendaciones de \protect\hyperlink{ref-riet2008}{Organización Mundial del Turismo} (\protect\hyperlink{ref-riet2008}{2010}) mencionan que \emph{``El combustible para los vehículos de motor (o para embarcaciones en los países insulares) podría representar asimismo un gasto importante en bienes en los países''}. A su vez, se verificó que el gasto en combustibles representó un 10\% del gasto turístico interno que se calculó para la CST-A en el año 2004 para los turistas y un 30\% para los excursionistas.
 
 De esta manera, la apertura de actividades características del turismo para la CST-A quedó determinada de la siguiente manera:
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{imagenes/figura1.3} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figrua1.3} 
 
 }
 
@@ -351,7 +382,7 @@ En tanto que la oferta de trabajo es efectuada por las personas a partir de ofre
 La figura \ref{fig:empleooit} representa una perspectiva esquemática del mercado de trabajo con sus componentes (elementos estructurales) y relaciones. Muestra que las ``personas'' representan el lado de la oferta en el mercado de trabajo, mientras que los ``puestos'' el lado de la demanda. Los casilleros cuadrados en las primeras dos filas incluyen a los empleadores y a los hogares, además de los puestos y las personas. Los ``puestos'' y las ``personas'' se vinculan a través de los empleos.
 
 \begin{quote}
-Para mayor información consulte el documento de la \citet{oit2014}.
+Para mayor información consulte el documento de la \protect\hyperlink{ref-oitconferencia14}{Oficina Internacional del Trabajo} (\protect\hyperlink{ref-oitconferencia14}{2014}).
 \end{quote}
 
 En la tercera fila aparecen más casilleros que muestran las subcategorías de puestos y personas ocupadas. El sistema de contabilidad del trabajo requiere que se establezcan estimaciones para todos sus componentes y las relaciones de éstos.
@@ -378,7 +409,11 @@ Las personas con \textbf{\emph{empleos independientes}} pueden dividirse en dos 
 
 Por otro lado, los trabajadores con un empleo asalariado son clasificados dentro de la categoría \textbf{\emph{``empleo en relación de dependencia''}}, situación que refiere a aquel trabajador que recibe una remuneración básica que no depende directamente de los ingresos de la unidad para la que trabaja.
 
-Cabe aclarar que todas las categorías mencionadas anteriormente pueden identificarse tanto en el marco de la economía formal como de la economía informal. El término \textbf{\emph{``economía informal''}}\footnote{\href{https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---relconf/documents/meetingdocument/wcms_218350.pdf}{OIT: ``La transición de la economía informal a la economía formal'', Conferencia Internacional del Trabajo, 103.ª reunión, 2014}} hace referencia \emph{``al conjunto de actividades económicas desarrolladas por los trabajadores y las unidades económicas que, tanto en la legislación como en la práctica, están insuficientemente contempladas por sistemas formales o no lo están en absoluto. Las actividades de esas personas o empresas pueden no estar alcanzadas por la ley, es decir, se desempeñan al margen de ella; o bien no están contempladas en la práctica, es decir que, si bien estas personas operan dentro del ámbito de la ley, ésta no se aplica o no se cumple''} (OIT -- Conferencia Internacional de Trabajo, 2014).
+Cabe aclarar que todas las categorías mencionadas anteriormente pueden identificarse tanto en el marco de la economía formal como de la economía informal. El término \textbf{\emph{``economía informal''}} hace referencia al:
+
+\begin{quote}
+\emph{``conjunto de actividades económicas desarrolladas por los trabajadores y las unidades económicas que, tanto en la legislación como en la práctica, están insuficientemente contempladas por sistemas formales o no lo están en absoluto. Las actividades de esas personas o empresas pueden no estar alcanzadas por la ley, es decir, se desempeñan al margen de ella; o bien no están contempladas en la práctica, es decir que, si bien estas personas operan dentro del ámbito de la ley, ésta no se aplica o no se cumple.''}(\protect\hyperlink{ref-oitconferencia14}{Oficina Internacional del Trabajo, 2014})
+\end{quote}
 
 Además, existen grandes diferencias entre los trabajadores de la economía informal en cuanto a ingresos (nivel, regularidad, estacionalidad), situación en el empleo (asalariados, empleadores, trabajadores por cuenta propia, trabajadores ocasionales, trabajadores domésticos), sector (comercio, agricultura, industria), tipo de empresas y tamaño de las mismas, ubicación geográfica (medio urbano o rural), protección social (contribuciones a la seguridad social), y protección del empleo (tipo y duración del contrato, derecho a vacaciones anuales).
 
@@ -386,7 +421,7 @@ Por lo tanto, en un sistema económico los trabajadores pueden desempeñarse baj
 
 En síntesis, se considera que los trabajadores se encuentran en la modalidad de un \textbf{\emph{Empleo Informal}}\footnote{Según la OIT, las razones pueden ser las siguientes: la no declaración de los empleos o de los asalariados; empleos ocasionales o empleos de limitada o corta duración; empleos con un horario o un salario inferior a un límite especificado (por ejemplo para cotizar a la seguridad social); el empleador es una empresa no constituida en sociedad o una persona miembro de un hogar; el lugar de trabajo del asalariado se encuentra fuera de los locales de la empresa del empleador (por ejemplo, los trabajadores fuera del establecimiento y sin contratos de trabajo); empleos a los cuales el reglamento laboral no se aplica, no se hace cumplir o no se hace respetar por otro motivo.} si su relación de trabajo, de derecho o de hecho, no está sujeta a la legislación laboral nacional, la protección social o a determinadas prestaciones relacionadas con el empleo (cobertura jubilatoria con descuento, cobertura jubilatoria con aporte voluntario, preaviso al despido, indemnización por despido, vacaciones anuales pagadas o licencia pagada por enfermedad, etc.).
 
-Por lo tanto, las principales definiciones a tener en cuenta son (OIT, 2004)REFERENCIA:
+Por lo tanto, las principales definiciones a tener en cuenta son (\protect\hyperlink{ref-oit2004}{Organización Internacional del Trabajo, 2004}):
 
 \begin{itemize}
 \tightlist
@@ -411,7 +446,7 @@ Por lo tanto, las principales definiciones a tener en cuenta son (OIT, 2004)REFE
 \hypertarget{recomendaciones-internacionales-sobre-el-empleo-en-industrias-turuxedsticas}{%
 \section{Recomendaciones Internacionales sobre el empleo en industrias turísticas}\label{recomendaciones-internacionales-sobre-el-empleo-en-industrias-turuxedsticas}}
 
-Las Recomendaciones Internacionales sobre Estadísticas de Turismo (\href{https://unstats.un.org/unsd/publication/seriesm/seriesm_83rev1s.pdf}{RIET 2008}) describen dos formas de medir el empleo relacionado con el turismo. Por un lado, se denomina Empleo Turístico \emph{``al empleo estrictamente relacionado con los bienes y servicios (característicos del turismo, el turismo conexo y otros) adquiridos por los visitantes y producidos por cualquiera de las industrias del turismo y otras industrias''}, mientras que el Empleo en las Industrias Turísticas se refiere al empleo en las actividades características del turismo.
+Las Recomendaciones Internacionales sobre Estadísticas de Turismo (\protect\hyperlink{ref-riet2008}{Organización Mundial del Turismo, 2010}) describen dos formas de medir el empleo relacionado con el turismo. Por un lado, se denomina Empleo Turístico \emph{``al empleo estrictamente relacionado con los bienes y servicios (característicos del turismo, el turismo conexo y otros) adquiridos por los visitantes y producidos por cualquiera de las industrias del turismo y otras industrias''}, mientras que el Empleo en las Industrias Turísticas se refiere al empleo en las actividades características del turismo.
 
 Las RIET 2008 sugieren un marco metodológico para medir el nivel y características del empleo generado por la industria del turismo \emph{desde una perspectiva de la oferta}, a través de la selección de empresas o industrias características del turismo. Es decir, se tiene en cuenta el empleo generado en una selección de ramas de actividad económica características del Turismo.
 
@@ -426,7 +461,7 @@ Dado que el objetivo de este trabajo es explorar las estadísticas del empleo en
 
 Las estimaciones del empleo en el sector turístico se verían resueltas con facilidad si pudieran ser calculadas en base al volumen de los bienes y servicios consumidos únicamente por los turistas. Sin embargo, la asociación de un nivel de empleo a un volumen de bienes y servicios es muy difícil de lograr y de justificar teóricamente. Por esta razón, para identificar el empleo en las industrias turísticas se debe recurrir a la selección de las ramas características, lo cual, además, permite identificar la composición del empleo turístico por categoría ocupacional.
 
-Con este objetivo, se utilizará la CIIU Revisión 4 \citep{ciiurev4} y la correspondiente delimitación de ramas características del turismo, tal como se explicita en la sección \ref{ramas-caracteristicas} del presente documento.
+Con este objetivo, se utilizará la CIIU Revisión 4 (\protect\hyperlink{ref-ciiurev4}{Organización de las Naciones Unidas, 2009}) y la correspondiente delimitación de ramas características del turismo, tal como se explicita en la sección \ref{ramas-caracteristicas} del presente documento.
 
 \hypertarget{dificultades-generales-para-la-estimaciuxf3n-del-empleo-en-la-industria-turuxedstica}{%
 \section{Dificultades generales para la estimación del empleo en la industria turística}\label{dificultades-generales-para-la-estimaciuxf3n-del-empleo-en-la-industria-turuxedstica}}
@@ -438,7 +473,7 @@ Desde los postulados planteados, el análisis de las fuentes que brindan informa
 \item
   \textbf{Identificación de las empresas del sector:} dificultad para definir con exactitud las empresas (y sus trabajadores) dedicadas a ofrecer productos y/o servicios al sector y para extraer aquellos componentes no turísticos a partir del cruce de las distintas fuentes de información, debido a los diferentes niveles de desagregación con que se presenta la información y/o a la utilización de distintos nomencladores de la actividad económica.
 \item
-  \textbf{Estacionalidad:} las fluctuaciones de la demanda turística introducen variaciones en el volumen del empleo. Esto es especialmente claro en el dominio de la pequeña empresa familiar, en donde la contratación temporal permite cubrir épocas de mayor demanda. Adela Mariscal (2005) en su trabajo ``Mercado de Trabajo y turismo en Andalucía'' señala que donde existen estructuras consolidadas (pymes, cadenas hoteleras, etc.), la estabilidad y la calidad del empleo son mayores, pero que en los casos de micropymes, cooperativas, sociedades anónimas laborales, etc., y donde además puede existir vulnerabilidad económica y territorial, el empleo es altamente estacional. Esta reflexión, sin dudas, aplica también para el caso argentino.
+  \textbf{Estacionalidad:} las fluctuaciones de la demanda turística introducen variaciones en el volumen del empleo. Esto es especialmente claro en el dominio de la pequeña empresa familiar, en donde la contratación temporal permite cubrir épocas de mayor demanda. Adela Mariscal en su trabajo ``Mercado de Trabajo y turismo en Andalucía'' (\protect\hyperlink{ref-mariscal2005}{Mariscal Galeano, 2005}) señala que donde existen estructuras consolidadas (pymes, cadenas hoteleras, etc.), la estabilidad y la calidad del empleo son mayores, pero que en los casos de micropymes, cooperativas, sociedades anónimas laborales, etc., y donde además puede existir vulnerabilidad económica y territorial, el empleo es altamente estacional. Esta reflexión, sin dudas, aplica también para el caso argentino.
 \item
   \textbf{Trabajo informal:} el alto nivel de empleo informal puede implicar la subestimación del impacto del turismo en el empleo. Según el documento ``Empleo y Recursos Humanos en España'' (Sancho, 1998), los principales sectores de la economía informal son la agricultura y los servicios (hoteles y restaurantes, servicios privados de limpieza y trabajo doméstico). Además, existe una alta rotación de los empleos, que es más significativa en el sector hotelería y restaurantes, con tasas superiores al 30\% (Greffe, 1994; OIT, 1997). Los principales afectados son los asalariados de pequeños y medianos establecimientos, los cuentapropistas y los trabajadores familiares no remunerados. Resulta evidente que obtener información robusta sobre este subuniverso es más complejo que hacerlo sobre los establecimientos o empleados formalizados.
 \item
@@ -496,7 +531,7 @@ En cuanto a las fuentes de información, la principal es la Cuenta Generación d
 
 Los resultados se presentan en la tabla siguiente:
 
-Existen también otros trabajos realizados en años anteriores que tratan la estimación del empleo en el sector turístico. Uno de ellos es \emph{``El empleo en ramas características del turismo en Argentina''} \citep{mintur2007}, donde se propone un estudio ``desde el punto de vista de la oferta, es decir estudiando el empleo en las ramas características del turismo'' utilizando la Encuesta Permanente de Hogares (EPH) como fuente de información. Para la definición de las RCT toma como referencia la lista propuesta por la OMT, a fin de mantener la comparabilidad internacional.
+Existen también otros trabajos realizados en años anteriores que tratan la estimación del empleo en el sector turístico. Uno de ellos es \emph{``El empleo en ramas características del turismo en Argentina''} (\protect\hyperlink{ref-mintur2007}{Ministerio de Turismo y Deportes, 2007}), donde se propone un estudio ``desde el punto de vista de la oferta, es decir estudiando el empleo en las ramas características del turismo'' utilizando la Encuesta Permanente de Hogares (EPH) como fuente de información. Para la definición de las RCT toma como referencia la lista propuesta por la OMT, a fin de mantener la comparabilidad internacional.
 
 Partiendo de dicha clasificación, se estima el volumen de empleo en las RCT en Argentina, dedicando un apartado a describir las características sociodemográficas del empleo en el sector. Sin embargo, cabe señalar que la EPH sólo cubre algo más del 60\% de la población nacional, puesto que se releva en los 31 grandes aglomerados del país. Por otro lado, la desagregación de la información por rama de actividad no permite discriminar, en muchos casos, componentes turísticos y no turísticos dentro de un mismo código de actividad (por ejemplo, ``Transporte terrestre de pasajeros'' incluye tanto el urbano como el interurbano, cuando es este último el único que debería considerarse como turístico).
 
@@ -964,6 +999,32 @@ El siguiente gráfico muestra la participación de cada categoría dentro del em
 \chapter*{\texorpdfstring{\textbf{Bibliografía}}{Bibliografía}}\label{bibliografuxeda}}
 \addcontentsline{toc}{chapter}{\textbf{Bibliografía}}
 
-  \bibliography{book.bib,packages.bib}
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-scn2008}{}%
+Fondo Monteario Internacional, Organización de Cooperación y. Desarrollo Económico, Comisión Europea, y Banco Mundial (2016): \emph{Sistema de Cuentas Nacionales 2008}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/nationalaccount/docs/sna2008spanish.pdf}\textgreater.
+
+\leavevmode\hypertarget{ref-mariscal2005}{}%
+Mariscal Galeano, Adela (2005): \emph{Mercado de trabajo y turismo en Andalucía actividad, ocupación y paro (1990-2003)}, Sevilla, Consejería de Turismo, Comercio y Deporte, \textless{}\url{https://datos.bne.es/edicion/bimo0002088698.html}\textgreater.
+
+\leavevmode\hypertarget{ref-mintur2007}{}%
+Ministerio de Turismo y Deportes (2007): \emph{El empleo en ramas características del turismo en Argentina}, Buenos Aires, Ministerio de Turismo y Deportes, \textless{}\url{https://www.yvera.tur.ar/estadistica/}\textgreater.
+
+\leavevmode\hypertarget{ref-oitconferencia14}{}%
+Oficina Internacional del Trabajo (2014): \emph{La transición de la economía informal a la economía formal}, Ginebra, OIT, \textless{}\url{https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---relconf/documents/meetingdocument/wcms_218350.pdf}\textgreater.
+
+\leavevmode\hypertarget{ref-cstrmc2008}{}%
+Oranización Mundial de Tutrimo, Comisión Europea, Naciones Unidas, y Organización de Cooperación y Desarrollo Económico (2008): \emph{Cuenta satélite de turismo: Recomendaciones sobre el marco conceptual}, Luxemburgo/Madrid/París/Nueva York, ONU, \textless{}\url{https://www.e-unwto.org/doi/book/10.18111/9789213612392}\textgreater.
+
+\leavevmode\hypertarget{ref-ciiurev4}{}%
+Organización de las Naciones Unidas (2009): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 4}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf}\textgreater.
+
+\leavevmode\hypertarget{ref-oit2004}{}%
+Organización Internacional del Trabajo (2004): \emph{Introducción a las Estadísticas Laborales de Turismo}, Ginebra, OIT, \textless{}\url{https://webunwto.s3-eu-west-1.amazonaws.com/imported_images/25994/ilo_b_sp.pdf}\textgreater.
+
+\leavevmode\hypertarget{ref-riet2008}{}%
+Organización Mundial del Turismo, Organización de las Naciones Unidas y (2010): \emph{Recomendaciones internacionales para estadísticas de turismo 2008}, Madrid/Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/publication/seriesm/seriesm_83rev1s.pdf}\textgreater.
+
+\end{CSLReferences}
 
 \end{document}
