@@ -8,20 +8,20 @@ editor_options:
 
 En este capítulo se presentan las fuentes de información disponibles para la medición de la contribución económica, en términos de actividad y empleo, de las Ramas Características del Turismo a nivel provincial, con el fin de analizar la heterogeneidad y limitaciones de cada una.
 
-Es importante destacar que, en la actualidad, algunas fuentes de información que corresponden a operativos puntuales con períodos de realización de varios años no cuentan con información actualizada a los años recientes.Este es el caso de los censos económico y de población. Sin embargo, se espera que en los próximos años se publiquen nuevas ediciones de ambos operativos.
+Es importante destacar que, en la actualidad, algunas fuentes de información que corresponden a operativos puntuales con períodos de realización de varios años no cuentan con información actualizada a los años recientes. Este es el caso de los censos económico y de población. Sin embargo, se espera que en los próximos años se publiquen nuevas ediciones de ambos operativos.
 
 ## Tipos de fuentes
 
 Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
 
 -   **Encuesta a hogares**: Permite captar las características sociodemográficas de la población de manera regular, con información de los ingresos y la inserción en el mercado de trabajo de los miembros de los hogares.
-    Los datos que proporciona abarcan las ocupaciones registradas y no registradas, por lo que todas las categorías ocupacionales son captadas, y de esta manera es posible estimar la producción informal.
+    Los datos que proporciona abarcan las ocupaciones registradas y no registradas, por lo que todas las categorías ocupacionales son captadas, y de esta manera es posible estimar la actividad económica realizada de manera informal.
     Tiene la ventaja, además, de capturar la naturaleza estacional del empleo -común en el turismo- y la categoría ocupacional.
     Aunque debido a que las actividades del turismo por lo general no están distribuidas en forma pareja a lo largo de la geografía del país, la encuesta, al estar basada en muestras, puede reflejar un número relativamente pequeño de casos de empleo en turismo.
     La imprecisión a causa del muestreo aumenta cuanto más se desagreguen los datos.
     Un ejemplo de este caso, es la Encuesta Permanente de Hogares (EPH), que realiza el INDEC.
 
--   **Encuesta a establecimientos:** Proporciona datos sobre producción, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período especificado, entre otros indicadores.
+-   **Encuesta a establecimientos:** Proporciona datos sobre producción (valor bruto de producción), consumos intermedios, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período especificado, entre otros indicadores.
     No proporcionan una adecuada cobertura de las pequeñas empresas, generalmente numerosas en el sector turístico.
     Generalmente excluyen el sector estatal.
     En cuanto al empleo, a menudo incluyen información sólo de los empleados, a menos que exista una pregunta específica sobre el número de dueños o integrantes de la familia que trabajan.
@@ -36,6 +36,7 @@ Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
 
 -   **Censo de población:** Relevamiento dirigido a captar información sobre personas, hogares y viviendas.
     En él se consignan datos referidos al comportamiento de la actividad laboral realizada por las personas que integran los hogares.
+    En cuanto a actividad económica, los censos de población brindan información sobre la tenencia de segundas viviendas, por lo que contribuyen en la estimación de la oferta de servicios de alojamiento asociados con todos los tipos de propiedad de casas de vacaciones.
     La última información disponible corresponde al CNPHV 2010.
     Asimismo el CNPHV 2020 fue postergado con motivo de la emergencia sanitaria producto del COVID-19.
 
@@ -47,15 +48,21 @@ Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
 
 En las secciones siguientes se procura brindar en detalle las principales características de cada fuente secundaria, marcando las diferencias existentes entre las mismas y sus ventajas y limitaciones.
 
-## Medición de la actividad a nivel provincial: el Producto Geográfico Bruto (PGB)
+## Medición de la actividad económica a nivel provincial 
+
+### El Producto Geográfico Bruto (PGB)
 
 **El PGB consiste en la producción de bienes y servicios finales realizada por la sociedad (empresas, autónomos, etc) de una provincia, durante un período de tiempo determinado.** También se lo puede denominar como PIB provincial, aunque PGB es el título más utilizado. 
 
-La elaboración del PBG debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales. 
+La elaboración del PBG debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
 
 El PGB es necesariamente el punto de partida para la elaboración de una estrategia de estimación de la contribución económica del turismo en una provincia por el lado de la oferta. La utilidad de que las provincias cuenten con un PGB radica en que el mismo contendrá información de la actividad económica de la provincia pero abierta por sector de actividad. Cuanto mayor sea el nivel de desagregación de las actividades (mayor cantidad de dígitos de la CIIU), mayor será la precisión que se pueda obtener para realizar estimaciones de la contribución económica del turismo. A su vez, la información de actividad económica que pueda obtenerse de las ramas características del turismo, podrá ser comparada con el total de la economía a fin de tener una noción del peso del turismo en la economía provincial. 
 
-Sin el agregado económico del PGB toda estimación de la oferta turística, que se pueda realizar por otros medios, no podrá ser cotejada para conocer si el monto obtenido por rama es consistente con la producción total de la provincia.
+Sin el agregado económico del PGB toda estimación de la oferta turística, que se pueda realizar por otros medios, no podrá ser cotejada para conocer si el monto obtenido por rama es consistente con la producción total de la provincia, reduciendo significativamente la robustez de la estimación.
+
+### Fuentes secundarias
+
+
 
 ...........................................................................
 
@@ -91,7 +98,7 @@ Así, por ejemplo, el CNPHV del 2001 sobreestimó cerca de un 50% la desocupaci�
 El CNE provee información básica para una descripción detallada de la estructura productiva del país, tanto a nivel nacional, como a nivel provincial y de áreas menores.
 La ocupación está medida por los puestos de trabajo ocupados por asalariados y no asalariados.
 
-Esto significa que contempla que una misma persona puede tener más de una ocupación, a diferencia del CNPHV, que mide solo personas ocupadas.Sin embargo, no permite conocer cuántas personas ocupan esos puestos de trabajo, puesto que en una porción no desdeñable una persona ocupa dos, e incluso, más puestos.
+Esto significa que contempla que una misma persona puede tener más de una ocupación, a diferencia del CNPHV, que mide solo personas ocupadas. Sin embargo, no permite conocer cuántas personas ocupan esos puestos de trabajo, puesto que en una porción no desdeñable una persona ocupa dos, e incluso, más puestos.
 
 Asimismo, en el concepto de puestos de trabajo no se incluye al personal de agencias de personal temporario y a las personas físicas contratadas en el local que cobran por factura y trabajan bajo la dirección de la empresa. Los pagos correspondientes, en estos últimos casos, forman parte del consumo intermedio, ya que constituye un servicio de terceros.
 
@@ -129,7 +136,7 @@ Visite la página oficial del Censo Nacional Económico [aquí](https://censoeco
 
 La EPH es un operativo especialmente diseñado para medir la situación de la población en relación con el mercado de trabajo y describir con precisión las características de la fuerza de trabajo, en el cual trabajan regularmente encuestadores capacitados en los conceptos intrínsecos de un instrumento de medición específico.
 
-Por ello, si bien como cualquier estudio por muestreo está sujeto a diferentes niveles de error estadístico, la calidad de la información recolectada garantiza la casi inexistencia de errores no estadísticos (habituales en los censos de población, por ejemplo, llevados a cabo por una vasta cantidad de censistas con una mínima capacitación).
+Por ello, si bien como cualquier estudio por muestreo está sujeto a diferentes niveles de error estadístico, la calidad de la información recolectada garantiza la casi inexistencia de errores no estadísticos (habituales en los censos de población, por ejemplo, llevados a cabo por una vasta cantidad de censistas con una capacitación muy reducida).
 
 La EPH es un programa nacional de producción sistemática (con ondas trimestrales) y permanente de indicadores sociales realizada por el INDEC y las direcciones de estadística provinciales, que permite conocer las características socioeconómicas y demográficas de la población en los principales centros urbanos del país.
 
@@ -145,7 +152,7 @@ Desde el año 2003 hasta el segundo trimestre de 2006 se relevaban 28 aglomerado
 
 ### EPH Total Urbano
 
-Este operativo es una ampliación de la cobertura territorial de la EPH.Permite contar con la misma información que en la EPH pero para el total de la población urbana del país, a través de la incorporación a la muestra de los hogares pertenecientes a localidades de 2.000 y más habitantes.
+Este operativo es una ampliación de la cobertura territorial de la EPH. Permite contar con la misma información que en la EPH pero para el total de la población urbana del país, a través de la incorporación a la muestra de los hogares pertenecientes a localidades de 2.000 y más habitantes.
 
 Se realiza en la onda correspondiente al tercer trimestre de la EPH y su cobertura alcanza al 90% de la población total del país.
 
@@ -195,6 +202,7 @@ Cabe señalar que habitualmente la categoría ocupacional refiere al tipo de rel
 En este caso, en realidad, la categoría ocupacional refleja una tipología que contempla tres variables: la categoría ocupacional propiamente dicha; el ámbito al que corresponde el establecimiento (privado o estatal); y el nivel de formalidad, determinado por la presencia o no de descuentos o aportes previsionales.
 
 Además de las diferencias de cobertura en el universo de ocupados, no todas las fuentes secundarias presentadas exhiben el mismo nivel de apertura de los datos por categoría ocupacional, como puede observarse en la figura \@ref(fig:empleofuentes3).
+
 El SIPA sólo da cuenta del universo de trabajadores asalariados del sector privado a los que se les realizan descuentos jubilatorios.
 
 El CNE alcanza a todo el sector privado, pero no permite distinguir los niveles de formalidad entre trabajadores asalariados y no asalariados.
@@ -223,7 +231,9 @@ Por ello, para complejizar y enriquecer el análisis se han establecido tres tip
 ## Ramas Características, ramas mixtas y agregación de las RCT por sector
 
 Tal como se explicó en el primer capítulo, cuanto menor sea el nivel de apertura que presente la información por rama, menor será la precisión de los resultados obtenidos.
-Esto significa, por ejemplo, que si una determinada fuente brinda únicamente los datos globales a dos dígitos CIIU de la Rama Transporte de Servicios Terrestres, la estimación incluirá componentes no relacionados con el turismo, por ejemplo, el Transporte de Carga.
+
+Esto significa, por ejemplo, que si una determinada fuente brinda únicamente los datos globales a dos dígitos de la CIIU de la Rama Transporte de Servicios Terrestres, la estimación incluirá componentes no relacionados con el turismo, como por ejemplo, el transporte de carga.
+
 Esto implica una sobreestimación de la cantidad de puestos de trabajo, personas ocupadas y, en general, del peso del empleo en el sector turístico.
 
 En cambio, si la información se presenta en un nivel de detalle mayor, permite discriminar mejor qué es y qué no es característico del sector bajo estudio.
@@ -269,7 +279,8 @@ En esta sección se incluyen los servicios organizados por cuenta de terceros, s
 
 El sector transporte se compone, siguiendo la clasificación a dos dígitos, en 4 subsectores: terrestre, acuático, aéreo, servicios anexos y alquiler de vehículos sin chofer.
 
-El transporte **terrestre** se desagrega (a tres dígitos) en ferroviario, automotor por carretera y por tuberías (que no corresponde a una actividad característica del turismo).
+El transporte **terrestre** se desagrega (a tres dígitos) en ferroviario, automotor por carretera y por tuberías (este último no corresponde a una actividad característica del turismo).
+
 A cuatro dígitos, tanto el transporte ferroviario como el automotor se discrimina en carga y pasajeros, mientras que, a 5 dígitos, se especifica qué tipo de servicios de pasajeros se presta (figura \@ref(fig:empleofuentes6)).
 
 ```{r empleofuentes6, echo=FALSE, fig.cap="Transporte Terrestre. Clasificación de actividades por fuente" }
