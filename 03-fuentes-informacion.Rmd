@@ -243,13 +243,9 @@ En cambio, si la información se presenta en un nivel de detalle mayor, permite 
 
 En aras de simplificar la presentación de resultados y, fundamentalmente, de obtener estimaciones estadísticamente robustas, las ramas características del sector turístico pueden ser agrupadas en cuatro grandes sectores: Servicios de Alojamiento; Servicios de Restaurantes; Servicio de Transporte; y Otros Servicios Turísticos.
 
-El detalle de las ramas contenidas en cada uno de estos sectores puede apreciarse en la figura \@ref(fig:empleofuentes4). Como allí se observa, no todas las ramas corresponden al mismo nivel de desagregación: en algunos casos se han incluido actividades a tres dígitos, en otros a cuatro y, finalmente, en los casos restantes las actividades corresponden a una clasificación a nivel de cinco dígitos.
+El detalle de las ramas contenidas en cada uno de estos sectores fue presentado en el capítulo 1, en la figura \@ref(fig:activsct). Como allí se observa, no todas las ramas corresponden al mismo nivel de desagregación: en algunos casos se han incluido actividades a tres dígitos, en otros a cuatro y, finalmente, en los casos restantes las actividades corresponden a una clasificación a nivel de cinco dígitos.
 
 Como se mencionó, el nivel de desagregación de las actividades económicas en las fuentes es variable y en una importante cantidad de casos no está presente con la apertura requerida.
-
-```{r empleofuentes4, echo=FALSE, fig.cap="Listado de RCT y agrupamiento en cuatro grandes sectores turísticos" }
-knitr::include_graphics('imagenes/figura3.4.jpg')
-```
 
 Para analizar la convergencia de las RCT a partir de cada fuente y determinar cuánto de lo que hay disponible se acerca al ideal que establece la CIIU, se organizaron las ramas en un esquema de colores semejantes a un semáforo para establecer en qué punto todo el componente es turístico.
 
