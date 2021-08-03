@@ -14,18 +14,21 @@ Es importante destacar que, en la actualidad, algunas fuentes de información qu
 
 Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
 
+
 -   **Encuesta a hogares**: Permite captar las características sociodemográficas de la población de manera regular, con información de los ingresos y la inserción en el mercado de trabajo de los miembros de los hogares.
     Los datos que proporciona abarcan las ocupaciones registradas y no registradas, por lo que todas las categorías ocupacionales son captadas, y de esta manera es posible estimar la actividad económica realizada de manera informal.
+
     Tiene la ventaja, además, de capturar la naturaleza estacional del empleo -común en el turismo- y la categoría ocupacional.
     Aunque debido a que las actividades del turismo por lo general no están distribuidas en forma pareja a lo largo de la geografía del país, la encuesta, al estar basada en muestras, puede reflejar un número relativamente pequeño de casos de empleo en turismo.
     La imprecisión a causa del muestreo aumenta cuanto más se desagreguen los datos.
     Un ejemplo de este caso, es la Encuesta Permanente de Hogares (EPH), que realiza el INDEC.
 
 -   **Encuesta a establecimientos:** Proporciona datos sobre producción (valor bruto de producción), consumos intermedios, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período especificado, entre otros indicadores.
+
     No proporcionan una adecuada cobertura de las pequeñas empresas, generalmente numerosas en el sector turístico.
     Generalmente excluyen el sector estatal.
     En cuanto al empleo, a menudo incluyen información sólo de los empleados, a menos que exista una pregunta específica sobre el número de dueños o integrantes de la familia que trabajan.
-    En Argentina se lleva a cabo la Encuesta Nacional a Grandes Empresas (ENGE), referidas al panel de las 500 grandes, con actividad principal de Minería, Industria Manufacturera, Electricidad, Gas y Agua, Gestión de Residuos, Saneamiento Público, Servicios de Información y Comunicaciones, Construcción, Comercio, Transporte y Otros servicios.
+    En Argentina se lleva a cabo la Encuesta Nacional a Grandes Empresas (ENGE), referidas al panel de las 500 más grandes, con actividad principal de Minería, Industria Manufacturera, Electricidad, Gas y Agua, Gestión de Residuos, Saneamiento Público, Servicios de Información y Comunicaciones, Construcción, Comercio, Transporte y Otros servicios.
     Por sus características, esta encuesta no es significativa para una medición completa del sector a nivel provincial.
 
 -   **Encuestas basadas en el seguro social:** Proporciona datos sobre cantidad de empresas y empleos y salarios para aquellos trabajadores que están protegidos por seguros de salud, accidentes o desempleo.
@@ -104,10 +107,10 @@ Asimismo, en el concepto de puestos de trabajo no se incluye al personal de agen
 
 En razón de las características del CNE, como relevamiento dirigido a locales, se pueden identificar los siguientes puntos críticos: 
 
--   **a.** el subregistro del número de locales productivos como resultado de la no visibilidad de unidades que no llegan a ser identificadas por los censistas, 
--   **b.** el carácter no exhaustivo de la cobertura territorial del relevamiento, 
--   **c.** la subdeclaración de los niveles de producción y de ocupación por parte de los locales efectivamente censados, y 
--   **d.** el hecho que el último CNE fue realizado hace una década, en el año 2004 (tomando como periodo de referencia el año 2003).
+  (a) el subregistro del número de locales productivos como resultado de la no visibilidad de unidades que no llegan a ser identificadas por los censistas, 
+  (b) el carácter no exhaustivo de la cobertura territorial del relevamiento, 
+  (c) la subdeclaración de los niveles de producción y de ocupación por parte de los locales efectivamente censados, y
+  (d) el hecho que el último CNE fue realizado hace una década, en el año 2004 (tomando como periodo de referencia el año 2003).
 
 Debe tenerse en cuenta que los Censos Económicos no incluyen información sobre el sector agropecuario que cuenta con un operativo especial y que en particular el Censo del 2004 no contó con los datos relevados por el operativo censal correspondientes al Sector Construcción (Letra F del ClaNaE CNE04) y a la Rama de Actividad Transporte Automotor de Carga (Rama 60210 del ClaNaE CNE04).
 
@@ -254,9 +257,9 @@ Por ejemplo, el sector de Transporte Aéreo incluye la rama "Servicios de Transp
 
 Cada uno de los colores en las tablas expresan lo siguiente:
 
--   **VERDE:** Código compuesto por actividades correspondientes en su totalidad a la industria turística.
--   **AMARILLO:** Código bajo el cual coexisten tanto componentes de industria turística y de otras actividades económicas no características.
--   **ROJO:** El código no corresponde a una industria turística, aunque si comparte con alguna de estas un código de menor apertura. Adicionalmente, en cada una de las tablas se indica cuál es el código que corresponde a cada fuente, de acuerdo al clasificador considerado en ellas[^fuentes-informacion-2].
+-   <span style="color: #50B8B1;">**VERDE:**</span> Código compuesto por actividades correspondientes en su totalidad a la industria turística.
+-   <span style="color: #FFD100;">**AMARILLO:**</span> Código bajo el cual coexisten tanto componentes de industria turística y de otras actividades económicas no características.
+-   <span style="color: #EE3D8F;">**ROJO:**</span> El código no corresponde a una industria turística, aunque si comparte con alguna de estas un código de menor apertura. Adicionalmente, en cada una de las tablas se indica cuál es el código que corresponde a cada fuente, de acuerdo al clasificador considerado en ellas[^fuentes-informacion-2].
 
 [^fuentes-informacion-2]: La EPH fue objeto de un cambio en el nomenclador de actividades, ya que el vigente hasta 2011 fue reemplazado por una actualización de ese mismo año.
 
@@ -296,13 +299,15 @@ Resulta útil ofrecer un ejemplo para facilitar la comprensión
 
 ::: {.note} 
 
-Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferroviario eran 18.245 y se distribuían de la siguiente forma en la apertura a 5 dígitos: - ***5.919*** puestos correspondían a servicio de cargas (6011) - ***10.086*** puestos correspondían a servicio de pasajeros urbano y suburbano (60121) - ***2.240*** puestos correspondían al servicio de pasajeros interurbano (60122) Por tanto, sólo los ***2.240 puestos*** (pasajeros interurbano) de los ***18.245*** puestos totales del transporte ferroviario correspondían a actividades características.
-
-::: 
+Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferroviario eran 18.245 y se distribuían de la siguiente forma en la apertura a 5 dígitos:
+- ***5.919*** puestos correspondían a servicio de cargas (6011)
+- ***10.086*** puestos correspondían a servicio de pasajeros urbano y suburbano (60121) 
+- ***2.240*** puestos correspondían al servicio de pasajeros interurbano (60122) 
+Por tanto, sólo los ***2.240 puestos*** (pasajeros interurbano) de los ***18.245*** puestos totales del transporte ferroviario correspondían a actividades características.
 
 El coeficiente expresa la participación de los componentes característicos en la suma de todos los componentes involucrados en la desagregación de cada fuente, por lo que en este caso asciende a 0,1228 (2.240/18.245) o, lo que es lo mismo a 12,28%.
 
-Así, de los 26.807 puestos de trabajo (asalariados con descuento del ámbito privado) informados por el SIPA para el año 2010 en la actividad transporte ferroviario, 3.227 (cantidad que surge de: 26.8070,1228) serán contabilizados como puestos de trabajos de la actividad característica del sector (servicio interurbano de pasajeros)
+Así, de los 26.807 puestos de trabajo (asalariados con descuento del ámbito privado) informados por el SIPA para el año 2010 en la actividad transporte ferroviario, 3.227 (cantidad que surge de: 26.807 x 0,1228) serán contabilizados como puestos de trabajos de la actividad característica del sector (servicio interurbano de pasajeros)
 
 :::
 
@@ -331,7 +336,7 @@ Finalmente, la figura \@ref(fig:empleofuentes10) muestra la posición del compon
 knitr::include_graphics('imagenes/figura3.10.jpg')
 ```
 
-### Secto Otros Servicios Turísticos
+### Sector Otros Servicios Turísticos
 
 Este sector comprende un subconjunto de actividades deportivas, sociales, culturales, recreativas y de interés local agrupadas en la rama 92, del cual da cuenta la \@ref(fig:empleofuentes11).
 
@@ -342,7 +347,8 @@ knitr::include_graphics('imagenes/figura3.11.jpg')
 
 ## Acceso a la información presentada
 
-Todas las fuentes de información aquí descriptas se encuentran disponibles al público en general, a excepción del CNE 04/05, que publica cuadros a nivel provincial por ramas agrupadas de actividad (v.g. "Hoteles y Restaurantes")
+Todas las fuentes de información aquí descriptas se encuentran disponibles al público en general, a excepción del CNE 04/05, que publica cuadros a nivel provincial por ramas agrupadas de actividad (v.g. "Hoteles y Restaurantes").
+
 A continuación se especifica la ubicación en Internet de cada fuente, indicando el tipo de información disponible.
 Cabe señalar que junto con la información podrán encontrarse los documentos metodológicos básicos.
 
@@ -353,18 +359,18 @@ Recordar que para la EPH existe una base trimestral, mientras que para la EPH to
 
 [**CNE**](https://sitioanterior.indec.gob.ar/cne2005_index.asp) Tablas (formato Excel) para el total país y para cada provincia por sector de actividad económica.
 
-[**SIPA-MTYEySS**](https://www.trabajo.gob.ar/estadisticas/oede/estadisticasregionales.asp) se presenta una conjunto de tablas con información provincial en formato Excel para descargar, entre las que figura la serie trimestral de empleo registrado por rama de actividad a cuatro dígitos.
+[**SIPA-MTYEySS**](https://www.trabajo.gob.ar/estadisticas/oede/estadisticasregionales.asp) se presenta una conjunto de tablas con información provincial en formato Excel para descargar, entre las que figura la serie trimestral de empleo registrado por rama de actividad a cuatro dígitos y, en algunas ramas como Servicio de transporte ferroviario, a 3 dígitos.
 
 ## Ejemplos de utilización de las fuentes
 
-A modo de ejemplo de uso de algunas de las fuentes presentadas en las secciones precedentes, se ilustran posibles aplicaciones para la medición del empleo provincial en ramas turísticas, teniendo en cuenta los lineamientos conceptuales de los capítulos anteriores. Se hará énfasis en las fuentes disponibles con actualizaciones recientes, con el objetivo de tener un acercamiento más actual a la información de empleo en el sector. En este sentido, las fuentes que se actualizan de manera trimestral y contienen información relativa al empleo en ramas turísticas son la EPH y las estadísticas de empleo registrado del OEDE-MTEySS a partir del SIPA. En el caso de la primera debe tenerse en cuenta, como se mencionó anteriormente, que se trata de una encuesta probabilística, sujeta al margen de error estadístico. Por este motivo, teniendo en cuenta que el diseño de la encuesta no asegura la robustez de las estimaciones con apertura sectorial y geográfica, los resultados deben tomarse con cautela y, preferentemente, elegir un agrupamiento de trimestres que permita tener una cantidad de casos muestrales significativa. A esto se suma el hecho de que la cobertura geográfica de la EPH es de 31 aglomerados urbanos, y no de las provincias en su conjunto. Puede complementarse el análisis con la extensión de la cobertura de la EPH total urbano, únicamente para los terceros trimestres del año. La ventaja de esta fuente de información, como se ha mencionado, es que incluye a todas las categorías de ocupados: asalariados-con y sin aportes y/o descuento jubilatorio- e independientes -patrón o cuenta propia-
+A modo de ejemplo de uso de algunas de las fuentes presentadas en las secciones precedentes, se ilustran posibles aplicaciones para la medición del empleo provincial en ramas turísticas, teniendo en cuenta los lineamientos conceptuales de los capítulos anteriores. Se hará énfasis en las fuentes disponibles con actualizaciones recientes, con el objetivo de tener un acercamiento más actual a la información de empleo en el sector. En este sentido, las fuentes que se actualizan de manera trimestral y contienen información relativa al empleo en ramas turísticas son la EPH y las estadísticas de empleo registrado del OEDE-MTEySS a partir del SIPA. En el caso de la primera debe tenerse en cuenta, como se mencionó anteriormente, que se trata de una encuesta probabilística, sujeta al margen de error estadístico. Por este motivo, teniendo en cuenta que el diseño de la encuesta no asegura la robustez de las estimaciones con apertura sectorial y geográfica, los resultados deben tomarse con cautela y, preferentemente, elegir un agrupamiento de trimestres que permita tener una cantidad de casos muestrales significativa. A esto se suma el hecho de que la cobertura geográfica de la EPH es de 31 aglomerados urbanos, y no de las provincias en su conjunto. Puede complementarse el análisis con la extensión de la cobertura de la EPH total urbano, únicamente para los terceros trimestres del año. La ventaja de esta fuente de información, como se ha mencionado, es que incluye a todas las categorías de ocupados: asalariados- con y sin aportes y/o descuento jubilatorio- e independientes -patrón o cuenta propia-.
 
-```{r empleoeph, echo=FALSE, fig.cap="Tasa de informalidad para ramas características y total" }
+```{r empleoeph, echo=FALSE, fig.cap="Tasa de informalidad para ramas características y todas las ramas." }
 knitr::include_graphics('imagenes/empleo eph.png')
 ```
 
 La otra fuente actualizada para medir el empleo en ramas características del turismo es la publicación trimestral de los asalariados registrados por rama de actividad a 4 dígitos del OEDE-MTEySS a partir del SIPA. Al provenir de un registro administrativo, no está sujeta a errores de muestreo y tiene cobertura provincial[^fuentes-informacion-3]. Una desventaja de esta información reside en que algunas ramas se encuentran abiertas a 3 dígitos, por ejemplo "Servicios de transporte ferroviario" se encuentra a 3 dígitos de apertura (rama 6010), por lo que incluye servicio de carga y pasajeros. Sucede lo mismo con los transportes marítimo, fluvial y aéreo. El transporte automotor se encuentra a 4 dígitos, por lo que permite la separación de carga y pasajeros (rama 6022) pero no distinguir el transporte de pasajeros urbano e interurbano.
-Asimismo, el origen de la información implica que no se incluyan trabajadores no registrados ni independientes. La figura  .. muestra los trabajadores registrados por provincia, promediando los 4 trimestres de 2019, para todas las ramas y para las ramas turísticas.
+Asimismo, el origen de la información implica que no se incluyan trabajadores no registrados ni independientes. El siguiente gráfico muestra los trabajadores registrados por provincia, promediando los 4 trimestres de 2019, para todas las ramas y para las ramas turísticas.
 
 [^fuentes-informacion-3]: La información publicada, en el caso de la provincia de Buenos Aires, está dividida en GBA y Resto de Buenos Aires. En esta sección se sumaron ambas regiones para obtener el total de la provincia
 
