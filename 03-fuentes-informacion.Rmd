@@ -245,6 +245,7 @@ Como se mencionó, el nivel de desagregación de las actividades económicas en 
 
 Por lo tanto, a continuación se realizará un recorrido por cada una de las ramas para determinar cuánto de lo que hay disponible, para el caso de las fuentes de empleo turístico, se acerca al ideal que establece la CIIU. Para esto, se organizaron las ramas en un esquema de colores semejantes a un semáforo para establecer en qué punto todo el componente es turístico.
 
+
 Por ejemplo, el sector de Transporte Aéreo incluye la rama "Servicios de Transporte Aéreo de Pasajeros" y "Servicios de Transporte Aéreo de Carga", donde solo la primera de ellas es una RCT.
 
 Cada uno de los colores en las tablas expresan lo siguiente:
