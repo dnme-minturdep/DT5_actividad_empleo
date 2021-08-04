@@ -34,7 +34,7 @@ Con el fin de realizar esta definición, se pueden utilizar distintos clasificad
 
 A su vez, el INDEC ha elaborado el **Clasificador Nacional de Actividades Económicas** (CLANAE) que contiene los códigos de las distintas ramas de actividad económica aplicables en la República Argentina. El CLANAE se utilizará en el ámbito del Sistema Estadístico Nacional (SEN) a los fines de facilitar la interrelación de las estadísticas oficiales. La edición del año 2004 (CLANAE 2004) [@clanae04] está basada en la CIIU revisión 3.1, mientras que la edición del año 2010 (CLANAE 2010) [@clanae10] está basada en la CIIU revisión 4.
 
-Tomando como base la CIIU rev. 4, la figura \@ref(fig:ciiu) presenta las 21 categorías individuales de la clasifiación En la misma, se resaltan las ramas que, total o parcialmente, son características de la industria del turismo:
+La figura \@ref(fig:ciiu) presenta las 21 categorías individuales de la CIIU, para ambas revisiones, 4 y 3.1. Se resaltan las ramas que, total o parcialmente, son características de la industria del turismo:
 
 ```{r ciiu, echo=FALSE, fig.cap="Ramas de Actividad Económica según el Código Industrial Internacional Uniforme" }
 knitr::include_graphics('imagenes/figura1.1.jpg')
@@ -58,7 +58,7 @@ Según el párrafo 5.10 de las Recomendaciones Internacionales para estadística
 >
 > *b. El gasto turístico en el producto debería representar una parte importante de la oferta del producto en la economía (condición de la proporción que corresponde a la oferta). Este criterio supone que la oferta de un producto característico del turismo se reduciría considerablemente si no hubiera visitantes.*"[@riet2008]
 
-En adelante, el foco estará puesto en las industrias características del turismo ya que son la base del análisis de la contribución económica del turismo desde la perspectiva de la oferta. En conclusión, el manual de @cstrmc2008 propone la consideración de 10 ramas (industrias) turísticas para la comparación internacional. Adicionalmente, se incorporan 2 líneas de industrias que pueden ser adicionadas por cada región si lo creyera pertinente, según el conocimiento de cómo se desarrolla el turismo dentro de sus límites geográficos. A continuación se presentan estas ramas con el detalle de cada código CIIU (Rev.4) asociado:
+En adelante, el foco estará puesto en las industrias características del turismo ya que son la base del análisis de la contribución económica del turismo desde la perspectiva de la oferta. En conclusión, el manual de @cstrmc2008 propone la consideración de 10 ramas (industrias) turísticas para la comparación internacional. Adicionalmente, se incorporan 2 líneas de industrias que pueden ser adicionadas por cada región si lo creyera pertinente, según el conocimiento de cómo se desarrolla el turismo dentro de sus límites geográficos. A continuación se presentan estas ramas con el detalle de cada código CIIU (Rev.4 y Rev 3.1) asociado:
 
 ```{r ciiu2, echo=FALSE, fig.cap="Industrias turísticas y sus códigos CIIU Rev. 4." }
 knitr::include_graphics('imagenes/figura1.2.jpg')

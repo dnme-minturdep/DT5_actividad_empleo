@@ -15,7 +15,7 @@ Es importante destacar que, en la actualidad, algunas fuentes de información qu
 Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
 
 
--   **Encuesta a hogares**: Permite captar las características sociodemográficas de la población de manera regular, con información de los ingresos y la inserción en el mercado de trabajo de los miembros de los hogares.
+-   **Encuestas a hogares**: Permite captar las características sociodemográficas de la población de manera regular, con información de los ingresos y la inserción en el mercado de trabajo de los miembros de los hogares.
     Los datos que proporciona abarcan las ocupaciones registradas y no registradas, por lo que todas las categorías ocupacionales son captadas, y de esta manera es posible estimar la actividad económica realizada de manera informal.
 
     Tiene la ventaja, además, de capturar la naturaleza estacional del empleo -común en el turismo- y la categoría ocupacional.
@@ -23,7 +23,7 @@ Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
     La imprecisión a causa del muestreo aumenta cuanto más se desagreguen los datos.
     Un ejemplo de este caso, es la Encuesta Permanente de Hogares (EPH), que realiza el INDEC.
 
--   **Encuesta a establecimientos:** Proporciona datos sobre producción (valor bruto de producción), consumos intermedios, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período especificado, entre otros indicadores.
+-   **Encuestas a establecimientos:** Proporciona datos sobre producción (valor bruto de producción), consumos intermedios, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período especificado, entre otros indicadores.
 
     No proporcionan una adecuada cobertura de las pequeñas empresas, generalmente numerosas en el sector turístico.
     Generalmente excluyen el sector estatal.
@@ -237,38 +237,33 @@ Tal como se explicó en el primer capítulo, cuanto menor sea el nivel de apertu
 
 Esto significa, por ejemplo, que si una determinada fuente brinda únicamente los datos globales a dos dígitos de la CIIU de la Rama Transporte de Servicios Terrestres, la estimación incluirá componentes no relacionados con el turismo, como por ejemplo, el transporte de carga.
 
-Esto implica una sobreestimación de la cantidad de puestos de trabajo, personas ocupadas y, en general, del peso del empleo en el sector turístico.
-
 En cambio, si la información se presenta en un nivel de detalle mayor, permite discriminar mejor qué es y qué no es característico del sector bajo estudio.
 
-En aras de simplificar la presentación de resultados y, fundamentalmente, de obtener estimaciones estadísticamente robustas, las ramas características del sector turístico pueden ser agrupadas en cuatro grandes sectores: Servicios de Alojamiento; Servicios de Restaurantes; Servicio de Transporte; y Otros Servicios Turísticos.
+El detalle de las ramas contenidas en cada uno de los sectores turísticos puede apreciarse en la figura \@ref(fig:activcst) del capítulo 1. Como allí se observa, no todas las ramas corresponden al mismo nivel de desagregación: en algunos casos se han incluido actividades a tres dígitos, en otros a cuatro y, finalmente, en los casos restantes las actividades corresponden a una clasificación a nivel de cinco dígitos.
 
-El detalle de las ramas contenidas en cada uno de estos sectores puede apreciarse en la figura \@ref(fig:empleofuentes4). Como allí se observa, no todas las ramas corresponden al mismo nivel de desagregación: en algunos casos se han incluido actividades a tres dígitos, en otros a cuatro y, finalmente, en los casos restantes las actividades corresponden a una clasificación a nivel de cinco dígitos.
+Como se mencionó, el nivel de desagregación de las actividades económicas en las fuentes es variable y en una importante cantidad de casos no está presente con la apertura requerida. Para el caso de la medición de la actividad económica de las RCT, su nivel de precisión dependerá de las estadísticas de oferta de cada provincia y su nivel de apertura. Para el caso de la medición del empleo en las RCT, cada una de las fuentes mencionadas posee diferentes niveles de apertura. 
 
-Como se mencionó, el nivel de desagregación de las actividades económicas en las fuentes es variable y en una importante cantidad de casos no está presente con la apertura requerida.
-
-```{r empleofuentes4, echo=FALSE, fig.cap="Listado de RCT y agrupamiento en cuatro grandes sectores turísticos" }
-knitr::include_graphics('imagenes/figura3.4.jpg')
-```
-
-Para analizar la convergencia de las RCT a partir de cada fuente y determinar cuánto de lo que hay disponible se acerca al ideal que establece la CIIU, se organizaron las ramas en un esquema de colores semejantes a un semáforo para establecer en qué punto todo el componente es turístico.
+Por lo tanto, a continuación se realizará un recorrido por cada una de las ramas para determinar cuánto de lo que hay disponible, para el caso de las fuentes de empleo turístico, se acerca al ideal que establece la CIIU. Para esto, se organizaron las ramas en un esquema de colores semejantes a un semáforo para establecer en qué punto todo el componente es turístico.
 
 Por ejemplo, el sector de Transporte Aéreo incluye la rama "Servicios de Transporte Aéreo de Pasajeros" y "Servicios de Transporte Aéreo de Carga", donde solo la primera de ellas es una RCT.
 
 Cada uno de los colores en las tablas expresan lo siguiente:
 
 -   <span style="color: #50B8B1;">**VERDE:**</span> Código compuesto por actividades correspondientes en su totalidad a la industria turística.
--   <span style="color: #FFD100;">**AMARILLO:**</span> Código bajo el cual coexisten tanto componentes de industria turística y de otras actividades económicas no características.
+-   <span style="color: #FFD100;">**AMARILLO:**</span> Código bajo el cual coexisten tanto componentes de industria turística y de otras actividades económicas no características del turismo.
 -   <span style="color: #EE3D8F;">**ROJO:**</span> El código no corresponde a una industria turística, aunque si comparte con alguna de estas un código de menor apertura. Adicionalmente, en cada una de las tablas se indica cuál es el código que corresponde a cada fuente, de acuerdo al clasificador considerado en ellas[^fuentes-informacion-2].
 
 [^fuentes-informacion-2]: La EPH fue objeto de un cambio en el nomenclador de actividades, ya que el vigente hasta 2011 fue reemplazado por una actualización de ese mismo año.
 
+A su vez, a fin de simplicar la exposición, se han agrupado las RCT en 4 grandes grupos: 1) Alojamiento y Restaurantes, 2) Transporte y 3) Otros servicios turísticos.
+
 ### Sector Alojamiento y Restaurantes
 
-Estos dos sectores no presentan ninguna dificultad, pues todos sus componentes son característicos del turismo.
+La rama 55, de la CIIU Rev 3.1, incluye ambos sectores, que se dividen a partir de los tres dígitos.
 
-La rama 55 incluye ambos sectores, que se dividen a partir de los tres dígitos.
-Dado que todas las fuentes utilizadas presentan esta apertura, es posible utilizar los datos originales que cada una de ellas provee (figura \@ref(fig:empleofuentes5)).
+Ambos sectores presentan una subrama no característica del turismo, cuando se los abre a 5 dígitos.
+
+Dado que todas las fuentes utilizadas, para la medición del empleo turístico, presentan una apertura de como máximo 4 dígitos, a excepción del CNE, habrá una leve sobreestimación del empleo en estas ramas (figura \@ref(fig:empleofuentes5)).
 
 ```{r empleofuentes5, echo=FALSE, fig.cap="Alojamiento y restaurantes. Clasificación de actividades por fuente" }
 knitr::include_graphics('imagenes/figura3.5.jpg')
@@ -280,7 +275,7 @@ Los servicios de transporte constituyen una actividad fundamental para la circul
 
 En esta sección se incluyen los servicios organizados por cuenta de terceros, sean estos una prestación de tipo colectiva, individualizada o realizada a través del alquiler del vehículo de transporte con su respectivo personal de conducción.
 
-El sector transporte se compone, siguiendo la clasificación a dos dígitos, en 4 subsectores: terrestre, acuático, aéreo, servicios anexos y alquiler de vehículos sin chofer.
+El sector transporte se compone, siguiendo la clasificación a dos dígitos, en 5 subsectores: terrestre, acuático, aéreo, servicios anexos y alquiler de vehículos sin chofer.
 
 El transporte **terrestre** se desagrega (a tres dígitos) en ferroviario, automotor por carretera y por tuberías (este último no corresponde a una actividad característica del turismo).
 
@@ -299,19 +294,19 @@ Resulta útil ofrecer un ejemplo para facilitar la comprensión
 
 ::: {.note} 
 
-Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferroviario eran 18.245 y se distribuían de la siguiente forma en la apertura a 5 dígitos:
+Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferroviario eran 18.245 y se distribuían de la siguiente forma en la apertura a 5 dígitos del CLANAE 2004:
 - ***5.919*** puestos correspondían a servicio de cargas (6011)
 - ***10.086*** puestos correspondían a servicio de pasajeros urbano y suburbano (60121) 
 - ***2.240*** puestos correspondían al servicio de pasajeros interurbano (60122) 
 Por tanto, sólo los ***2.240 puestos*** (pasajeros interurbano) de los ***18.245*** puestos totales del transporte ferroviario correspondían a actividades características.
 
-El coeficiente expresa la participación de los componentes característicos en la suma de todos los componentes involucrados en la desagregación de cada fuente, por lo que en este caso asciende a 0,1228 (2.240/18.245) o, lo que es lo mismo a 12,28%.
+El coeficiente expresa la participación de los componentes característicos en la suma de todos los componentes involucrados en la desagregación de cada fuente, por lo que en este caso asciende a 0,1228 (2.240/18.245) o, lo que es lo mismo, a 12,28%.
 
 Así, de los 26.807 puestos de trabajo (asalariados con descuento del ámbito privado) informados por el SIPA para el año 2010 en la actividad transporte ferroviario, 3.227 (cantidad que surge de: 26.807 x 0,1228) serán contabilizados como puestos de trabajos de la actividad característica del sector (servicio interurbano de pasajeros)
 
 :::
 
-En el caso del transporte automotor, los componentes característicos a 5 dígitos son los servicios de taxis y remises (60222), los servicios de pasajeros regulares interurbanos (60225) y los servicios de transporte para el turismo. Siguiendo la lógica planteada, para extraer la cantidad correspondiente a las actividades características del turismo de cada fuente es posible calcular un coeficiente que exprese el peso de las tres actividades mencionadas sobre el total de actividades incluidas en el código que las contiene.
+En el caso del transporte automotor, los componentes característicos a 5 dígitos son los servicios de taxis y remises (60222), los servicios interurbanos de pasajeros (60225), los servicios internacionales (60227) y los servicios de transporte para el turismo (60226). Siguiendo la lógica planteada, para extraer la cantidad correspondiente a las actividades características del turismo de cada fuente es posible calcular un coeficiente que exprese el peso de las cuatro actividades mencionadas sobre el total de actividades incluidas en el código que las contiene.
 
 Las figuras \@ref(fig:empleofuentes7) y \@ref(fig:empleofuentes8)  presentan el detalle para el transporte acuático y para el transporte aéreo respectivamente.
 
@@ -323,7 +318,7 @@ knitr::include_graphics('imagenes/figura3.7.jpg')
 knitr::include_graphics('imagenes/figura3.8.jpg')
 ```
 
-En la figura \@ref(fig:empleofuentes9) se presenta el detalle de la rama 63, que incluye servicios anexos al transporte y agencias de viaje, esta última pudiendo ser presentada en Otros Servicios Turísticos o como un sector separado.
+En la figura \@ref(fig:empleofuentes9) se presenta el detalle de la rama 63, que incluye servicios anexos al transporte y agencias de viaje. La actividad de agencias de viaje podría también ser presentada en Otros Servicios Turísticos o como un sector separado. En general, las cuentas nacionales la incluyen dentro de la rama del Transporte, por lo que aquí se siguió esa misma agrupación. 
 
 ```{r empleofuentes9, echo=FALSE, fig.cap="Servicios Anexos al transporte y agencias de viaje. Clasificación de actividades por fuente" }
 knitr::include_graphics('imagenes/figura3.9.jpg')
@@ -350,6 +345,7 @@ knitr::include_graphics('imagenes/figura3.11.jpg')
 Todas las fuentes de información aquí descriptas se encuentran disponibles al público en general, a excepción del CNE 04/05, que publica cuadros a nivel provincial por ramas agrupadas de actividad (v.g. "Hoteles y Restaurantes").
 
 A continuación se especifica la ubicación en Internet de cada fuente, indicando el tipo de información disponible.
+
 Cabe señalar que junto con la información podrán encontrarse los documentos metodológicos básicos.
 
 [**EPH y EPH total urbano**](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos-1) Las bases de datos se brindan en formato TXT a partir de 2016 y en SPSS, Stata y DBF para los años previos.
@@ -363,13 +359,15 @@ Recordar que para la EPH existe una base trimestral, mientras que para la EPH to
 
 ## Ejemplos de utilización de las fuentes
 
-A modo de ejemplo de uso de algunas de las fuentes presentadas en las secciones precedentes, se ilustran posibles aplicaciones para la medición del empleo provincial en ramas turísticas, teniendo en cuenta los lineamientos conceptuales de los capítulos anteriores. Se hará énfasis en las fuentes disponibles con actualizaciones recientes, con el objetivo de tener un acercamiento más actual a la información de empleo en el sector. En este sentido, las fuentes que se actualizan de manera trimestral y contienen información relativa al empleo en ramas turísticas son la EPH y las estadísticas de empleo registrado del OEDE-MTEySS a partir del SIPA. En el caso de la primera debe tenerse en cuenta, como se mencionó anteriormente, que se trata de una encuesta probabilística, sujeta al margen de error estadístico. Por este motivo, teniendo en cuenta que el diseño de la encuesta no asegura la robustez de las estimaciones con apertura sectorial y geográfica, los resultados deben tomarse con cautela y, preferentemente, elegir un agrupamiento de trimestres que permita tener una cantidad de casos muestrales significativa. A esto se suma el hecho de que la cobertura geográfica de la EPH es de 31 aglomerados urbanos, y no de las provincias en su conjunto. Puede complementarse el análisis con la extensión de la cobertura de la EPH total urbano, únicamente para los terceros trimestres del año. La ventaja de esta fuente de información, como se ha mencionado, es que incluye a todas las categorías de ocupados: asalariados- con y sin aportes y/o descuento jubilatorio- e independientes -patrón o cuenta propia-.
+### Empleo turístico
+
+A modo de ejemplo de uso de algunas de las fuentes presentadas en las secciones precedentes, se ilustran posibles aplicaciones para la medición del empleo provincial en ramas turísticas, teniendo en cuenta los lineamientos conceptuales de los capítulos anteriores. Se hará énfasis en las fuentes disponibles con actualizaciones recientes, con el objetivo de tener un acercamiento más actual a la información de empleo en el sector. En este sentido, las fuentes que se actualizan de manera trimestral y contienen información relativa al empleo en ramas turísticas son la EPH y las estadísticas de empleo registrado del OEDE-MTEySS a partir del SIPA. En el caso de la primera, debe tenerse en cuenta, como se mencionó anteriormente, que se trata de una encuesta probabilística, sujeta al margen de error estadístico. Por este motivo, teniendo en cuenta que el diseño de la encuesta no asegura la robustez de las estimaciones con apertura sectorial y geográfica, los resultados deben tomarse con cautela y, preferentemente, elegir un agrupamiento de trimestres que permita tener una cantidad de casos muestrales significativa. A esto se suma el hecho de que la cobertura geográfica de la EPH es de 31 aglomerados urbanos, y no de las provincias en su conjunto. Puede complementarse el análisis con la extensión de la cobertura de la EPH total urbano, únicamente para los terceros trimestres del año. La ventaja de esta fuente de información, como se ha mencionado, es que incluye a todas las categorías de ocupados: asalariados- con y sin aportes y/o descuento jubilatorio- e independientes -patrón o cuenta propia-.
 
 ```{r empleoeph, echo=FALSE, fig.cap="Tasa de informalidad para ramas características y todas las ramas." }
 knitr::include_graphics('imagenes/empleo eph.png')
 ```
 
-La otra fuente actualizada para medir el empleo en ramas características del turismo es la publicación trimestral de los asalariados registrados por rama de actividad a 4 dígitos del OEDE-MTEySS a partir del SIPA. Al provenir de un registro administrativo, no está sujeta a errores de muestreo y tiene cobertura provincial[^fuentes-informacion-3]. Una desventaja de esta información reside en que algunas ramas se encuentran abiertas a 3 dígitos, por ejemplo "Servicios de transporte ferroviario" se encuentra a 3 dígitos de apertura (rama 6010), por lo que incluye servicio de carga y pasajeros. Sucede lo mismo con los transportes marítimo, fluvial y aéreo. El transporte automotor se encuentra a 4 dígitos, por lo que permite la separación de carga y pasajeros (rama 6022) pero no distinguir el transporte de pasajeros urbano e interurbano.
+La otra fuente actualizada para medir el empleo en ramas características del turismo es la publicación trimestral de los asalariados registrados por rama de actividad a 4 dígitos del OEDE-MTEySS a partir del SIPA. Al provenir de un registro administrativo, no está sujeta a errores de muestreo y tiene cobertura provincial[^fuentes-informacion-3]. Una desventaja de esta información reside en que algunas ramas se encuentran abiertas a 3 dígitos, por ejemplo "Servicios de transporte ferroviario" se encuentra a 3 dígitos de apertura (rama 601), por lo que incluye servicio de carga y pasajeros. Sucede lo mismo con los transportes marítimo, fluvial y aéreo. El transporte automotor se encuentra a 4 dígitos, por lo que permite la separación de carga y pasajeros (rama 6022) pero no distinguir el transporte de pasajeros urbano e interurbano.
 Asimismo, el origen de la información implica que no se incluyan trabajadores no registrados ni independientes. El siguiente gráfico muestra los trabajadores registrados por provincia, promediando los 4 trimestres de 2019, para todas las ramas y para las ramas turísticas.
 
 [^fuentes-informacion-3]: La información publicada, en el caso de la provincia de Buenos Aires, está dividida en GBA y Resto de Buenos Aires. En esta sección se sumaron ambas regiones para obtener el total de la provincia
