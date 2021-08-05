@@ -3,6 +3,7 @@ fig:ciiu2
 fig:activcst
 fig:cst
 fig:empleooit
+fig:empleofuentes12
 fig:empleofuentes1
 fig:empleofuentes2
 fig:empleofuentes3
@@ -36,10 +37,10 @@ fuentes-informacion
 tipos-de-fuentes
 medición-de-la-actividad-económica-a-nivel-provincial
 el-producto-geográfico-bruto-pgb
-fuentes-secundarias
+censo-nacional-económico-cne
 medición-del-empleo-provincial-características-de-las-fuentes-disponibles
 censo-nacional-de-población-hogares-y-vivienda-cnphv
-censo-nacional-económico
+censo-nacional-económico-cne-1
 encuesta-permanente-de-hogares-eph
 eph-total-urbano
 sistema-integrado-previsional-argentino-sipa
