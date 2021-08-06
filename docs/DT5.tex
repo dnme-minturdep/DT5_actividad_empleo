@@ -4,13 +4,14 @@
 %
 \documentclass[
   openany]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -41,7 +42,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -87,7 +88,7 @@
 \makeatother
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
-\ifLuaTeX
+\ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \newlength{\cslhangindent}
@@ -120,7 +121,7 @@
 \makeatother
 \subtitle{El turismo desde la perspectiva de la oferta: actividad y empleo}
 \author{Dirección Nacional de Mercados y Estadísticas - Subsecretaría de Desarrollo Estratégico}
-\date{05 de agosto de 2021}
+\date{06 de agosto de 2021}
 
 \begin{document}
 \maketitle
@@ -1073,37 +1074,37 @@ El siguiente gráfico muestra la participación de cada categoría dentro del em
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-scn2008}{}}%
+\leavevmode\hypertarget{ref-scn2008}{}%
 Fondo Monteario Internacional, Organización de Cooperación y. Desarrollo Económico, Comisión Europea, y Banco Mundial (2016): \emph{Sistema de Cuentas Nacionales 2008}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/nationalaccount/docs/sna2008spanish.pdf}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-clanae04}{}}%
+\leavevmode\hypertarget{ref-clanae04}{}%
 INDEC (2004): \emph{Clasificador Nacional de Actividades Económicas 2004 (CLANAE 2004)}, \textless{}\url{https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/clanae_2004_19.pdf}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-clanae10}{}}%
+\leavevmode\hypertarget{ref-clanae10}{}%
 INDEC (2010): \emph{Clasificador Nacional de Actividades Económicas 2010 (CLANAE 2010)}, \textless{}\url{https://www.indec.gob.ar/micro_sitios/clanae/index3.asp}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-mariscal2005}{}}%
+\leavevmode\hypertarget{ref-mariscal2005}{}%
 Mariscal Galeano, Adela (2005): \emph{Mercado de trabajo y turismo en Andalucía actividad, ocupación y paro (1990-2003)}, Sevilla, Consejería de Turismo, Comercio y Deporte, \textless{}\url{https://datos.bne.es/edicion/bimo0002088698.html}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-mintur2007}{}}%
+\leavevmode\hypertarget{ref-mintur2007}{}%
 Ministerio de Turismo y Deportes (2007): \emph{El empleo en ramas características del turismo en Argentina}, Buenos Aires, Ministerio de Turismo y Deportes, \textless{}\url{https://www.yvera.tur.ar/estadistica/}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-oitconferencia14}{}}%
+\leavevmode\hypertarget{ref-oitconferencia14}{}%
 Oficina Internacional del Trabajo (2014): \emph{La transición de la economía informal a la economía formal}, Ginebra, OIT, \textless{}\url{https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---relconf/documents/meetingdocument/wcms_218350.pdf}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-cstrmc2008}{}}%
+\leavevmode\hypertarget{ref-cstrmc2008}{}%
 Oranización Mundial de Tursimo, Comisión Europea, Naciones Unidas, y Organización de Cooperación y Desarrollo Económico (2008): \emph{Cuenta satélite de turismo: Recomendaciones sobre el marco conceptual}, Luxemburgo/Madrid/París/Nueva York, ONU, \textless{}\url{https://www.e-unwto.org/doi/book/10.18111/9789213612392}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-ciiurev3_1}{}}%
-Organización de las Naciones Unidas (2005): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 3.1}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/classifications/Econ/Download/In\%20Text/ISIC31_Spanish.pdf}\textgreater.
+\leavevmode\hypertarget{ref-ciiurev3_1}{}%
+Organización de las Naciones Unidas (2005): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 3.1}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/classifications/Econ/Download/In}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-ciiurev4}{}}%
+\leavevmode\hypertarget{ref-ciiurev4}{}%
 Organización de las Naciones Unidas (2009): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 4}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-oit2004}{}}%
+\leavevmode\hypertarget{ref-oit2004}{}%
 Organización Internacional del Trabajo (2004): \emph{Introducción a las Estadísticas Laborales de Turismo}, Ginebra, OIT, \textless{}\url{https://webunwto.s3-eu-west-1.amazonaws.com/imported_images/25994/ilo_b_sp.pdf}\textgreater.
 
-\leavevmode\vadjust pre{\hypertarget{ref-riet2008}{}}%
+\leavevmode\hypertarget{ref-riet2008}{}%
 Organización Mundial del Turismo, Naciones Unidas y (2010): \emph{Recomendaciones internacionales para estadísticas de turismo 2008}, Madrid/Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/publication/seriesm/seriesm_83rev1s.pdf}\textgreater.
 
 \end{CSLReferences}
