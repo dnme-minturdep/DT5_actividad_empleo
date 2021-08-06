@@ -4,14 +4,13 @@
 %
 \documentclass[
   openany]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -42,7 +41,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -88,7 +87,7 @@
 \makeatother
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \newlength{\cslhangindent}
@@ -340,15 +339,7 @@ Finalmente, también se recomienda realizar el cálculo de la proporción de VAB
 \hypertarget{antecedentes-en-argentina}{%
 \section{Antecedentes en Argentina}\label{antecedentes-en-argentina}}
 
-El Ministerio de Turismo y Deportes de la Nación realizó una estimación de la contribución económica del turismo en la Argentina con base en el año 2004\footnote{El año 2004 es el único año para el cual las cuentas nacionales de Argentina cuentan con Cuadros de Oferta-Utilización (COU). Estos cuadros consisten en un esquema estadístico, elaborado para el año 2004 por la Dirección de Cuentas Nacionales (DNCN) del INDEC, que cuenta con:} y para los años 2016-2019, con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  cuadro de oferta: tiene a las actividades económicas en sus columnas (clasificadas con la CLANAE 2004, compatible con la CIIU Revisión 3) y a los productos (bienes o servicios) producidos por cada una de ellas en sus filas (clasificados con la Clasificación Central de Productos (CPC) de las Naciones Unidas, Revisión 1.1). Presenta entonces la producción de cada actividad económica a nivel de producto, valuados en pesos y a precios básicos; y,
-\item
-  cuadro de utilización: tiene a las actividades económicas y a los sectores de demanda final (los hogares, el gobierno, el resto del mundo y las empresas como formadoras de capital bruto) en sus columnas, mientras que en las filas se encuentran los productos (bienes o servicios) utilizados por cada una de las columnas (consumo intermedio, en el caso de las actividades económicas, y consumo final en el caso de los sectores de demanda final). Los valores son presentados en pesos, pero a precios de comprador, es decir, se adicionan impuestos, márgenes de comercio y transporte y se restan las subvenciones. El marco provisto por las COU brinda consistencia en las estimaciones de oferta para cada sector de actividad, es por esto que se utlizó al año 2004 como base para la estimación.
-\end{enumerate}
+El Ministerio de Turismo y Deportes de la Nación realizó una estimación de la contribución económica del turismo en la Argentina con base en el año 2004\footnote{El año 2004 es el único año para el cual las cuentas nacionales de Argentina cuentan con Cuadros de Oferta-Utilización (COU). Estos cuadros consisten en un esquema estadístico, elaborado para el año 2004 por la Dirección de Cuentas Nacionales (DNCN) del INDEC, que cuenta con: \textbf{(1)} cuadro de oferta: tiene a las actividades económicas en sus columnas (clasificadas con la CLANAE 2004, compatible con la CIIU Revisión 3) y a los productos (bienes o servicios) producidos por cada una de ellas en sus filas (clasificados con la Clasificación Central de Productos (CPC) de las Naciones Unidas, Revisión 1.1). Presenta entonces la producción de cada actividad económica a nivel de producto, valuados en pesos y a precios básicos; y, \textbf{(2)} cuadro de utilización: tiene a las actividades económicas y a los sectores de demanda final (los hogares, el gobierno, el resto del mundo y las empresas como formadoras de capital bruto) en sus columnas, mientras que en las filas se encuentran los productos (bienes o servicios) utilizados por cada una de las columnas (consumo intermedio, en el caso de las actividades económicas, y consumo final en el caso de los sectores de demanda final). Los valores son presentados en pesos, pero a precios de comprador, es decir, se adicionan impuestos, márgenes de comercio y transporte y se restan las subvenciones. El marco provisto por las COU brinda consistencia en las estimaciones de oferta para cada sector de actividad, es por esto que se utlizó al año 2004 como base para la estimación.} y para los años 2016-2019, con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC.
 
 La DNCN proveyó, a pedido del Ministerio de Turismo y Deportes, información de la producción de las actividades económicas a un nivel de desagregación de 4 dígitos de la CIIU Rev.~3, y en algunos casos a 5 o 6 dígitos. De esta manera, fue posible la estimación del impacto económico del turismo desde la perspectiva de la oferta.
 
@@ -616,7 +607,7 @@ En las secciones siguientes se procura brindar en detalle las principales caract
 
 \textbf{El PGB consiste en la producción de bienes y servicios finales realizada por la sociedad (empresas, autónomos, etc) de una provincia, durante un período de tiempo determinado.} También se lo puede denominar como PIB provincial, aunque PGB es el título más utilizado.
 
-La elaboración del PBG debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
+La elaboración del PGB debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
 
 El PGB es necesariamente el punto de partida para la elaboración de una estrategia de estimación de la contribución económica del turismo en una provincia por el lado de la oferta. La utilidad de que las provincias cuenten con un PGB radica en que el mismo contendrá información de la actividad económica de la provincia pero abierta por sector de actividad. Cuanto mayor sea el nivel de desagregación de las actividades (mayor cantidad de dígitos de la CIIU/CLANAE), mayor será la precisión que se pueda obtener para realizar estimaciones de la contribución económica del turismo. A su vez, la información de actividad económica que pueda obtenerse de las ramas características del turismo, podrá ser comparada con el total de la economía a fin de tener una noción del peso del turismo en la economía provincial.
 
@@ -676,7 +667,7 @@ En este sentido, se proponen los siguientes pasos a fin de dar utilidad a la inf
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Identificar las ramas turísticas con el mayor nivel de desagregación posible (recordar que en la figura @ref(fig:figrua1.3) se detallan las RCT con su máximo nivel de desagrgación según el CLANAE 2004 y el CLANAE 2010).
+  Identificar las ramas turísticas con el mayor nivel de desagregación posible (recordar que en la figura \ref{fig:activcst} se detallan las RCT con su máximo nivel de desagrgación según el CLANAE 2004 y el CLANAE 2010).
 \item
   Para los casos provinciales en donde el nivel de agregación sea muy alto (2 dígitos del CLANAE por ejemplo), se pueden aplicar las estructuras de desagregación del total país para cada rama de actividad, a fin de abrirlas y estimar más precisamente el componente turístico. O bien, se puede utilizar información propia de la provincia para desagregar las ramas en sus diferentes subramas.
 \item
@@ -685,7 +676,6 @@ En este sentido, se proponen los siguientes pasos a fin de dar utilidad a la inf
   Cálculo del indicador VAB de las industrias turísticas y proporción sobre el total de la economía: cociente entre la suma de los VAB de las RCT y la suma de los VAB de la economía provincial. Aquí es importante notar que el total de la economía será aquel correspondiente a lo relevado por el CNE y no al total que podría obtenerse de la estimación integral que realiza un PGB.
 \end{enumerate}
 
-\leavevmode\hypertarget{CNE2020.note}{}%
 \textbf{Censo Nacional Económico 2020/2021}
 
 Si bien los puntos mencionados son pertinentes para la última versión disponible del CNE, el nuevo censo que se está llevando a cabo tiene un abordaje metodológico diferente al anterior, así como nuevos procedimientos, que intentan resolver algunos de los puntos críticos del enfoque previo, a la vez que pueden surgir nuevos.
@@ -900,7 +890,7 @@ Cada uno de los colores en las tablas expresan lo siguiente:
   {\textbf{ROJO:}} El código no corresponde a una industria turística, aunque si comparte con alguna de estas un código de menor apertura. Adicionalmente, en cada una de las tablas se indica cuál es el código que corresponde a cada fuente, de acuerdo al clasificador considerado en ellas\footnote{La EPH fue objeto de un cambio en el nomenclador de actividades, ya que el vigente hasta 2011 fue reemplazado por una actualización de ese mismo año.}.
 \end{itemize}
 
-Es importante notar que para el caso de la fuente CNE (realizado en los años 2004/2005), la misma corresponde a la apertura para el total nacional. Por lo tanto, algunas ramas tendrán información a 3, 4 o 5 dígitos. Sin embargo, es posible que para la apertura provincial no se cuente con tal detalle, sino con una apertura menor. De cualquier manera, las mayores aperturas del total nacional pueden ser utilizadas para elaborar estructuras que puedan aplicarse a los totales provinciales (ver ejemplo en rama Transporte @ref(note:ejemplo\_CNE))).
+Es importante notar que para el caso de la fuente CNE (realizado en los años 2004/2005), la misma corresponde a la apertura para el total nacional. Por lo tanto, algunas ramas tendrán información a 3, 4 o 5 dígitos. Sin embargo, es posible que para la apertura provincial no se cuente con tal detalle, sino con una apertura menor. De cualquier manera, las mayores aperturas del total nacional pueden ser utilizadas para elaborar estructuras que puedan aplicarse a los totales provinciales (ver ejemplo en rama Transporte \ref{ejemplo-CNE}).
 
 A su vez, a fin de simplicar la exposición, se han agrupado las RCT en 4 grandes grupos: 1) Alojamiento y Restaurantes, 2) Transporte y 3) Otros servicios turísticos.
 
@@ -951,7 +941,9 @@ Tanto el SIPA como la EPH presentan la información a tres dígitos (sin discrim
 Una forma de aproximar el componente turístico del transporte ferroviario, exluyendo los servicios urbanos y de carga, es obtener un coeficiente que surge del peso relativo de la rama a 5 dígitos ``Transporte interurbano de pasajeros'' sobre la rama ``Transporte ferroviario'', en este caso a partir de la única fuente disponible a 5 dígitos, el CNE 04.
 Resulta útil ofrecer un ejemplo para facilitar la comprensión
 
-\leavevmode\hypertarget{ejemplo_CNE.note}{}%
+\hypertarget{ejemplo-CNE}{%
+\subsubsection{Ejemplo: Rama Transporte Ferroviario}\label{ejemplo-CNE}}
+
 Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferroviario eran 18.245 y se distribuían de la siguiente forma en la apertura a 5 dígitos del CLANAE 2004:
 
 \begin{itemize}
@@ -1081,37 +1073,37 @@ El siguiente gráfico muestra la participación de cada categoría dentro del em
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
-\leavevmode\hypertarget{ref-scn2008}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-scn2008}{}}%
 Fondo Monteario Internacional, Organización de Cooperación y. Desarrollo Económico, Comisión Europea, y Banco Mundial (2016): \emph{Sistema de Cuentas Nacionales 2008}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/nationalaccount/docs/sna2008spanish.pdf}\textgreater.
 
-\leavevmode\hypertarget{ref-clanae04}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-clanae04}{}}%
 INDEC (2004): \emph{Clasificador Nacional de Actividades Económicas 2004 (CLANAE 2004)}, \textless{}\url{https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/clanae_2004_19.pdf}\textgreater.
 
-\leavevmode\hypertarget{ref-clanae10}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-clanae10}{}}%
 INDEC (2010): \emph{Clasificador Nacional de Actividades Económicas 2010 (CLANAE 2010)}, \textless{}\url{https://www.indec.gob.ar/micro_sitios/clanae/index3.asp}\textgreater.
 
-\leavevmode\hypertarget{ref-mariscal2005}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-mariscal2005}{}}%
 Mariscal Galeano, Adela (2005): \emph{Mercado de trabajo y turismo en Andalucía actividad, ocupación y paro (1990-2003)}, Sevilla, Consejería de Turismo, Comercio y Deporte, \textless{}\url{https://datos.bne.es/edicion/bimo0002088698.html}\textgreater.
 
-\leavevmode\hypertarget{ref-mintur2007}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-mintur2007}{}}%
 Ministerio de Turismo y Deportes (2007): \emph{El empleo en ramas características del turismo en Argentina}, Buenos Aires, Ministerio de Turismo y Deportes, \textless{}\url{https://www.yvera.tur.ar/estadistica/}\textgreater.
 
-\leavevmode\hypertarget{ref-oitconferencia14}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-oitconferencia14}{}}%
 Oficina Internacional del Trabajo (2014): \emph{La transición de la economía informal a la economía formal}, Ginebra, OIT, \textless{}\url{https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---relconf/documents/meetingdocument/wcms_218350.pdf}\textgreater.
 
-\leavevmode\hypertarget{ref-cstrmc2008}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-cstrmc2008}{}}%
 Oranización Mundial de Tursimo, Comisión Europea, Naciones Unidas, y Organización de Cooperación y Desarrollo Económico (2008): \emph{Cuenta satélite de turismo: Recomendaciones sobre el marco conceptual}, Luxemburgo/Madrid/París/Nueva York, ONU, \textless{}\url{https://www.e-unwto.org/doi/book/10.18111/9789213612392}\textgreater.
 
-\leavevmode\hypertarget{ref-ciiurev3_1}{}%
-Organización de las Naciones Unidas (2005): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 3.1}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/classifications/Econ/Download/In}\textgreater.
+\leavevmode\vadjust pre{\hypertarget{ref-ciiurev3_1}{}}%
+Organización de las Naciones Unidas (2005): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 3.1}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/classifications/Econ/Download/In\%20Text/ISIC31_Spanish.pdf}\textgreater.
 
-\leavevmode\hypertarget{ref-ciiurev4}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-ciiurev4}{}}%
 Organización de las Naciones Unidas (2009): \emph{Clasificación Industrial Internacional Uniforme de todas las actividades económicas (CIIU), Revisión 4}, Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4s.pdf}\textgreater.
 
-\leavevmode\hypertarget{ref-oit2004}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-oit2004}{}}%
 Organización Internacional del Trabajo (2004): \emph{Introducción a las Estadísticas Laborales de Turismo}, Ginebra, OIT, \textless{}\url{https://webunwto.s3-eu-west-1.amazonaws.com/imported_images/25994/ilo_b_sp.pdf}\textgreater.
 
-\leavevmode\hypertarget{ref-riet2008}{}%
+\leavevmode\vadjust pre{\hypertarget{ref-riet2008}{}}%
 Organización Mundial del Turismo, Naciones Unidas y (2010): \emph{Recomendaciones internacionales para estadísticas de turismo 2008}, Madrid/Nueva York, ONU, \textless{}\url{https://unstats.un.org/unsd/publication/seriesm/seriesm_83rev1s.pdf}\textgreater.
 
 \end{CSLReferences}

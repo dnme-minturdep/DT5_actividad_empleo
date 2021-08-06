@@ -51,6 +51,7 @@ tipos-de-informalidad
 ramas-características-ramas-mixtas-y-agregación-de-las-rct-por-sector
 sector-alojamiento-y-restaurantes
 sector-transporte
+ejemplo-CNE
 sector-otros-servicios-turísticos
 acceso-a-la-información-presentada
 ejemplos-de-utilización-de-las-fuentes

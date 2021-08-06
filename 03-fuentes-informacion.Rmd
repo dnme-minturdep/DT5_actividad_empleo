@@ -59,7 +59,7 @@ En las secciones siguientes se procura brindar en detalle las principales caract
 
 **El PGB consiste en la producción de bienes y servicios finales realizada por la sociedad (empresas, autónomos, etc) de una provincia, durante un período de tiempo determinado.** También se lo puede denominar como PIB provincial, aunque PGB es el título más utilizado. 
 
-La elaboración del PBG debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
+La elaboración del PGB debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
 
 El PGB es necesariamente el punto de partida para la elaboración de una estrategia de estimación de la contribución económica del turismo en una provincia por el lado de la oferta. La utilidad de que las provincias cuenten con un PGB radica en que el mismo contendrá información de la actividad económica de la provincia pero abierta por sector de actividad. Cuanto mayor sea el nivel de desagregación de las actividades (mayor cantidad de dígitos de la CIIU/CLANAE), mayor será la precisión que se pueda obtener para realizar estimaciones de la contribución económica del turismo. A su vez, la información de actividad económica que pueda obtenerse de las ramas características del turismo, podrá ser comparada con el total de la economía a fin de tener una noción del peso del turismo en la economía provincial. 
 
@@ -102,14 +102,14 @@ Sin embargo, a pesar de estas dificultades, los CNE pueden ser una fuente secund
 
 En este sentido, se proponen los siguientes pasos a fin de dar utilidad a la información relevada por los CNE:
 
-1. Identificar las ramas turísticas con el mayor nivel de desagregación posible (recordar que en la figura \@ref(fig:figrua1.3) se detallan las RCT con su máximo nivel de desagrgación según el CLANAE 2004 y el CLANAE 2010).
+1. Identificar las ramas turísticas con el mayor nivel de desagregación posible (recordar que en la figura \@ref(fig:activcst) se detallan las RCT con su máximo nivel de desagrgación según el CLANAE 2004 y el CLANAE 2010).
 2. Para los casos provinciales en donde el nivel de agregación sea muy alto (2 dígitos del CLANAE por ejemplo), se pueden aplicar las estructuras de desagregación del total país para cada rama de actividad, a fin de abrirlas y estimar más precisamente el componente turístico. O bien, se puede utilizar información propia de la provincia para desagregar las ramas en sus diferentes subramas. 
 3. Imputar las ramas que se presentan sin información por secreto estadístico[^fuentes-informacion-6]. La estrategia propuesta en este caso consiste en: calcular la diferencia, de cada variable a imputar, entre el valor para el total país y la suma de las provincias sin  SE. Esto arroja la cantidad de la variable a distribuir entre aquellas que presentan SE. Luego de  estimar dicha cantidad, se distribuye linealmente de acuerdo a la participación de los locales de una provincia determinada sobre el total de los locales de provincias afectadas por el SE. 
 4. Cálculo del indicador VAB de las industrias turísticas y proporción sobre el total de la economía: cociente entre la suma de los VAB de las RCT y la suma de los VAB de la economía provincial. Aquí es importante notar que el total de la economía será aquel correspondiente a lo relevado por el CNE y no al total que podría obtenerse de la estimación integral que realiza un PGB. 
 
 [^fuentes-informacion-6]: El secreto estadístico (SE) se utiliza para proteger el anonimato de los informantes, por lo que  cuando en una desagregación determinada (por rama y/o geográfica) en un casillero quedan una o  dos empresas, se informa únicamente el número de locales, pero no las otras variables.
 
-::: {#CNE2020.note}
+::: {.note}
 
 **Censo Nacional Económico 2020/2021**
 
@@ -289,7 +289,7 @@ Cada uno de los colores en las tablas expresan lo siguiente:
 
 [^fuentes-informacion-2]: La EPH fue objeto de un cambio en el nomenclador de actividades, ya que el vigente hasta 2011 fue reemplazado por una actualización de ese mismo año.
 
-Es importante notar que para el caso de la fuente CNE (realizado en los años 2004/2005), la misma corresponde a la apertura para el total nacional. Por lo tanto, algunas ramas tendrán información a 3, 4 o 5 dígitos. Sin embargo, es posible que para la apertura provincial no se cuente con tal detalle, sino con una apertura menor. De cualquier manera, las mayores aperturas del total nacional pueden ser utilizadas para elaborar estructuras que puedan aplicarse a los totales provinciales (ver ejemplo en rama Transporte \@ref(note:ejemplo_CNE))). 
+Es importante notar que para el caso de la fuente CNE (realizado en los años 2004/2005), la misma corresponde a la apertura para el total nacional. Por lo tanto, algunas ramas tendrán información a 3, 4 o 5 dígitos. Sin embargo, es posible que para la apertura provincial no se cuente con tal detalle, sino con una apertura menor. De cualquier manera, las mayores aperturas del total nacional pueden ser utilizadas para elaborar estructuras que puedan aplicarse a los totales provinciales (ver ejemplo en rama Transporte \@ref(ejemplo-CNE)). 
 
 A su vez, a fin de simplicar la exposición, se han agrupado las RCT en 4 grandes grupos: 1) Alojamiento y Restaurantes, 2) Transporte y 3) Otros servicios turísticos.
 
@@ -328,7 +328,9 @@ Tanto el SIPA como la EPH presentan la información a tres dígitos (sin discrim
 Una forma de aproximar el componente turístico del transporte ferroviario, exluyendo los servicios urbanos y de carga, es obtener un coeficiente que surge del peso relativo de la rama a 5 dígitos "Transporte interurbano de pasajeros" sobre la rama "Transporte ferroviario", en este caso a partir de la única fuente disponible a 5 dígitos, el CNE 04.
 Resulta útil ofrecer un ejemplo para facilitar la comprensión
 
-::: {#ejemplo_CNE.note} 
+::: {.note} 
+
+#### Ejemplo: Rama Transporte Ferroviario {#ejemplo-CNE}
 
 Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferroviario eran 18.245 y se distribuían de la siguiente forma en la apertura a 5 dígitos del CLANAE 2004:
 
