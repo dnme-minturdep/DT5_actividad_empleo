@@ -21,9 +21,9 @@ Las fuentes de datos disponibles se pueden diferenciar en cinco clases:
     Tiene la ventaja, además, de capturar la naturaleza estacional del empleo -común en el turismo- y la categoría ocupacional.
     Aunque debido a que las actividades del turismo por lo general no están distribuidas en forma pareja a lo largo de la geografía del país, la encuesta, al estar basada en muestras, puede reflejar un número relativamente pequeño de casos de empleo en turismo.
     La imprecisión a causa del muestreo aumenta cuanto más se desagreguen los datos.
-    Un ejemplo de este caso, es la Encuesta Permanente de Hogares (EPH), que realiza el INDEC.
+    Un ejemplo de este caso es la Encuesta Permanente de Hogares (EPH), que realiza el INDEC.
 
--   **Encuestas a establecimientos:** Proporciona datos sobre producción (valor bruto de producción), consumos intermedios, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período especificado, entre otros indicadores.
+-   **Encuestas a establecimientos:** Proporciona datos sobre producción (valor bruto de producción), consumos intermedios, valor agregado y número de trabajadores en las nóminas de los establecimientos durante un período específico, entre otros indicadores.
 
     No proporcionan una adecuada cobertura de las pequeñas empresas, generalmente numerosas en el sector turístico.
     Generalmente excluyen el sector estatal.
@@ -57,9 +57,9 @@ En las secciones siguientes se procura brindar en detalle las principales caract
 
 ### El Producto Geográfico Bruto (PGB)
 
-**El PGB consiste en la producción de bienes y servicios finales realizada por la sociedad (empresas, autónomos, etc) de una provincia, durante un período de tiempo determinado.** También se lo puede denominar como PIB provincial, aunque PGB es el título más utilizado. 
+**El PGB consiste en la producción de bienes y servicios finales realizada por la sociedad (empresas, autónomos, gobierno, etc.) de una provincia, durante un período de tiempo determinado.** También se lo puede denominar como PIB provincial, aunque PGB es el título más utilizado. 
 
-La elaboración del PGB debe ser consistente con las normas del SCN 2008, adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
+La elaboración del PGB debe ser consistente con las normas del SCN 2008 [@scn2008], adoptado por Argentina para la elaboración de sus cuentas nacionales, de tal forma que exista comparabilidad y coherencia entre ambos conjuntos de información.
 
 El PGB es necesariamente el punto de partida para la elaboración de una estrategia de estimación de la contribución económica del turismo en una provincia por el lado de la oferta. La utilidad de que las provincias cuenten con un PGB radica en que el mismo contendrá información de la actividad económica de la provincia pero abierta por sector de actividad. Cuanto mayor sea el nivel de desagregación de las actividades (mayor cantidad de dígitos de la CIIU/CLANAE), mayor será la precisión que se pueda obtener para realizar estimaciones de la contribución económica del turismo. A su vez, la información de actividad económica que pueda obtenerse de las ramas características del turismo, podrá ser comparada con el total de la economía a fin de tener una noción del peso del turismo en la economía provincial. 
 
@@ -125,8 +125,6 @@ Algunos puntos para destacar del nuevo operativo, que lo diferencian del anterio
 Visite la página oficial del Censo Nacional Económico [aquí](https://censoeconomico.indec.gob.ar/)
 
 :::
-
-...........................................................................
 
 ## Medición del empleo provincial: características de las fuentes disponibles
 
