@@ -313,7 +313,7 @@ El sector transporte se compone, siguiendo la clasificación a dos dígitos, en 
 
 El transporte **terrestre** se desagrega (a tres dígitos) en ferroviario, automotor por carretera y por tuberías (este último no corresponde a una actividad característica del turismo).
 
-A cuatro dígitos, tanto el transporte ferroviario como el automotor se discrimina en carga y pasajeros, mientras que, a 5 dígitos, se especifica qué tipo de servicios de pasajeros se presta (figura \@ref(fig:empleofuentes6)).
+A cuatro dígitos, tanto el transporte ferroviario como el automotor se discrimina en carga y pasajeros, mientras que, a 5 dígitos, se especifica qué tipo de servicios de pasajeros se presta (figura 3.6).
 
 ```{r empleofuentes6, echo=FALSE, fig.cap="Transporte Terrestre. Clasificación de actividades por fuente" }
 knitr::include_graphics('imagenes/figura3.6.jpg')
