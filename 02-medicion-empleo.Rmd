@@ -131,7 +131,7 @@ Por otro lado, la *Cámara Argentina de Turismo utilizó* un procedimiento de c�
 
 En este sentido, los coeficientes recorren transversalmente las actividades económicas de cuentas nacionales vinculadas de forma directa e indirecta con el sector turismo para estimar su participación en el Producto Interno Bruto (PIB). En particular, a partir de estimaciones de la demanda que realizan los turistas de productos ofrecidos por los distintos sectores económicos se determinan los coeficientes de participación del turismo sobre el valor agregado bruto de cada una de estas actividades. Esto implica que, por ejemplo, al sector hotelero, en el cual el sector turismo tiene una importancia significativa, se le aplique un coeficiente de 100% y, por el contrario, a la industria manufacturera, que produce tanto para visitantes como no visitantes, se le asigne un coeficiente sustancialmente menor.
 
-Cada uno de estos coeficientes mide el porcentaje del valor agregado de cada actividad económica que pertenece al turismo. No obstante, lo interesante de este ejercicio, es cuestionable su validez empírica por la dificultad de obtener sus coeficientes con cierta confiabilidad a partir de la información disponible al momento de su elaboración.
+Cada uno de estos coeficientes mide el porcentaje del valor agregado de cada actividad económica que pertenece al turismo. No obstante lo interesante de este ejercicio, es cuestionable su validez empírica por la dificultad de obtener sus coeficientes con cierta confiabilidad a partir de la información disponible al momento de su elaboración.
 
 
 
