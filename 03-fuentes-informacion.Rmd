@@ -235,7 +235,7 @@ Cabe señalar que habitualmente la categoría ocupacional refiere al tipo de rel
 
 En este caso, en realidad, la categoría ocupacional refleja una tipología que contempla tres variables: la categoría ocupacional propiamente dicha; el ámbito al que corresponde el establecimiento (privado o estatal); y el nivel de formalidad, determinado por la presencia o no de descuentos o aportes previsionales.
 
-Además de las diferencias de cobertura en el universo de ocupados, no todas las fuentes secundarias presentadas exhiben el mismo nivel de apertura de los datos por categoría ocupacional, como puede observarse en la figura \@ref(fig:empleofuentes3).
+Además de las diferencias de cobertura en el universo de ocupados, no todas las fuentes secundarias presentadas exhiben el mismo nivel de apertura de los datos por categoría ocupacional, como puede observarse en la figura 3.4.
 
 El SIPA sólo da cuenta del universo de trabajadores asalariados del sector privado a los que se les realizan descuentos jubilatorios.
 
