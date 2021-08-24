@@ -1,7 +1,7 @@
 ---
 title: "Documento Técnico N°5: Medición de la contribución económica del turismo"
 subtitle: "El turismo desde la perspectiva de la oferta: actividad y empleo" 
-author: "Dirección Nacional de Mercados y Estadísticas -  Subsecretaría de Desarrollo Estratégico"
+author: "Dirección Nacional de Mercados y Estadística -  Subsecretaría de Desarrollo Estratégico"
 date: "`r format(Sys.Date(), format = '%d de %B de %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
