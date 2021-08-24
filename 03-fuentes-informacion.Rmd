@@ -297,7 +297,7 @@ La rama 55, de la CIIU Rev 3.1, incluye ambos sectores, que se dividen a partir 
 
 Ambos sectores presentan una subrama no característica del turismo, cuando se los abre a 5 dígitos.
 
-Dado que todas las fuentes utilizadas, para la medición del empleo turístico, presentan una apertura de como máximo 4 dígitos, a excepción del CNE, habrá una leve sobreestimación del empleo en estas ramas (figura \@ref(fig:empleofuentes5)).
+Dado que todas las fuentes utilizadas, para la medición del empleo turístico, presentan una apertura de como máximo 4 dígitos, a excepción del CNE, habrá una leve sobreestimación del empleo en estas ramas (figura 3.5).
 
 ```{r empleofuentes5, echo=FALSE, fig.cap="Alojamiento y restaurantes. Clasificación de actividades por fuente" }
 knitr::include_graphics('imagenes/figura3.5.jpg')
