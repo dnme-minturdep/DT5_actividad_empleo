@@ -28,7 +28,7 @@ Además de este, se encuentra disponible una serie de documentos técnicos que a
 
 ### Documento Técnico Nº5 - Resumen {.unnumbered}
 
-El objetivo general es describir las metodologías disponibles para elaborar indicadores de la actividad del turismo desde la perspectiva de oferta. En particular se analizan los desafíos de la medición de la contribución económica del turismo a la actividad y el empleo desde las distintas ópticas territoriales. En virtud de estos objetivos, este documento se estructura en tres capítulos.
+El objetivo general es describir las metodologías disponibles para elaborar indicadores de la actividad del turismo desde la perspectiva de la oferta. En particular se analizan los desafíos de la medición de la contribución económica del turismo a la actividad y el empleo desde las distintas ópticas territoriales. En virtud de estos objetivos, este documento se estructura en tres capítulos.
 
 En el **Capítulo** \@ref(medicion-actividad) se desarrolla una metodología, según las recomendaciones internacionales, para la medición de la contribución económica del turismo en un territorio. En sus diferentes secciones, presenta la definición y el alcance de las actividades económicas involucradas en el turismo a partir del enfoque de las Ramas Características, recomendaciones generales para la medición, indicadores macroeconómicos básicos que darán cuenta de la contribución desde la perspectiva de la oferta y antecedentes en el país del uso de esta perspectiva para la medición de la contribución económica del turismo en sus respectivos territorios de interés.
 
