@@ -215,7 +215,7 @@ El Observatorio de Empleo y Dinámica Empresarial (OEDE), dentro del MTEySS, pub
 
 #### Comparación de las fuentes disponibles
 
-En la figura \@ref(fig:empleofuentes1) se aprecia una síntesis de las principales características de las fuentes de información descriptas a lo largo de la sección anterior, mientras que en la \@ref(fig:empleofuentes2) se detallan las principales fortalezas y debilidades de cada una.
+En la figura 3.2 se aprecia una síntesis de las principales características de las fuentes de información descriptas a lo largo de la sección anterior, mientras que en la 3.3 se detallan las principales fortalezas y debilidades de cada una.
 
 ```{r empleofuentes1, echo=FALSE, fig.cap="Resumen de las principales fuentes de información" }
 knitr::include_graphics('imagenes/figura3.1.jpg')
