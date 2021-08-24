@@ -385,14 +385,14 @@ A continuación se especifica la ubicación en Internet de cada fuente, indicand
 
 Cabe señalar que junto con la información podrán encontrarse los documentos metodológicos básicos.
 
-[**EPH y EPH total urbano**](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos-1) Las bases de datos se brindan en formato TXT a partir de 2016 y en SPSS, Stata y DBF para los años previos.
+[**EPH y EPH total urbano**](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos-1){target="_blank”} Las bases de datos se brindan en formato TXT a partir de 2016 y en SPSS, Stata y DBF para los años previos.
 Recordar que para la EPH existe una base trimestral, mientras que para la EPH total urbano -o EAHU para 2010-2014- sólo una base anual, que corresponde al tercer trimestre de cada año.
 
-[**CNPVH**](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41). Para los censos de 2001 y 2010 se puede utilizar (en línea) el programa REDATAM, que permite procesar la información de manera sencilla. 
+[**CNPVH**](https://www.indec.gob.ar/indec/web/Nivel3-Tema-2-41){target="_blank”}. Para los censos de 2001 y 2010 se puede utilizar (en línea) el programa REDATAM, que permite procesar la información de manera sencilla. 
 
-[**CNE**](https://sitioanterior.indec.gob.ar/cne2005_index.asp) Tablas (formato Excel) para el total país y para cada provincia por sector de actividad económica.
+[**CNE**](https://sitioanterior.indec.gob.ar/cne2005_index.asp){target="_blank”} Tablas (formato Excel) para el total país y para cada provincia por sector de actividad económica.
 
-[**SIPA-MTYEySS**](https://www.trabajo.gob.ar/estadisticas/oede/estadisticasregionales.asp) se presenta una conjunto de tablas con información provincial en formato Excel para descargar, entre las que figura la serie trimestral de empleo registrado por rama de actividad a cuatro dígitos y, en algunas ramas como Servicio de transporte ferroviario, a 3 dígitos.
+[**SIPA-MTYEySS**](https://www.trabajo.gob.ar/estadisticas/oede/estadisticasregionales.asp){target="_blank”} se presenta una conjunto de tablas con información provincial en formato Excel para descargar, entre las que figura la serie trimestral de empleo registrado por rama de actividad a cuatro dígitos y, en algunas ramas como Servicio de transporte ferroviario, a 3 dígitos.
 
 ## Ejemplos de utilización de las fuentes
 
