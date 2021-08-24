@@ -34,7 +34,7 @@ Con el fin de realizar esta definición, se pueden utilizar distintos clasificad
 
 A su vez, el INDEC ha elaborado el **Clasificador Nacional de Actividades Económicas** (CLANAE) que contiene los códigos de las distintas ramas de actividad económica aplicables en la República Argentina. El CLANAE se utilizará en el ámbito del Sistema Estadístico Nacional (SEN) a los fines de facilitar la interrelación de las estadísticas oficiales. La edición del año 2004 (CLANAE 2004) [@clanae04] está basada en la CIIU revisión 3.1, mientras que la edición del año 2010 (CLANAE 2010) [@clanae10] está basada en la CIIU revisión 4.
 
-La figura \@ref(fig:ciiu) presenta las 21 categorías individuales de la CIIU, para ambas revisiones, 4 y 3.1. Se resaltan las ramas que, total o parcialmente, son características de la industria del turismo:
+La figura 1.1 presenta las 21 categorías individuales de la CIIU, para ambas revisiones, 4 y 3.1. Se resaltan las ramas que, total o parcialmente, son características de la industria del turismo:
 
 ```{r ciiu, echo=FALSE, fig.cap="Ramas de Actividad Económica según el Código Industrial Internacional Uniforme" }
 knitr::include_graphics('imagenes/figura1.1.jpg')
