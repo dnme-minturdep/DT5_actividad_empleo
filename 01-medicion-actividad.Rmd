@@ -118,11 +118,11 @@ Con el fin de obtener información acerca de los márgenes de comercialización 
 
 ## Indicadores macroeconómicos
 
-Con el objetivo de caracterizar a la oferta turística de una región, se recomienda el cálculo de dos indicadores agregados: el **Valor Bruto de Producción de las Industrias Turísticas (VBPIT)** y el **Valor Agregado Bruto de las Industrias Turísticas (VABIT)**.
+En base al Sistema de Cuentas Nacionales [@scn2008] y con el objetivo de caracterizar a la oferta turística de una región se recomienda el cálculo de dos indicadores agregados: el **Valor Bruto de Producción de las Industrias Turísticas (VBPIT)** y el **Valor Agregado Bruto de las Industrias Turísticas (VABIT)**. 
 
-### Valor Bruto de Producción {#valor-bruto-de-produccion}
+### VBP de las Industrias Turísticas {#valor-bruto-de-produccion}
 
-En base al Sistema de Cuentas Nacionales [@scn2008] y con el objetivo de caracterizar a la oferta turística de una región se recomienda el cálculo de dos indicadores agregados: el Valor Bruto de Producción de las Industrias Turísticas (VBPIT) y el Valor Agregado Bruto de las Industrias Turísticas (VABIT). 
+Según las cuentas nacionales, el VBP es el valor total de los bienes y servicios producidos en un territorio económico durante un determinado período de tiempo por los agentes económicos residentes o unidades económicas (establecimientos).
 
 Por lo tanto, el **VBP de las industrias turísticas (VBPIT)** será el valor de todos los bienes y servicios producidos por las RCT en un territorio y en un período dados.
 
@@ -136,7 +136,7 @@ Además del valor monetario del VBPIT, se recomienda calcular su proporción en 
 
 El VAB es un agregado macroeconómico que mide la producción nueva generada por una industria, país o región, es decir, solo considera el valor que agrega cada una de las industrias a la economía en su totalidad, sin duplicar producciones. Para esto se parte del VBP y a éste se le restan los consumos intermedios (insumos utilizados en el proceso de producción del bien o servicio en cuestión).
 
-El VAB de las industrias turísticas (VABIT) será el valor agregado de todas los establecimientos pertenecientes a industrias consideradas como RCT, sin importar a quiénes estuvo orientada su producción: si a visitantes o a residentes. Como se mencionó en el apartado \@ref(alcance), en este enfoque, el valor agregado bruto no incluye el valor generado por otras industrias no turísticas cuyos productos hayan sido efectivamente adquiridos por visitantes.
+El VAB de las industrias turísticas (VABIT) será el valor agregado de todos los establecimientos pertenecientes a industrias consideradas como RCT, sin importar a quiénes estuvo orientada su producción: si a visitantes o a residentes. Como se mencionó en el apartado \@ref(alcance), en este enfoque, el valor agregado bruto no incluye el valor generado por otras industrias no turísticas cuyos productos hayan sido efectivamente adquiridos por visitantes.
 
 Así como el VBPIT, el VABIT se mide a precios básicos.
 
