@@ -122,7 +122,7 @@ Algunos puntos para destacar del nuevo operativo, que lo diferencian del anterio
 - Complemento de la información con datos agregados a nivel sectorial provenientes de la AFIP 
 - Encuestas estructurales digitales por muestreo para obtener información de producción e insumos desagregados por actividad y producto, canales y márgenes de transporte y comercio, entre otros.
 
-Visite la página oficial del Censo Nacional Económico [aquí](https://censoeconomico.indec.gob.ar/)
+Visite la página oficial del Censo Nacional Económico [aquí](https://censoeconomico.indec.gob.ar/){target="_blank”}
 
 :::
 
