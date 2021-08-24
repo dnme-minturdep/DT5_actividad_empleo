@@ -355,14 +355,14 @@ knitr::include_graphics('imagenes/figura3.7.jpg')
 knitr::include_graphics('imagenes/figura3.8.jpg')
 ```
 
-En la figura \@ref(fig:empleofuentes9) se presenta el detalle de la rama 63, que incluye servicios anexos al transporte y agencias de viaje. La actividad de agencias de viaje podría también ser presentada en Otros Servicios Turísticos o como un sector separado. En general, las cuentas nacionales la incluyen dentro de la rama del Transporte, por lo que aquí se siguió esa misma agrupación. 
+En la figura 3.9 se presenta el detalle de la rama 63, que incluye servicios anexos al transporte y agencias de viaje. La actividad de agencias de viaje podría también ser presentada en Otros Servicios Turísticos o como un sector separado. En general, las cuentas nacionales la incluyen dentro de la rama del Transporte, por lo que aquí se siguió esa misma agrupación. 
 
 ```{r empleofuentes9, echo=FALSE, fig.cap="Servicios Anexos al transporte y agencias de viaje. Clasificación de actividades por fuente" }
 knitr::include_graphics('imagenes/figura3.9.jpg')
 ```
 
 
-Finalmente, la figura \@ref(fig:empleofuentes10) muestra la posición del componente "Alquiler de transporte sin chofer" dentro de la rama 71, que incluye el alquiler de transporte, maquinarias y equipos.
+Finalmente, la figura 3.10 muestra la posición del componente "Alquiler de transporte sin chofer" dentro de la rama 71, que incluye el alquiler de transporte, maquinarias y equipos.
 
 ```{r empleofuentes10, echo=FALSE, fig.cap=" Alquiler de equipo de transporte, maquinarias y equipo. Clasificación de actividades por fuente." }
 knitr::include_graphics('imagenes/figura3.10.jpg')
@@ -370,7 +370,7 @@ knitr::include_graphics('imagenes/figura3.10.jpg')
 
 ### Sector Otros Servicios Turísticos
 
-Este sector comprende un subconjunto de actividades deportivas, sociales, culturales, recreativas y de interés local agrupadas en la rama 92, del cual da cuenta la \@ref(fig:empleofuentes11).
+Este sector comprende un subconjunto de actividades deportivas, sociales, culturales, recreativas y de interés local agrupadas en la rama 92, del cual da cuenta la 3.11.
 
 ```{r empleofuentes11, echo=FALSE, fig.cap=" Servicios de Esparcimiento, Culturales y  Deportivos. Clasificación de actividades por fuente." }
 knitr::include_graphics('imagenes/figura3.11.jpg')
