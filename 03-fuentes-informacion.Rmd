@@ -71,7 +71,7 @@ Los **CNE** proveen información básica para una descripción detallada de la e
 
 El último CNE finalizado en Argentina corresponde al del año 2004. Si bien actualmente se está desarrollando el CNE 2020/2021, aún no está finalizado y por lo tanto no se puede acceder a su información. De todas formas, resulta útil comprender la información que un CNE puede brindar al momento de realizar una estimación de la actividad turística en una provincia. En consecuencia, al momento que el último CNE esté disponible, se podrán aplicar las recomendaciones aquí presentes para realizar una estimación de la oferta de la industria turística más actualizada. 
 
-En primer término, es importante repasar las actividades incluidas dentro del CNE 2004. Los resultados definitivos que se publicaron para el CNE 2004, se presentan discriminados por los sectores de actividad económica, ordenados según la CLANAE 2004, que se detallan en la figura \@ref(fig:empleofuentes12).
+En primer término, es importante repasar las actividades incluidas dentro del CNE 2004. Los resultados definitivos que se publicaron para el CNE 2004, se presentan discriminados por los sectores de actividad económica, ordenados según la CLANAE 2004, que se detallan en la figura 3.1.
 
 ```{r empleofuentes12, echo=FALSE, fig.cap="Clasificación de las actividades económicas incluidas en el CNE 2004" }
 knitr::include_graphics('imagenes/figura3.12.jpg')
