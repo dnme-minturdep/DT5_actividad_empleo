@@ -21,7 +21,7 @@
   <meta name="twitter:description" content="Medición de la contribución económica del turismo" />
   
 
-<meta name="author" content="Dirección Nacional de Mercados y Estadísticas - Subsecretaría de Desarrollo Estratégico" />
+<meta name="author" content="Dirección Nacional de Mercados y Estadística - Subsecretaría de Desarrollo Estratégico" />
 
 
 
@@ -204,9 +204,12 @@ div.csl-indent {
 </ul>
 <p>En cuanto a las fuentes de información, la principal es la Cuenta Generación del Ingreso elaborada por la DNCN, que ofrece el dato (con una periodicidad trimestral) de la cantidad de puestos de trabajo por rama de actividad desagregados en asalariados registrados (ASR), asalariados no registrados (ASNR) y no asalariados (NOASAL). La limitación de ésta es el nivel de desagregación presentado. En segundo lugar, el registro administrativo del Sistema Integrado Previsional Argentino (SIPA) tiene como la principal ventaja su confiabilidad y su cobertura, ofreciendo un registro de todos los trabajadores asalariados mayores de 18 años que se desempeñan en el sector privado cuyos aportes previsionales son realizados por sus empleadores.</p>
 <p>Los resultados se presentan en la tabla siguiente:</p>
-<!-- # ```{r emit, echo=FALSE, fig.cap="" } -->
-<!-- # knitr::include_graphics('imagenes/.jpg') -->
-<!-- # ``` -->
+<div class="figure" style="text-align: center"><span id="fig:emit"></span>
+<img src="imagenes/figura2.2.jpg" alt="Puestos de trabajo" width="100%" />
+<p class="caption">
+Figura 2.2: Puestos de trabajo
+</p>
+</div>
 <p>Existen también otros trabajos realizados en años anteriores que tratan la estimación del empleo en el sector turístico. Uno de ellos es <em>“El empleo en ramas características del turismo en Argentina”</em> <span class="citation">(<a href="bibliografía.html#ref-mintur2007" role="doc-biblioref">Ministerio de Turismo y Deportes, 2007</a>)</span>, donde se propone un estudio “desde el punto de vista de la oferta, es decir estudiando el empleo en las ramas características del turismo” utilizando la Encuesta Permanente de Hogares (EPH) como fuente de información. Para la definición de las RCT toma como referencia la lista propuesta por la OMT, a fin de mantener la comparabilidad internacional.</p>
 <p>Partiendo de dicha clasificación, se estima el volumen de empleo en las RCT en Argentina, dedicando un apartado a describir las características sociodemográficas del empleo en el sector. Sin embargo, cabe señalar que la EPH sólo cubre algo más del 60% de la población nacional, puesto que se releva en los 31 grandes aglomerados del país. Por otro lado, la desagregación de la información por rama de actividad no permite discriminar, en muchos casos, componentes turísticos y no turísticos dentro de un mismo código de actividad (por ejemplo, “Transporte terrestre de pasajeros” incluye tanto el urbano como el interurbano, cuando es este último el único que debería considerarse como turístico).</p>
 <p>Para analizar la estacionalidad del sector, utiliza la Encuesta de Ocupación Hotelera (EOH) para estimar las variaciones estacionales de los puestos de trabajo en una rama específica, los hoteles. Cabe indicar que en este caso los resultados obtenidos se refieren a puestos de trabajo, en lugar de personas ocupadas (como corresponde a las estimaciones sobre la EOH).</p>
@@ -273,6 +276,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

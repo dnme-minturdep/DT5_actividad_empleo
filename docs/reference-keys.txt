@@ -3,6 +3,7 @@ fig:ciiu2
 fig:activcst
 fig:cst
 fig:empleooit
+fig:emit
 fig:empleofuentes12
 fig:empleofuentes1
 fig:empleofuentes2

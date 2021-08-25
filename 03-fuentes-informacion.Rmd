@@ -335,7 +335,7 @@ Según el CNE 2004, los puestos de trabajo correspondientes al transporte ferrov
 - $5.919$ puestos correspondían a servicio de cargas (6011)
 - $10.086$ puestos correspondían a servicio de pasajeros urbano y suburbano (60121) 
 - $2.240$ puestos correspondían al servicio de pasajeros interurbano (60122) 
-Por tanto, sólo los $2.240 puestos$ (pasajeros interurbano) de los $18.245$ puestos totales del transporte ferroviario correspondían a actividades características.
+Por tanto, sólo los $2.240$  puestos (pasajeros interurbano) de los $18.245$ puestos totales del transporte ferroviario correspondían a actividades características.
 
 El coeficiente expresa la participación de los componentes característicos en la suma de todos los componentes involucrados en la desagregación de cada fuente, por lo que en este caso asciende a $0,1228$ ($\frac{2.240}{18.245}$) o, lo que es lo mismo, a $12,28$%.
 

@@ -119,7 +119,7 @@ Los resultados se presentan en la tabla siguiente:
 
 ```{r emit, echo=FALSE, fig.cap="Puestos de trabajo" } 
   knitr::include_graphics('imagenes/figura2.2.jpg') 
-  ``` -->
+```
 
 Existen también otros trabajos realizados en años anteriores que  tratan la estimación del empleo en el sector turístico. Uno de ellos es *“El empleo en ramas características del turismo en Argentina”* [@mintur2007], donde se propone un estudio “desde el punto de vista de la oferta, es decir estudiando el empleo en las ramas características del turismo” utilizando la Encuesta Permanente de Hogares (EPH) como fuente de información. Para la definición de las RCT toma como referencia la lista propuesta por la OMT, a fin de mantener la comparabilidad internacional.
 
