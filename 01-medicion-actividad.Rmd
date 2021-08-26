@@ -26,7 +26,7 @@ Las recomendaciones metodológicas para la realización de una Cuenta Satélite 
 
 El presente documento se enfocará en el desarrollo más profundo de la perspectiva de la oferta, para poder proveer una herramienta concreta para estimar la contribución del turismo en cada economía local. Si bien una cuenta satélite de turismo resulta una medición más precisa del impacto económico del turismo, ya que involucra una estimación de la oferta consumida directamente por visitantes, requiere de un marco conceptual más desarrollado que provea no solo de información desagregada sobre la producción de las industrias sino también de información detallada sobre la canasta de consumo de los visitantes durante sus viajes en la región, y que, ambos conjuntos de información, sean consistentes entre sí.
 
-## Ramas de Actividad Económica
+## Ramas de Actividad Económica {#ramas-actividad}
 
 La evaluación de un sector económico complejo como el turismo plantea el desafío de definir correctamente las actividades involucradas en el mismo y detectar toda la oferta existente. 
 
