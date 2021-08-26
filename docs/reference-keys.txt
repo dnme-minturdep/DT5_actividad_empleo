@@ -17,7 +17,7 @@ fig:empleofuentes10
 fig:empleofuentes11
 fig:empleoeph
 medicion-actividad
-ramas-de-actividad-económica
+ramas-actividad
 ramas-caracteristicas
 alcance
 nivel-de-desagregacion-de-las-ramas

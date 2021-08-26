@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  25 AUG 2021 17:47
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  26 AUG 2021 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,7 +952,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 134.
 
-Overfull \hbox (116.17204pt too wide) in paragraph at lines 134--134
+Overfull \hbox (120.80405pt too wide) in paragraph at lines 134--134
  [][] 
  []
 
@@ -1018,8 +1018,8 @@ LaTeX Info: Redefining \% on input line 296.
 LaTeX Info: Redefining \. on input line 325.
 LaTeX Info: Redefining \% on input line 325.
 [14]
-LaTeX Info: Redefining \. on input line 345.
-LaTeX Info: Redefining \% on input line 345.
+LaTeX Info: Redefining \. on input line 344.
+LaTeX Info: Redefining \% on input line 344.
 [15]
 File: imagenes/figrua1.3.jpg Graphic file (type bmp)
 <imagenes/figrua1.3.jpg>
@@ -1061,8 +1061,8 @@ RIAS TURÍSTICAS \TU/lmr/m/n/10 23
 LaTeX Info: Redefining \. on input line 478.
 LaTeX Info: Redefining \% on input line 478.
 [24]
-LaTeX Info: Redefining \. on input line 503.
-LaTeX Info: Redefining \% on input line 503.
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
 
 Overfull \hbox (74.83675pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.5.  ANTECEDENTES DE LA MEDICIÓN DEL EMPLEO EN TURISMO EN ARGE
@@ -1075,11 +1075,11 @@ File: imagenes/figura2.2.jpg Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 24.07053pt on input line 539.
 
-LaTeX Info: Redefining \. on input line 543.
-LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \. on input line 542.
+LaTeX Info: Redefining \% on input line 542.
 [26]
-LaTeX Info: Redefining \. on input line 543.
-LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \. on input line 542.
+LaTeX Info: Redefining \% on input line 542.
 
 Overfull \hbox (74.83675pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.5.  ANTECEDENTES DE LA MEDICIÓN DEL EMPLEO EN TURISMO EN ARGE
@@ -1309,11 +1309,11 @@ Package rerunfilecheck Info: File `DT5.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  19623 strings out of 478461
- 357988 string characters out of 5856973
- 857610 words of memory out of 5000000
+ 357972 string characters out of 5856973
+ 856696 words of memory out of 5000000
  39602 multiletter control sequences out of 15000+600000
  407457 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,18n,120p,1865b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,18n,120p,2045b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on DT5.pdf (56 pages).
