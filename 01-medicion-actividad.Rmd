@@ -26,7 +26,7 @@ Las recomendaciones metodológicas para la realización de una Cuenta Satélite 
 
 El presente documento se enfocará en el desarrollo más profundo de la perspectiva de la oferta, para poder proveer una herramienta concreta para estimar la contribución del turismo en cada economía local. Si bien una cuenta satélite de turismo resulta una medición más precisa del impacto económico del turismo, ya que involucra una estimación de la oferta consumida directamente por visitantes, requiere de un marco conceptual más desarrollado que provea no solo de información desagregada sobre la producción de las industrias sino también de información detallada sobre la canasta de consumo de los visitantes durante sus viajes en la región, y que, ambos conjuntos de información, sean consistentes entre sí.
 
-## Ramas de Actividad Económica
+## Ramas de Actividad Económica {#ramas-actividad}
 
 La evaluación de un sector económico complejo como el turismo plantea el desafío de definir correctamente las actividades involucradas en el mismo y detectar toda la oferta existente. 
 
@@ -146,7 +146,7 @@ Finalmente, también se recomienda realizar el cálculo de la proporción de VAB
 
 ## Antecedentes en Argentina
 
-El Ministerio de Turismo y Deportes de la Nación realizó una estimación de la contribución económica del turismo en la Argentina con base en el año 2004[^medicion-actividad-4] y para los años 2016-2019, con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC.
+El Ministerio de Turismo y Deportes de la Nación realizó una estimación de la contribución económica del turismo en la Argentina con base en el año 2004[^medicion-actividad-4] y para los años 2016-2019, con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC, con el objetivo de publicar la Cuenta Satélite de Turismo de Argentina (CST-A). Dicha estimación se encuentra en elaboración, los resultados que aquí se presentan son preliminares
 
 [^medicion-actividad-4]: El año 2004 es el único año para el cual las cuentas nacionales de Argentina cuentan con Cuadros de Oferta-Utilización (COU). Estos cuadros consisten en un esquema estadístico, elaborado para el año 2004 por la Dirección de Cuentas Nacionales (DNCN) del INDEC, que cuenta con: **(1)** cuadro de oferta: tiene a las actividades económicas en sus columnas (clasificadas con la CLANAE 2004, compatible con la CIIU Revisión 3) y a los productos (bienes o servicios) producidos por cada una de ellas en sus filas (clasificados con la Clasificación Central de Productos (CPC) de las Naciones Unidas, Revisión 1.1). Presenta entonces la producción de cada actividad económica a nivel de producto, valuados en pesos y a precios básicos; y, **(2)** cuadro de utilización: tiene a las actividades económicas y a los sectores de demanda final (los hogares, el gobierno, el resto del mundo y las empresas como formadoras de capital bruto) en sus columnas, mientras que en las filas se encuentran los productos (bienes o servicios) utilizados por cada una de las columnas (consumo intermedio, en el caso de las actividades económicas, y consumo final en el caso de los sectores de demanda final). Los valores son presentados en pesos, pero a precios de comprador, es decir, se adicionan impuestos, márgenes de comercio y transporte y se restan las subvenciones. El marco provisto por las COU brinda consistencia en las estimaciones de oferta para cada sector de actividad, es por esto que se utlizó al año 2004 como base para la estimación.
 
@@ -166,7 +166,7 @@ Por su lado, la producción y el valor agregado de cada industria turística que
 
 *En millones de pesos corrientes. A precios básicos.*
 
-```{r cst, echo=FALSE, fig.cap="Cuentas de producción de las RCT, Argentina, 2004, 2016-2019" }
+```{r cst, echo=FALSE, fig.cap="Cuentas de producción de las RCT, Argentina, 2004, 2016-2019. Resultados preliminare de la CST-A" }
 knitr::include_graphics('imagenes/figura1.4.jpg')
 ```
 

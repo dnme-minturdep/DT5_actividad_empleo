@@ -92,9 +92,9 @@ Desde los postulados planteados, el análisis de las fuentes que brindan informa
 
 ## Antecedentes de la medición del empleo en turismo en Argentina
 
-En Argentina, el Ministerio de Turismo y Deportes de la Nación con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC realizó una estimación del volumen de empleo en las ramas de actividad características del turismo con base en el año 2004 y la serie para los años 2016-2019, consistentes con la estimación del nivel de  actividad de la industria del turismo.
+En Argentina, el Ministerio de Turismo y Deportes de la Nación con la colaboración de la Dirección Nacional de Cuentas Nacionales (DNCN) del INDEC realizó una estimación del volumen de empleo en las ramas de actividad características del turismo con base en el año 2004 y la serie para los años 2016-2019, consistentes con la estimación del nivel de  actividad de la industria del turismo, con el objetivo de publicar la Cuenta Satélite de Turismo de Argentina (CST-A). Dicha estimación se encuentra en elaboración, los resultados que aquí se presentan son preliminares.
 
-La DNCN proveyó, a pedido del Ministerio de Turismo y Deportes, información de los puestos de trabajo de las actividades económicas a un nivel de desagregación de 3 dígitos de la CIIU Rev. 3, y para los asalariados privados registrados a 5 dígitos. De esta manera, fue posible la estimación de la contribución del empleo del turismo desde la perspectiva de la oferta. 
+La DNCN proveyó, a pedido del Ministerio de Turismo y Deportes, información de los puestos de trabajo de las actividades económicas a un nivel de desagregación de 3 dígitos de la CIIU Rev. 3 (en línea con lo expuesto en la sección \@ref(ramas-actividad)), y para los asalariados privados registrados a 5 dígitos. De esta manera, fue posible la estimación de la contribución del empleo del turismo desde la perspectiva de la oferta. 
 
 Para los resultados de las estimaciones realizadas se logró apertura para las ramas agrupadas en las siguientes categorías:
 
@@ -117,7 +117,7 @@ En cuanto a las fuentes de información, la principal es la Cuenta Generación d
 
 Los resultados se presentan en la tabla siguiente:
 
-```{r emit, echo=FALSE, fig.cap="Puestos de trabajo" } 
+```{r emit, echo=FALSE, fig.cap="Puestos de trabajo en RCT. Resultados preliminares de la CST-A." } 
   knitr::include_graphics('imagenes/figura2.2.jpg') 
 ```
 
