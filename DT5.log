@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  27 AUG 2021 17:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  30 AUG 2021 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,7 +1073,7 @@ NTINA \TU/lmr/m/n/10 25
 File: imagenes/figura2.2.jpg Graphic file (type bmp)
 <imagenes/figura2.2.jpg>
 
-LaTeX Warning: Float too large for page by 24.07019pt on input line 539.
+LaTeX Warning: Float too large for page by 24.09122pt on input line 539.
 
 LaTeX Info: Redefining \. on input line 542.
 LaTeX Info: Redefining \% on input line 542.
@@ -1310,7 +1310,7 @@ Package rerunfilecheck Info: File `DT5.out' has not changed.
 Here is how much of TeX's memory you used:
  19623 strings out of 478461
  357972 string characters out of 5856973
- 856696 words of memory out of 5000000
+ 856697 words of memory out of 5000000
  39602 multiletter control sequences out of 15000+600000
  407457 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

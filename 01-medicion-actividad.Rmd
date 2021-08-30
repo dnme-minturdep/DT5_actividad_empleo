@@ -166,7 +166,7 @@ Por su lado, la producción y el valor agregado de cada industria turística que
 
 *En millones de pesos corrientes. A precios básicos.*
 
-```{r cst, echo=FALSE, fig.cap="Cuentas de producción de las RCT, Argentina, 2004, 2016-2019. Resultados preliminare de la CST-A" }
+```{r cst, echo=FALSE, fig.cap="Cuentas de producción de las RCT, Argentina, 2004, 2016-2019. Resultados preliminares de la CST-A" }
 knitr::include_graphics('imagenes/figura1.4.jpg')
 ```
 
