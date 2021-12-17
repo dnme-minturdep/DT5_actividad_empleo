@@ -26,6 +26,8 @@ Además de este, se encuentra disponible una serie de documentos técnicos que a
 
 -   [Documento Técnico \#4](https://dnme-minturdep.github.io/DT4_perfiles/){target="_blank"}: Propuestas Metodológicas para las Encuestas de Perfil del Visitante
 
+-   [Documento Técnico \#6](https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/){target="_blank"}: Ciencia de Datos para el Turismo
+
 ### Documento Técnico Nº5 - Resumen {.unnumbered}
 
 El objetivo general es describir las metodologías disponibles para elaborar indicadores de la actividad del turismo desde la perspectiva de la oferta. En particular se analizan los desafíos de la medición de la contribución económica del turismo a la actividad y el empleo desde las distintas ópticas territoriales. En virtud de estos objetivos, este documento se estructura en tres capítulos.

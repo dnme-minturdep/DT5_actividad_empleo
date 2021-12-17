@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  30 AUG 2021 16:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.21)  17 DEC 2021 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **DT5.tex
 (./DT5.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-08-27> (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
@@ -131,7 +131,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-07-12 L3 programming layer (loader) 
+Package: expl3 2021-08-27 L3 programming layer (loader) 
 
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
@@ -155,11 +155,11 @@ TeX
 
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
 xparse.sty
-Package: xparse 2021-08-04 L3 Experimental document command parser
+Package: xparse 2021-08-27 L3 Experimental document command parser
 )
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-08-04 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 sty
@@ -986,8 +986,8 @@ LaTeX Info: Redefining \% on input line 140.
 [3] [4
 
 ]
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
 [5]
 Capítulo 1.
 [6
@@ -995,44 +995,44 @@ Capítulo 1.
 ] [7]
 File: imagenes/figura1.1.jpg Graphic file (type bmp)
 <imagenes/figura1.1.jpg>
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
+LaTeX Info: Redefining \. on input line 221.
+LaTeX Info: Redefining \% on input line 221.
 [8]
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
+LaTeX Info: Redefining \. on input line 221.
+LaTeX Info: Redefining \% on input line 221.
 [9]
 File: imagenes/figura1.2.jpg Graphic file (type bmp)
 <imagenes/figura1.2.jpg>
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
+LaTeX Info: Redefining \. on input line 253.
+LaTeX Info: Redefining \% on input line 253.
 [10]
-LaTeX Info: Redefining \. on input line 260.
-LaTeX Info: Redefining \% on input line 260.
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
 [11]
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
+LaTeX Info: Redefining \. on input line 277.
+LaTeX Info: Redefining \% on input line 277.
 [12]
-LaTeX Info: Redefining \. on input line 296.
-LaTeX Info: Redefining \% on input line 296.
+LaTeX Info: Redefining \. on input line 298.
+LaTeX Info: Redefining \% on input line 298.
 [13]
-LaTeX Info: Redefining \. on input line 325.
-LaTeX Info: Redefining \% on input line 325.
+LaTeX Info: Redefining \. on input line 327.
+LaTeX Info: Redefining \% on input line 327.
 [14]
-LaTeX Info: Redefining \. on input line 344.
-LaTeX Info: Redefining \% on input line 344.
+LaTeX Info: Redefining \. on input line 346.
+LaTeX Info: Redefining \% on input line 346.
 [15]
 File: imagenes/figrua1.3.jpg Graphic file (type bmp)
 <imagenes/figrua1.3.jpg>
 File: imagenes/figura1.4.jpg Graphic file (type bmp)
 <imagenes/figura1.4.jpg>
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
 [16]
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
 [17]
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
 [18]
 Capítulo 2.
 [19
@@ -1040,17 +1040,17 @@ Capítulo 2.
 ]
 File: imagenes/figura2.1.jpg Graphic file (type bmp)
 <imagenes/figura2.1.jpg>
-LaTeX Info: Redefining \. on input line 413.
-LaTeX Info: Redefining \% on input line 413.
+LaTeX Info: Redefining \. on input line 415.
+LaTeX Info: Redefining \% on input line 415.
 [20]
-LaTeX Info: Redefining \. on input line 427.
-LaTeX Info: Redefining \% on input line 427.
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
 [21]
-LaTeX Info: Redefining \. on input line 443.
-LaTeX Info: Redefining \% on input line 443.
+LaTeX Info: Redefining \. on input line 445.
+LaTeX Info: Redefining \% on input line 445.
 [22]
-LaTeX Info: Redefining \. on input line 458.
-LaTeX Info: Redefining \% on input line 458.
+LaTeX Info: Redefining \. on input line 460.
+LaTeX Info: Redefining \% on input line 460.
 
 Overfull \hbox (136.70894pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.2.  RECOMENDACIONES INTERNACIONALES SOBRE EL EMPLEO EN INDUST
@@ -1058,11 +1058,11 @@ RIAS TURÍSTICAS \TU/lmr/m/n/10 23
  []
 
 [23]
-LaTeX Info: Redefining \. on input line 478.
-LaTeX Info: Redefining \% on input line 478.
+LaTeX Info: Redefining \. on input line 480.
+LaTeX Info: Redefining \% on input line 480.
 [24]
-LaTeX Info: Redefining \. on input line 495.
-LaTeX Info: Redefining \% on input line 495.
+LaTeX Info: Redefining \. on input line 497.
+LaTeX Info: Redefining \% on input line 497.
 
 Overfull \hbox (74.83675pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.5.  ANTECEDENTES DE LA MEDICIÓN DEL EMPLEO EN TURISMO EN ARGE
@@ -1073,13 +1073,13 @@ NTINA \TU/lmr/m/n/10 25
 File: imagenes/figura2.2.jpg Graphic file (type bmp)
 <imagenes/figura2.2.jpg>
 
-LaTeX Warning: Float too large for page by 24.09122pt on input line 539.
+LaTeX Warning: Float too large for page by 24.09122pt on input line 541.
 
-LaTeX Info: Redefining \. on input line 542.
-LaTeX Info: Redefining \% on input line 542.
+LaTeX Info: Redefining \. on input line 544.
+LaTeX Info: Redefining \% on input line 544.
 [26]
-LaTeX Info: Redefining \. on input line 542.
-LaTeX Info: Redefining \% on input line 542.
+LaTeX Info: Redefining \. on input line 544.
+LaTeX Info: Redefining \% on input line 544.
 
 Overfull \hbox (74.83675pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.5.  ANTECEDENTES DE LA MEDICIÓN DEL EMPLEO EN TURISMO EN ARGE
@@ -1087,18 +1087,18 @@ NTINA \TU/lmr/m/n/10 27
  []
 
 [27]
-LaTeX Info: Redefining \. on input line 554.
-LaTeX Info: Redefining \% on input line 554.
+LaTeX Info: Redefining \. on input line 556.
+LaTeX Info: Redefining \% on input line 556.
 [28]
 Capítulo 3.
 [29
 
 ]
-LaTeX Info: Redefining \. on input line 600.
-LaTeX Info: Redefining \% on input line 600.
+LaTeX Info: Redefining \. on input line 602.
+LaTeX Info: Redefining \% on input line 602.
 [30]
-LaTeX Info: Redefining \. on input line 622.
-LaTeX Info: Redefining \% on input line 622.
+LaTeX Info: Redefining \. on input line 624.
+LaTeX Info: Redefining \% on input line 624.
 
 Overfull \hbox (9.29893pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.2.  MEDICIÓN DE LA ACTIVIDAD ECONÓMICA A NIVEL PROVINCIAL \TU
@@ -1108,11 +1108,11 @@ Overfull \hbox (9.29893pt too wide) has occurred while \output is active
 [31]
 File: imagenes/figura3.12.jpg Graphic file (type bmp)
 <imagenes/figura3.12.jpg>
-LaTeX Info: Redefining \. on input line 637.
-LaTeX Info: Redefining \% on input line 637.
+LaTeX Info: Redefining \. on input line 639.
+LaTeX Info: Redefining \% on input line 639.
 [32]
-LaTeX Info: Redefining \. on input line 661.
-LaTeX Info: Redefining \% on input line 661.
+LaTeX Info: Redefining \. on input line 663.
+LaTeX Info: Redefining \% on input line 663.
 
 Overfull \hbox (9.29893pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.2.  MEDICIÓN DE LA ACTIVIDAD ECONÓMICA A NIVEL PROVINCIAL \TU
@@ -1120,15 +1120,15 @@ Overfull \hbox (9.29893pt too wide) has occurred while \output is active
  []
 
 [33]
-LaTeX Info: Redefining \. on input line 690.
-LaTeX Info: Redefining \% on input line 690.
+LaTeX Info: Redefining \. on input line 692.
+LaTeX Info: Redefining \% on input line 692.
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
 
  []
 
-LaTeX Info: Redefining \. on input line 718.
-LaTeX Info: Redefining \% on input line 718.
+LaTeX Info: Redefining \. on input line 720.
+LaTeX Info: Redefining \% on input line 720.
 
 Overfull \hbox (135.87895pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.3.  MEDICIÓN DEL EMPLEO PROVINCIAL: CARACTERÍSTICAS DE LAS FU
@@ -1136,11 +1136,11 @@ ENTES DISPONIBLES \TU/lmr/m/n/10 35
  []
 
 [35]
-LaTeX Info: Redefining \. on input line 740.
-LaTeX Info: Redefining \% on input line 740.
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
 [36]
-LaTeX Info: Redefining \. on input line 761.
-LaTeX Info: Redefining \% on input line 761.
+LaTeX Info: Redefining \. on input line 763.
+LaTeX Info: Redefining \% on input line 763.
 
 Overfull \hbox (135.87895pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.3.  MEDICIÓN DEL EMPLEO PROVINCIAL: CARACTERÍSTICAS DE LAS FU
@@ -1148,15 +1148,15 @@ ENTES DISPONIBLES \TU/lmr/m/n/10 37
  []
 
 [37]
-LaTeX Info: Redefining \. on input line 788.
-LaTeX Info: Redefining \% on input line 788.
+LaTeX Info: Redefining \. on input line 790.
+LaTeX Info: Redefining \% on input line 790.
 [38]
 File: imagenes/figura3.1.jpg Graphic file (type bmp)
 <imagenes/figura3.1.jpg>
 File: imagenes/figura3.2.jpg Graphic file (type bmp)
 <imagenes/figura3.2.jpg>
-LaTeX Info: Redefining \. on input line 827.
-LaTeX Info: Redefining \% on input line 827.
+LaTeX Info: Redefining \. on input line 829.
+LaTeX Info: Redefining \% on input line 829.
 
 Overfull \hbox (135.87895pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.3.  MEDICIÓN DEL EMPLEO PROVINCIAL: CARACTERÍSTICAS DE LAS FU
@@ -1169,18 +1169,18 @@ File: imagenes/figura3.3.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 852.
-LaTeX Info: Redefining \% on input line 852.
+LaTeX Info: Redefining \. on input line 854.
+LaTeX Info: Redefining \% on input line 854.
 [40]
-Underfull \hbox (badness 1881) in paragraph at lines 865--865
+Underfull \hbox (badness 1881) in paragraph at lines 867--867
 []\TU/lmr/bx/n/14.4 Ramas Características, ramas mixtas y
  []
 
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 868.
-LaTeX Info: Redefining \% on input line 868.
+LaTeX Info: Redefining \. on input line 870.
+LaTeX Info: Redefining \% on input line 870.
 
 Overfull \hbox (135.87895pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.3.  MEDICIÓN DEL EMPLEO PROVINCIAL: CARACTERÍSTICAS DE LAS FU
@@ -1188,13 +1188,13 @@ ENTES DISPONIBLES \TU/lmr/m/n/10 41
  []
 
 [41]
-LaTeX Info: Redefining \. on input line 891.
-LaTeX Info: Redefining \% on input line 891.
+LaTeX Info: Redefining \. on input line 893.
+LaTeX Info: Redefining \% on input line 893.
 [42]
 File: imagenes/figura3.5.jpg Graphic file (type bmp)
 <imagenes/figura3.5.jpg>
-LaTeX Info: Redefining \. on input line 920.
-LaTeX Info: Redefining \% on input line 920.
+LaTeX Info: Redefining \. on input line 922.
+LaTeX Info: Redefining \% on input line 922.
 
 Overfull \hbox (119.17673pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.4.  RAMAS CARACTERÍSTICAS, RAMAS MIXTAS Y AGREGACIÓN DE LAS R
@@ -1204,15 +1204,15 @@ CT POR SECTOR \TU/lmr/m/n/10 43
 [43]
 File: imagenes/figura3.6.jpg Graphic file (type bmp)
 <imagenes/figura3.6.jpg>
-LaTeX Info: Redefining \. on input line 948.
-LaTeX Info: Redefining \% on input line 948.
+LaTeX Info: Redefining \. on input line 950.
+LaTeX Info: Redefining \% on input line 950.
 [44]
 File: imagenes/figura3.7.jpg Graphic file (type bmp)
 <imagenes/figura3.7.jpg>
 File: imagenes/figura3.8.jpg Graphic file (type bmp)
 <imagenes/figura3.8.jpg>
-LaTeX Info: Redefining \. on input line 987.
-LaTeX Info: Redefining \% on input line 987.
+LaTeX Info: Redefining \. on input line 989.
+LaTeX Info: Redefining \% on input line 989.
 
 Overfull \hbox (119.17673pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.4.  RAMAS CARACTERÍSTICAS, RAMAS MIXTAS Y AGREGACIÓN DE LAS R
@@ -1226,19 +1226,19 @@ File: imagenes/figura3.10.jpg Graphic file (type bmp)
 <imagenes/figura3.10.jpg>
 File: imagenes/figura3.11.jpg Graphic file (type bmp)
 <imagenes/figura3.11.jpg>
-LaTeX Info: Redefining \. on input line 1027.
-LaTeX Info: Redefining \% on input line 1027.
+LaTeX Info: Redefining \. on input line 1029.
+LaTeX Info: Redefining \% on input line 1029.
 [46]
-LaTeX Info: Redefining \. on input line 1027.
-LaTeX Info: Redefining \% on input line 1027.
+LaTeX Info: Redefining \. on input line 1029.
+LaTeX Info: Redefining \% on input line 1029.
 [47]
-LaTeX Info: Redefining \. on input line 1047.
-LaTeX Info: Redefining \% on input line 1047.
+LaTeX Info: Redefining \. on input line 1049.
+LaTeX Info: Redefining \% on input line 1049.
 [48]
 File: imagenes/empleo eph.png Graphic file (type bmp)
 <imagenes/empleo eph.png>
-LaTeX Info: Redefining \. on input line 1059.
-LaTeX Info: Redefining \% on input line 1059.
+LaTeX Info: Redefining \. on input line 1061.
+LaTeX Info: Redefining \% on input line 1061.
 [49]
 File: imagenes/empleo.prov.png Graphic file (type bmp)
 <imagenes/empleo.prov.png>
@@ -1247,50 +1247,50 @@ File: imagenes/empleo.prov.part.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1064.
-LaTeX Info: Redefining \% on input line 1064.
+LaTeX Info: Redefining \. on input line 1066.
+LaTeX Info: Redefining \% on input line 1066.
 [50]
 File: imagenes/empleo.prov.part.agrup.png Graphic file (type bmp)
 <imagenes/empleo.prov.part.agrup.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1068.
-LaTeX Info: Redefining \% on input line 1068.
+LaTeX Info: Redefining \. on input line 1070.
+LaTeX Info: Redefining \% on input line 1070.
 [51]
-LaTeX Info: Redefining \. on input line 1071.
-LaTeX Info: Redefining \% on input line 1071.
+LaTeX Info: Redefining \. on input line 1073.
+LaTeX Info: Redefining \% on input line 1073.
 [52]
-Underfull \hbox (badness 6675) in paragraph at lines 1076--1078
+Underfull \hbox (badness 6675) in paragraph at lines 1078--1080
 [][]\TU/lmr/m/n/10 Fondo Monetario Internacional, Organización de Cooperación y
 . De-
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 1076--1078
+Underfull \hbox (badness 6252) in paragraph at lines 1078--1080
 \TU/lmr/m/n/10 sarrollo Económico, Comisión Europea, y Banco Mundial (2016):
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 1076--1078
+Underfull \hbox (badness 3428) in paragraph at lines 1078--1080
 \TU/lmr/m/it/10 Sistema de Cuentas Nacionales 2008\TU/lmr/m/n/10 , Nueva York, 
 ONU, <[][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 1079--1081
+Underfull \hbox (badness 2653) in paragraph at lines 1081--1083
 [][]\TU/lmr/m/n/10 INDEC (2004): \TU/lmr/m/it/10 Clasificador Nacional de Activ
 idades Económicas 2004
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1091--1093
+Underfull \hbox (badness 2065) in paragraph at lines 1093--1095
 \TU/lmr/m/it/10 a la economía formal\TU/lmr/m/n/10 , Ginebra, OIT, <[][]$[][][]
 [][] [] [] [] [][][] [] [][][] [] [][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1095
 [][][][][][] [] [][][][][][][] [][][][][][] [][] [] [][][][][] [][][][][][] [][
 ][][][][][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][] []
  []
@@ -1298,8 +1298,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1091--1093
 [53
 
 ]
-LaTeX Info: Redefining \. on input line 1111.
-LaTeX Info: Redefining \% on input line 1111.
+LaTeX Info: Redefining \. on input line 1113.
+LaTeX Info: Redefining \% on input line 1113.
 [54] (./DT5.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
@@ -1308,10 +1308,10 @@ Package rerunfilecheck Info: File `DT5.out' has not changed.
 (rerunfilecheck)             Checksum: 6FE21BEDD4DA1D516198CA744DEF1775;5365.
  ) 
 Here is how much of TeX's memory you used:
- 19623 strings out of 478461
- 357972 string characters out of 5856973
- 856697 words of memory out of 5000000
- 39602 multiletter control sequences out of 15000+600000
+ 19623 strings out of 478478
+ 357972 string characters out of 5859796
+ 855729 words of memory out of 5000000
+ 39585 multiletter control sequences out of 15000+600000
  407457 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,18n,120p,2045b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
